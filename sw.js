@@ -1,6 +1,6 @@
 /* Frank's Hub service worker: network-first for everything same-origin, cache only as an offline fallback.
-   News (index.html / data.json) is always fetched fresh when online. Build: 20260927152008 */
-const CACHE = 'franks-hub-20260927152008';
+   News (index.html / data.json) is always fetched fresh when online. Build: 20260927155106 */
+const CACHE = 'franks-hub-20260927155106';
 const SHELL = ['./', './index.html', './app.css', './app.js', './manifest.webmanifest', './icons/icon-192.png', './icons/apple-touch-icon.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).catch(() => {}).then(() => self.skipWaiting()));

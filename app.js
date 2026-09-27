@@ -168,6 +168,7 @@
     if (heroes.length) h += `<section class="hero fade">${hcard(heroes[0], s, true)}<div class="hero-side">${heroes.slice(1).map(i => hcard(i, s)).join('')}</div></section>`;
     h += `<div class="cols"><div class="main">${briefing(b, s, true)}</div><aside class="side">${s.watchlist ? watchlist() : ''}${latestRail(allItems().filter(x => x.s.id !== s.id), 'Elsewhere on the hub', 6)}</aside></div></div>`;
     h += vband(s.videos, s, s.video_label || `${s.name} videos`);
+    (s.video_strips || []).forEach(x => { h += vband(x.videos, s, x.label); });
     h += `<div class="wrap" style="${K(s)}"><div class="cols"><div class="main">
       ${rim.length ? `<div class="sec-h" style="--k:${s.accent}"><h2>Top stories</h2></div><div class="grid">${rim.map(i => card(i, s, false)).join('')}</div>` : ''}
       ${rtx.length ? `<section class="more-h"><div class="sec-h" style="--k:${s.accent}"><h2>More headlines</h2></div><div class="tcols">${rtx.map(i => trow(i, s, false)).join('')}</div></section>` : ''}
