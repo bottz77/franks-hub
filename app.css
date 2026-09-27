@@ -289,3 +289,5 @@ svg.spark{width:84px;height:34px;display:block}
   html{-webkit-tap-highlight-color:transparent}
   body{overscroll-behavior-y:none}
 }
+.brand .logo-img{width:40px;height:40px;border-radius:9px;display:block;flex:none;box-shadow:0 0 0 1px rgba(255,255,255,.08)}
+@media (max-width:800px){.brand .logo-img{width:34px;height:34px;border-radius:8px}}
