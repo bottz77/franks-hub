@@ -5,6 +5,9 @@
   const SEC = Object.fromEntries(D.sections.map(s => [s.id, s]));
   const WL = D.watchlist || [];
   const WLM = Object.fromEntries(WL.map(w => [w.symbol, w]));
+  const EXT = window.FH_EXT_TABS || [];  // optional add-on tabs registered by separately built scripts
+  let extActive = null;
+  const WATCH = D.watch && D.watch.sections && D.watch.sections.some(x => x.items.length) ? {id: 'watch', name: 'Watch', full_name: 'Movies & TV', accent: '#F5C518', accent2: '#E50914', icon: '🎬'} : null;
   const HOME = {id: 'top', name: 'Home', full_name: "Frank's Hub", accent: '#e5202e', accent2: '#ffcc00', icon: '★'};
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const K = s => `--k:${s.accent};--k2:${s.accent2}`;
@@ -177,6 +180,67 @@
     return h;
   }
 
+
+  // ---------- Watch (Movies & TV) ----------
+  const SVC = {netflix: 'Netflix', prime: 'Prime Video', peacock: 'Peacock', max: 'Max'};
+  const MDf = new Intl.DateTimeFormat('en-US', {timeZone: 'UTC', month: 'short', day: 'numeric', year: 'numeric'});
+  const MDs = new Intl.DateTimeFormat('en-US', {timeZone: 'UTC', weekday: 'short', month: 'short', day: 'numeric'});
+  const wDate = (d, short) => d ? (short ? MDs : MDf).format(new Date(d + 'T12:00:00Z')) : '';
+  const msClass = n => n == null ? 'tbd' : n >= 61 ? 'good' : n >= 40 ? 'mixed' : 'bad';
+  function daysOut(d) {
+    const t = new Date(new Date().toLocaleDateString('en-CA', {timeZone: 'America/New_York'}) + 'T12:00:00Z');
+    const n = Math.round((new Date(d + 'T12:00:00Z') - t) / 864e5);
+    return n < 0 ? 'Out now' : n === 0 ? 'Today' : n === 1 ? 'Tomorrow' : `In ${n} days`;
+  }
+  function wcard(i, soon) {
+    const svc = i.svc || 'other', svcName = i.service || '';
+    const ms = i.metascore != null ? `<span class="ms ${msClass(i.metascore)}" title="Metascore">${i.metascore}</span>`
+      : i.metascore_text ? `<span class="ms tbd" title="Metascore not available yet">${esc(i.metascore_text)}</span>` : '';
+    const when = soon && i.date ? `<span class="wdate"><b>${esc(wDate(i.date, true))}</b> · ${esc(daysOut(i.date))}</span>`
+      : i.date ? `<span class="wdate">${esc(wDate(i.date))}</span>` : i.year ? `<span class="wdate">${i.year}</span>` : '';
+    const watchName = SVC[svc] || svcName;
+    const links = [i.metacritic_url ? `<a class="wl mc" href="${esc(i.metacritic_url)}" ${ext}>Metacritic ↗</a>` : '',
+      i.service_url ? `<a class="wl go svc-${svc}" href="${esc(i.service_url)}" ${ext}>${watchName ? 'Watch on ' + esc(watchName) : 'Watch'} ↗</a>` : ''].join('');
+    const tile = `<div class="wtile svc-${svc}"><span class="wt-svc">${esc(svcName || 'Streaming')}</span><span class="wt-title">${esc(i.title)}</span></div>`;
+    return `<article class="wcard" data-svc="${esc(svc)}" data-text="${esc((i.title + ' ' + svcName + ' ' + (i.description || '')).toLowerCase())}">
+      <div class="wimg">${tile}${i.poster ? `<img loading="lazy" src="${esc(i.poster)}" alt="" onerror="this.remove()">` : ''}${svcName ? `<span class="wbadge svc-${svc}">${esc(svcName)}</span>` : ''}${ms}</div>
+      <div class="wbody"><h3>${esc(i.title)}</h3>
+        <div class="wmeta">${i.rating ? `<span class="wrate">${esc(i.rating)}</span>` : ''}${when}</div>
+        ${i.date_note ? `<div class="wnote-d">${esc(i.date_note)}</div>` : ''}
+        ${i.description ? `<p>${esc(i.description)}</p>` : ''}
+        ${i.content_note ? `<div class="wcn"><span>Content</span>${esc(i.content_note)}</div>` : ''}
+        ${links ? `<div class="wlinks">${links}</div>` : ''}</div></article>`;
+  }
+  function pageWatch() {
+    const W = D.watch, all = W.sections.flatMap(x => x.items);
+    const counts = all.reduce((a, i) => (a[i.svc || 'other'] = (a[i.svc || 'other'] || 0) + 1, a), {});
+    const order = ['netflix', 'prime', 'peacock', 'max', 'other'].filter(k => counts[k]);
+    const chips = `<div class="wchips" role="group" aria-label="Filter by service"><button class="wchip on" data-svc="">All <b>${all.length}</b></button>${order.map(k => `<button class="wchip svc-${k}" data-svc="${k}">${esc(SVC[k] || 'Other')} <b>${counts[k]}</b></button>`).join('')}</div>`;
+    let h = `<div class="wrap watch" style="${K(WATCH)}"><header class="shead fade"><h1><span>🎬</span> Movies &amp; TV</h1>
+      <span class="sub">${all.length} picks · Metascores from Metacritic${W.updated ? ' · list updated ' + esc(rel(W.updated)) : ''}${W.stale ? ' · (showing last good copy)' : ''}</span></header>${chips}`;
+    W.sections.forEach(x => {
+      if (!x.items.length) return;
+      const soon = x.id === 'coming_soon';
+      h += `<section class="wsec" data-sec="${esc(x.id)}"><div class="sec-h" style="--k:${WATCH.accent}"><h2>${esc(x.name)}</h2><span class="wcount"></span></div>
+        <div class="wgrid">${x.items.map(i => wcard(i, soon)).join('')}</div><p class="wempty hidden">Nothing from this service here.</p></section>`;
+    });
+    h += `<p class="wfoot">Ratings, Metascores, dates and streaming links come from the Watch Guide list; posters are Metacritic artwork. Streaming links are shown only when verified.</p></div>`;
+    return h;
+  }
+  function bindWatch() {
+    const upd = () => document.querySelectorAll('.wsec').forEach(sec => {
+      const vis = [...sec.querySelectorAll('.wcard')].filter(c => !c.classList.contains('hidden') && !c.classList.contains('svc-off')).length;
+      sec.querySelector('.wempty').classList.toggle('hidden', vis > 0);
+    });
+    document.querySelectorAll('.wcn').forEach(c => c.onclick = () => c.classList.toggle('open'));
+    document.querySelectorAll('.wchip').forEach(b => b.onclick = () => {
+      document.querySelectorAll('.wchip').forEach(x => x.classList.toggle('on', x === b));
+      const k = b.dataset.svc;
+      document.querySelectorAll('.wcard').forEach(c => c.classList.toggle('svc-off', !!k && c.dataset.svc !== k));
+      upd();
+    });
+  }
+
   function pageStock(sym) {
     const w = WLM[sym];
     if (!w) return `<div class="wrap"><p>Unknown ticker.</p></div>`;
@@ -242,7 +306,9 @@
 
   // ---------- chrome ----------
   function renderNav(active) {
-    nav.innerHTML = [HOME, ...D.sections].map(s => `<a href="#/${s.id}" class="${s.id === active ? 'active' : ''}" style="--c:${s.accent}">${esc(s.id === 'top' ? 'Home' : s.name)}</a>`).join('');
+    const tabs = [HOME, ...D.sections];
+    if (WATCH) { const i = tabs.findIndex(t => t.id === 'music'); tabs.splice(i < 0 ? tabs.length : i + 1, 0, WATCH); }
+    nav.innerHTML = [...tabs, ...EXT].map(s => `<a href="#/${s.id}" class="${s.id === active ? 'active' : ''}" style="--c:${s.accent}">${esc(s.id === 'top' ? 'Home' : s.name)}</a>`).join('');
     const el = $('a.active', nav); if (el && nav.scrollWidth > nav.clientWidth) nav.scrollLeft = Math.max(0, el.offsetLeft - nav.clientWidth / 2 + el.offsetWidth / 2);
   }
   function renderTicker() {
@@ -470,7 +536,7 @@
     gSave(g); goalRerender(false);
   });
   (function takeSetupLink() {  // #/finance?setup=<base64url> → save locally, then scrub it from the address bar
-    const m = location.hash.match(/[?&]setup=([\w-]+)/);
+    const m = location.hash.match(/^#\/finance\?(?:.*&)?setup=([\w-]+)/);
     if (!m) return;
     try { goalImport(m[1]); } catch (e) { console.warn('bad setup code'); }
     history.replaceState(null, '', location.pathname + location.search + '#/finance');
@@ -480,7 +546,12 @@
     const hsh = location.hash;
     const m = hsh.match(/^#\/stock\/([A-Z.]+)/i);
     const id = (hsh.match(/^#\/(\w+)/) || [])[1] || 'top';
+    if (extActive && extActive.unmount) extActive.unmount();
+    extActive = null;
+    const ext = EXT.find(t => t.id === id);
+    if (ext) { renderNav(id); setAccent(ext); app.innerHTML = '<div class="wrap ext-root"></div>'; extActive = ext; ext.render(app.firstChild); window.scrollTo({top: 0}); return; }
     if (m) { renderNav('finance'); setAccent(SEC.finance || HOME); app.innerHTML = pageStock(m[1].toUpperCase()); }
+    else if (id === 'watch' && WATCH) { renderNav('watch'); setAccent(WATCH); app.innerHTML = pageWatch(); bindWatch(); }
     else if (SEC[id]) { renderNav(id); setAccent(SEC[id]); app.innerHTML = pageSection(SEC[id]); }
     else { renderNav('top'); setAccent(HOME); app.innerHTML = pageHome(); }
     bindRails(); applyFilter(); window.scrollTo({top: 0});
