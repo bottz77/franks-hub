@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-27T19:03:42.539041Z",
- "generated_at_ny": "Sun Sep 27, 2026 · 3:03 PM EDT",
+ "generated_at": "2026-09-27T19:45:31.054161Z",
+ "generated_at_ny": "Sun Sep 27, 2026 · 3:45 PM EDT",
  "sections": [
   {
    "id": "rangers",
@@ -10,6 +10,15 @@
    "accent": "#0038A8",
    "accent2": "#CE1126",
    "items": [
+    {
+     "title": "Fun New York Rangers moments from years past, part 1",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5VcEFZREE0N1ljNElVS1E3eDI0MXRISUNlTm81UkI3bHBtenN3ckR3Q1k0aDlTbExDZ01Qbl8tV1ZHY3V1SzRpOEx6bURXZXJNOEJKM2Qzb003Q2lKYlFTRlVETjc5N3FYbXJuOTBuUUZMNTFBRGZN?oc=5",
+     "source": "Blue Seat Blogs",
+     "published": "2026-09-27T19:30:00Z",
+     "thumb": null,
+     "summary": "",
+     "video": false
+    },
     {
      "title": "Rangers' Ticket Plan For 2026-27 NHL Season Shows How The Mighty Have Fallen",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTmNvWmhCYUdBWjFpVWRIU242NHFDUmZKbTVmQVNON2pPWHdha3UyYUw5c2U5LWNVVWpsTGVHNzNPQmtFdndlMmpCQXdfZ2JVZW8xQ1VqWDlnaHBhS20zQ2tSRW0ycDNHakZuNHVGeHBkZlNzcDZfU3ExV2hzWEQ5ZGxB?oc=5",
@@ -106,15 +115,6 @@
      "source": "bluelinestation.com",
      "published": "2026-09-27T12:00:06Z",
      "thumb": "https://www.bing.com/th?id=ONUT.xHtERWOaIrXs13ay-nYvcw&pid=News&w=800&h=450&c=14",
-     "summary": "",
-     "video": false
-    },
-    {
-     "title": "The Rangers' fourth line competition is down to three names for one job",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNDJJWld6c1ZMazJKVTVNRHRadTBPV2JtTU4xRG1tZWg5REFOTS1CRTMxbmtsVWtDdGpBem5OSkdQeTV5aW1YQTN4a1lqWGR1R2x0MkRmSEpIWUtRYnRkVHFRT0x4ajVaZUIyMkxjMnFLSkRxWnp0Sk81dFI1aDNuU2RfSmZVSmlPUlZQZmtOb2RIM1Q0Y1BEV0MzZXJwV3JyeGo1ck1vNGx5OEhST2s4WA?oc=5",
-     "source": "bluelinestation.com",
-     "published": "2026-09-27T10:00:03Z",
-     "thumb": null,
      "summary": "",
      "video": false
     },
@@ -521,6 +521,15 @@
    "accent2": "#9aa3ad",
    "items": [
     {
+     "title": "Survey Sunday: When self driving cars crash, who gets the blame?",
+     "link": "https://electrek.co/2026/09/27/survey-sunday-when-self-driving-cars-crash-who-gets-the-blame/",
+     "source": "Electrek",
+     "published": "2026-09-27T19:24:30Z",
+     "thumb": "https://electrek.co/wp-content/uploads/sites/3/2026/09/cybercrash.jpg?quality=82&strip=all&w=1600",
+     "summary": "For the last few weeks, we’ve been running a sidebar survey about whether our Electrek readers who should be held responsible when AI fails, and people get hurt. After nearly 3,000 responses, here’s what you told us.…",
+     "video": false
+    },
+    {
      "title": "Bay Area Tesla owner seeks answers after vehicle destroyed in suspicious Corte Madera fire",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb1JPMEdpZFZURUdaMnkxV21hdWhaTldkNG5aRDJCRDl4QVZkSzUzd1M2VVl6ZDlPNTZCVURRanJXLW56ZHBFN1VuYUxUV3RJOFI1bEpxbUsydUpqYVBWTFFheXl6OTlJOWpIZzVabDZwWDNiM1FnWnZINFoteUgxTGVDUFFnZjhad0kzQjhpb3ZEMHBrM2hHNkpHX0RTVmNESTdDSG9Gd2JGTU9RV0lROXZUSzFqLXVh0gG-AUFVX3lxTFBmUFIwNTNpQTI5c1VmdmI5TTFnYkwtOG5KbThiVG9HMnBBU1ZCVDZFamljS1ZzVlNmQWluSGNYcUh6eC1FUy1id1N4Y0JUcFFEWVcyTWZiTWlQMk9NRkhldENEZWZ0RTl3Rm5fOGhtZ29rNFJEblZiVUFzWVg2UUwxcjhqMWR4OTNjU0l0Y3E0LWtjOC1FajJ5cFgwZ1hyeG5aVzdKa1otSlN2MFZkZDJKNTRRYWpHTklFX2l3U0E?oc=5",
      "source": "ABC7 San Francisco",
@@ -530,9 +539,27 @@
      "video": false
     },
     {
+     "title": "Bay Area Tesla owner seeks answers after car destroyed in suspicious fire at Tesla facility",
+     "link": "https://abc7news.com/post/bay-area-tesla-owner-seeks-answers-vehicle-destroyed-suspicious-corte-madera-fire/19877844/",
+     "source": "ABC7 News",
+     "published": "2026-09-27T03:59:00Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.15KfYt1zLzjhWhsZBQHMkQ&pid=News&w=800&h=450&c=14",
+     "summary": "A North Bay Tesla owner says he's still looking for answers weeks after his vehicle was destroyed in a suspicious fire at a Tesla service facility in Corte Madera. \"I did see on the news Teslas have been targets.",
+     "video": false
+    },
+    {
+     "title": "Singer D4vd arrested after teen found dead in his Tesla: Police",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR2V5N2NQWldrMDZqUHN6c0NDa1ZnUlRpZUstUUdHQWkxQl9wZ2x3cTQ5N21RUTBlME5Qc2hzWG5RNkhJd2tvNkthV0ZhOXBFN21LU29xTWRfb1ZrVGdzX0VyMFJOc2UtRnBtaWJiMHRHS0dycVNqUm5veU5HOHNfQlBVMDk5dXo4Rkxrdno2d1QtNXla0gGaAUFVX3lxTE5DTDlNYW4yV1lMMTJVRmc4UTRnR2d1eVhkeFhIdFJIOWtudTI3RkZqMHY3OTZHRjk0MlJ4cVUzeXI0NTMyUWpZdFVGYlYyd2ZfalNqTklVMDJqdUxseThKaXo2Q0pqMVBZaTVzRXl2WmV6bXAtS1JTZEUxUTJNRklZQ3RIeWU4UWdwMnc5ZWZ2QUUxWnYwYnZwT3c?oc=5",
+     "source": "ABC News - Breaking News, Latest News and Videos",
+     "published": "2026-09-27T00:23:12Z",
+     "thumb": null,
+     "summary": "",
+     "video": false
+    },
+    {
      "title": "The Tesla Semi Had This Reviewer Skeptical. Now He Thinks It’s A Game Changer",
      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EYUFibmVkLUt1ODJTZUZZdG1ZXzYwRFFtdkwwYmZNMG13NHJ6OTd6bHVMc3I3V3E4T3ZmQ1NzTEZwNzZXZkVsREpPVDdUNGJhSEtzT3h3dXJta29sU0dPTHZzWnByR2sxWWlz?oc=5",
-     "source": "InsideEVs",
+     "source": "insideevs.com",
      "published": "2026-09-26T23:59:10Z",
      "thumb": null,
      "summary": "",
@@ -541,7 +568,7 @@
     {
      "title": "Is The Battery Trashed? A Tesla Model Y Hits 111,000 Miles With Zero Home Charging",
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWU12Ym03Zzh5QjQwbmthSjVQMDBfcW9HdzhyR1ljajlsQno3SUlCUWJadVNGaVdYRHN5bVZOVk5MSFJTVXQ3VDVhaTVFcXFrT2tCeUpOd0dsNmpzNXJzWUl6eEVmd0gxZnVyT18xbFZTM240MWlUN2NkZlpTcnpfZ2VZVzhLYUZxc3c?oc=5",
-     "source": "InsideEVs",
+     "source": "insideevs.com",
      "published": "2026-09-26T20:59:06Z",
      "thumb": null,
      "summary": "",
@@ -550,7 +577,7 @@
     {
      "title": "The Tesla Model 3’s Worst Nightmare Has Arrived In China",
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JdGJUVDFmeHBOZmtMQ2hkN1NuZFNWS29ISm0wYVhSeXE3dlI1YUlrVkxCNlhKdm03Ri0wRjBISVA2aFYyaWdMeklUUzNIeVh1TkxXRVB0UmFtSVNhemk1dXREeVBfeDE4bmV1LVZNX2FDbnFOTm1xR0Vsa0RQbmc?oc=5",
-     "source": "InsideEVs",
+     "source": "insideevs.com",
      "published": "2026-09-26T20:51:30Z",
      "thumb": null,
      "summary": "",
@@ -568,7 +595,7 @@
     {
      "title": "Tesla Finally Breaks Its 13-Month Sales Losing Streak in Europe",
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xWWljUFZ3UjRxTk9ZZFZIVTZMczdoUGpkd00tb2dwS0llVGhNaUlmWTlZVFpfaUg4SXFIS2J6a2t2Q2NPVF90aWx5NEptZ0E3VWRnNi1YTmlEbEJjN3cxcWN5bTZhZGZoeDE4RzZmRDY1YkdtZ2c?oc=5",
-     "source": "InsideEVs",
+     "source": "insideevs.com",
      "published": "2026-09-26T20:17:36Z",
      "thumb": null,
      "summary": "",
@@ -591,6 +618,16 @@
      "thumb": "https://www.bing.com/th?id=ONUT.dZJPUYz3C9rnl0v6uwoSLQ&pid=News&w=800&h=450&c=14",
      "summary": "",
      "video": false
+    },
+    {
+     "title": "Comparison: Tesla Model Y L vs Tesla Model Y",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xZ24zZmw0T0ttMl9IYzRoc3ZNRk9QX2FPNkMwSUZQYW0tX19zQVRSXzdhY1ZlYlJGeE1Fd0ZEejZqeGdjcDBUb3FuVk9zbGRsWEV0RVExWUZkbHpvNlJndHFSdjVXSFVUNEJURTA1TlZYc3c4YnBnYm9n?oc=5",
+     "source": "Autohled.cz",
+     "published": "2026-09-26T18:59:01Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.LGf3MKLRxX8bix4ooqrNXQ&pid=News&w=800&h=450&c=14",
+     "summary": "",
+     "video": false,
+     "tag": "Model Y L"
     },
     {
      "title": "Tesla's New Model Y Now Ships With Less Standard Driver Assist Than A Base Toyota Corolla",
@@ -625,15 +662,6 @@
      "source": "The Motley Fool",
      "published": "2026-09-26T13:45:00Z",
      "thumb": null,
-     "summary": "",
-     "video": false
-    },
-    {
-     "title": "Tesla employees accuse supervisors of using racist slurs. The company doubled down in court.",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS25RT0gxVzV3MmdiLVVtQ29OM2g2SGhwTnVqQzFJazhDb0pZQTQyS0ZOam1BcTk2T3k3SHU1eHBjM1p2VnVUcVY2Y18yWmNaQVdqUVpnMXktNGZ3Zzl1bGttbjB6MUhZQ0NrcGd6VjRTYTRzN0ItM2JnRFNOMHJkUnVOaHQ?oc=5",
-     "source": "Mashable",
-     "published": "2026-09-26T12:45:34Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.txne2-h6uvDjwuwIafyi6A&pid=News&w=800&h=450&c=14",
      "summary": "",
      "video": false
     },
@@ -702,38 +730,10 @@
      "video": false
     },
     {
-     "title": "Tesla lawyer claims N-word a ‘term of respect’ at racial discrimination trial",
-     "link": "https://www.msn.com/en-us/news/other/tesla-lawyer-claims-n-word-a-term-of-respect-at-racial-discrimination-trial/ar-AA2cXWIo?ocid=BingNewsVerp",
-     "source": "HuffPost",
-     "published": "2026-09-25T08:46:46Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.rGuaixWPyhZB_WjmBcnnhA&pid=News&w=800&h=450&c=14",
-     "summary": "Tesla managers allegedly referred to the California facility as “the plantation.”",
-     "video": false
-    },
-    {
      "title": "Tesla Coming To Noida Soon: Model Y And Model Y L To Be Offered; Check Price And Specs",
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTlZZUzRmVTN4ZUdOMDJQS05RVVdvSXNWR3E1dVE4ZVR1OTlKYjUyTlNnTG41R3RFZm00OGJVUmtTOEZPZjJKYkVHdWpCZWlQSzY3Rzc0WFlkWFE1NkJaSndkUk1kSkxfc2toWjNUUXR2aE1vTlgxWDNLLU9ZbllTRUtjZVk5eWkwd2RINHdyS0xmVHU1T1BNTFRSR1JQdEwwd3I3c3VDeFU0N29tMGtsSEtRc0l4MGNPWEZYTWo0cHBFaV9ST08yV2JmYTZ3aFHSAdYBQVVfeXFMTktHaERfWUFWc1M0TTJtSkx3eFo1ODdLSzczQWF4elU5NzNCX0Rqd2RyZkdCTW5FbzBjd2ZRbUlZMXVrcjlfYWNYYlFrTnEtUmNMQ1NTa1FjQmFmaUR5dnJtWjYyS2pFc0RqQ21yMzJjQnRueU5EX0N2elJiLUJWLUkzcVpJaXltYURqWDI1N0cwWFpXTm95Z2xiSHZfVHJOQmd1M0V2ZHc5M2F6Qk5UcjNIbTlKMlZxY0YyT3dFLTVFSUZWeVpaMFAtZVNJd0dpQzJwTGhMQQ?oc=5",
      "source": "The Daily Jagran",
      "published": "2026-09-25T02:29:00Z",
-     "thumb": null,
-     "summary": "",
-     "video": false,
-     "tag": "Model Y L"
-    },
-    {
-     "title": "Tesla ‘FSD’ sped in 55% of Brussels 30 km/h zones ahead of EU vote",
-     "link": "https://electrek.co/2026/09/24/tesla-fsd-belgium-test-speeding-30-kmh-eu-vote/",
-     "source": "Electrek",
-     "published": "2026-09-24T19:50:49Z",
-     "thumb": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Tesla-FSD-Speed-ticket-hero.jpeg?quality=82&strip=all&w=1333",
-     "summary": "Tesla’s “Full Self-Driving (Supervised)” broke the speed limit in 55% of the 30 km/h segments a Belgian road safety group tested in Brussels, averaging 44 km/h where the legal limit is 30 km/h. The results land less…",
-     "video": false
-    },
-    {
-     "title": "Tesla Brings Model Y L's Immersive Audio to Model 3 and Y in China",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZkhfVXRZSUxhdkZBakxfaHphZ2lVZGpBZzZ6UkcyVGxBalZmVUxDa0dyU1ZCaWRsTkNjczJaVUsyMUxpdnRQekRGLWttY2U3WExiYWw0Y3Rla2ktYlhXeTM3eHEyaVYwRmdkSVM0di1mWnNVSjhLT1dVakhOVlFXUWFGOVItWTZvR29fZXFEdjVPeng1cVVqTWl5aE1selN6a0hR?oc=5",
-     "source": "eletric-vehicles.com",
-     "published": "2026-09-24T09:00:26Z",
      "thumb": null,
      "summary": "",
      "video": false,
@@ -864,7 +864,7 @@
     {
      "title": "The startup bringing the SpaceX playbook to nuclear power",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa1NpZXNqbUVFZ0txVEJldE84eXB4dF80dHVvTWItb1FISkp1YmE4dm15ZWk3TTczaXU2RkRqV19ic3RHN2xpYjNmN1RSUjVFTldHYUJKeV9PZDF3RUgzN1JXdFAxa0phZGoxNzAwOTVQcGJMd1ppd1QtMXoyTFR1RTA2X1hiajlkNVFSM3NGRjFwdi1sSDNXcmpSRVM1X1FXUUFmbW9WWXNLZzA?oc=5",
-     "source": "politico.com",
+     "source": "Politico",
      "published": "2026-09-27T17:24:00Z",
      "thumb": "https://www.bing.com/th?id=ONUT.1E770tujBkLhD4Kc1GGbZQ&pid=News&w=800&h=450&c=14",
      "summary": "",
@@ -898,6 +898,15 @@
      "video": false
     },
     {
+     "title": "Wall Street Thinks SpaceX Is a Buy. Here Are 2 Reasons I'm Not So Sure.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-thinks-spacex-buy-191800612.html",
+     "source": "Yahoo Finance",
+     "published": "2026-09-27T12:18:00Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.kbLcSdstZbnwZ23emkDyWA&pid=News&w=800&h=450&c=14",
+     "summary": "I love Space Exploration Technologies (NASDAQ: SPCX) as a business. The company has already proven an exceptional ability to pioneer new markets, such as low Earth orbit satellite internet and cheap, ...",
+     "video": false
+    },
+    {
      "title": "SpaceX's Next Starship Launch Will Generate Revenue -- Sort Of",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaUQySGpVN19oWnpVR3pZYnZyMzF2VlZYZU9ldjBma2N1Q0Nhb2Z0cDZnZ0o4NF83TVJOV09NRWh0b2dtUkZsOXBkcXhDRWM4X3g4dHV6UFFTMDJRbW93dlAzR2lkckJET2d4cU9EYzhpRUctTEhlRmdYWTVVa1Y1Q1BJakIxSjFVZTFXX2d4NmpUeUM4eTRyZA?oc=5",
      "source": "The Motley Fool",
@@ -907,30 +916,30 @@
      "video": false
     },
     {
-     "title": "SpaceX's Starship rocket prepares for 14th test flight",
-     "link": "https://www.yahoo.com/news/videos/spacexs-starship-rocket-prepares-14th-180226386.html",
-     "source": "Yahoo",
-     "published": "2026-09-27T11:03:00Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.H6oE6E71R5UmgfEtXdxHrQ&pid=News&w=800&h=450&c=14",
+     "title": "SpaceX’s Starship rocket prepares for 14th test flight",
+     "link": "https://apnews.com/video/spacexs-starship-rocket-prepares-for-14th-test-flight-be8c47e3fa834faeb5f84ea237be21c9",
+     "source": "Associated Press News",
+     "published": "2026-09-27T11:04:00Z",
+     "thumb": null,
      "summary": "SpaceX's Starship is preparing for its 14th test flight, this time going into orbit around Earth. The rocket aims to one day take astronauts to the moon - or even further.",
      "video": false
     },
     {
-     "title": "SpaceX’s massive Starship is finally going to orbit — and the effects could be seismic",
-     "link": "https://www.msn.com/en-ca/news/other/spacex-s-massive-starship-is-finally-going-to-orbit-and-the-effects-could-be-seismic/ar-AA2d3dFG",
-     "source": "CNN",
-     "published": "2026-09-27T10:51:34Z",
-     "thumb": null,
-     "summary": "The most powerful rocket ever built will attempt to reach orbit for the first time, beginning a new phase in its development — and introducing new risks.",
+     "title": "Elon Musk Says SpaceX Could Have GPT-6-Level AI in 3 Months, Reach ‘Pole Position’ Within 6; SpaceXAI Plans Massive GPU Expansion",
+     "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-says-spacex-could-180022965.html",
+     "source": "Yahoo Finance",
+     "published": "2026-09-27T11:00:00Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.Tm0g9vIw9VLuxG17gPU7sA&pid=News&w=800&h=450&c=14",
+     "summary": "Elon Musk, CEO of Space Exploration Technologies Corp., expressed his optimism about SpaceX’s AI development, predicting a leading position in the AI race within six months. Musk took to X on Thursday ...",
      "video": false
     },
     {
      "title": "1 Green Flag and 1 Red Flag for SpaceX Investors",
-     "link": "https://www.fool.com/investing/2026/09/27/1-green-flag-and-1-red-flag-for-spacex-investors/",
+     "link": "https://www.msn.com/en-us/news/other/1-green-flag-and-1-red-flag-for-spacex-investors/ar-AA2d3WPg",
      "source": "The Motley Fool",
      "published": "2026-09-27T10:45:00Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.dl08eBAuIegwHkEWf6PSaQ&pid=News&w=800&h=450&c=14",
-     "summary": "There's a temptation among investors to lump Space Exploration Technologies (SPCX +0.44%) -- aka SpaceX -- into one of two categories. The first is that CEO Elon Musk is overly am ...",
+     "thumb": "https://www.bing.com/th?id=ONUT.IHo6LelZw5Nnj16KbwGG3w&pid=News&w=800&h=450&c=14",
+     "summary": "AI could drive SpaceX's growth. It's also driving up costs.",
      "video": false
     },
     {
@@ -938,7 +947,7 @@
      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFByaHpFUXhJVWk5S250Wkw3S1pRemY4T2Q0NTVkVS0wNk9sT1U0V0RaWFZqSUk4NFlXalViYWJ0TzdHaHVUY3ZsbXhFZUpZbjZLUTg0dDN6ZDJtTG1ZUjY0ejRPS2g3R0ZwYThGY3hzbE1XeFNPTFBobw?oc=5",
      "source": "CNN",
      "published": "2026-09-27T10:30:29Z",
-     "thumb": null,
+     "thumb": "https://www.bing.com/th?id=ORMS.f7a378b49be80e33d3a5fc3616e1a361&pid=News&w=800&h=450&c=14",
      "summary": "",
      "video": false
     },
@@ -958,24 +967,6 @@
      "published": "2026-09-27T08:22:24Z",
      "thumb": "https://www.bing.com/th?id=ONUT.PIGTc5a2AaUgdLQD2Fq40g&pid=News&w=800&h=450&c=14",
      "summary": "",
-     "video": false
-    },
-    {
-     "title": "SpaceX (SPCX) Stock: Analysts See 56% Upside Before Monday’s Launch",
-     "link": "https://coincentral.com/spacex-spcx-stock-analysts-see-56-upside-before-mondays-launch/",
-     "source": "CoinCentral",
-     "published": "2026-09-27T04:04:00Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.XGwsUvhb-96tSgxMhAO_fg&pid=News&w=800&h=450&c=14",
-     "summary": "SpaceX (SPCX) stock holds near $150 ahead of Starship's first orbital launch, with analysts targeting 56% upside as Flight 14 nears.",
-     "video": false
-    },
-    {
-     "title": "Starship could make history on next launch. Watch SpaceX mission live",
-     "link": "https://www.msn.com/en-us/news/news/starship-could-make-history-on-next-launch-watch-spacex-mission-live/ar-AA2d3UF0",
-     "source": "USA TODAY",
-     "published": "2026-09-27T03:02:18Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.jSJLNNt0UHmV0uZ8R9flSg&pid=News&w=800&h=450&c=14",
-     "summary": "SpaceX's next Starship launch could make history as the world's largest rocket attempts to reach orbit. Time, date, how to watch the mission.",
      "video": false
     },
     {
@@ -1017,7 +1008,7 @@
     {
      "title": "SpaceX launches mysterious U.S. Space Force mission from California",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDJpX0hfZy1TeUlha1YyLU5zbnVJNjhNdm5sbkczb0dlR29QcWNuQzQzSkxsNlFkbTU1M3V3NU01LWNtZjFRM2J6M0NCdWpVRmJ5RXhOU196RGdBSm9WVDFud0dnS2duQllQUFpwTVdhS1N0OTdILWFtYkkwZzM0MUJsQjZXTUhnX2ZMVnJSREFjVEx4dDBlRVUxOHVJMDlBNmfSAacBQVVfeXFMUGF2U2UwNGRUZURyejZCUVNGQjBEVjREX21GS3JTd3EwV0xqQzJ5TEgzYW1WbndjVXZ3UUJncTlZVnZLWHVUV193SF8wQ3AtRHN5U1ZILU1mbW05V09oWVlkYWlwUFZCOU1DaVF6WWlfQlQzODdoU181bHpydndpZmR3M1huOFQzd1BGcWc3TmVaV3NwYzM0cWJ0dFFTZkhDdFpYRUNrSkk?oc=5",
-     "source": "KTLA",
+     "source": "ktla.com",
      "published": "2026-09-26T18:49:16Z",
      "thumb": "https://www.bing.com/th?id=ONUT.CRD7VVwRI0muXAyWvPUY0w&pid=News&w=800&h=450&c=14",
      "summary": "",
@@ -1066,6 +1057,15 @@
      "published": "2026-09-25T19:53:03Z",
      "thumb": "https://www.nasa.gov/wp-content/uploads/2026/09/san-marino.jpeg?w=1600",
      "summary": "Minister of Industry and Technological Research Rossano Fabbri signed on behalf of San Marino. Gregory Mann, NASA Europe representative, and U.S. Consul General in Florence Joseph Tordella participated in the event on…",
+     "video": false
+    },
+    {
+     "title": "SpaceX readies Starship Flight 14 for a historic journey into uncharted territory",
+     "link": "https://www.teslarati.com/spacex-starship-flight-14-launch-ready/",
+     "source": "Teslarati",
+     "published": "2026-09-25T04:35:16Z",
+     "thumb": "https://www.teslarati.com/wp-content/uploads/2026/09/spacex-starship-flight-14-sunset-starbase-1000x600.jpg",
+     "summary": "SpaceX has cleared one of the last hurdles before Starship’s first trip to orbit. The company posted on X Thursday afternoon that its launch rehearsal for Flight 14 was complete, keeping the mission on track for…",
      "video": false
     }
    ],
@@ -1126,6 +1126,15 @@
    "accent2": "#00A3E0",
    "items": [
     {
+     "title": "7 PS5 Games Are Now Playable at 60 Fps on PC, Thanks to SharpEmu",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oNUxrNTNHOTFmTnZKbmlNVFdYdDRkZU9HVlM2R1JtWWFjT2dNUng1M0ZaSXcwejByU0RweVk3bkdqSUdCRzF4SGhSRVJGU3FsN3l4QXpqVUZnZ1JnZE44LQ?oc=5",
+     "source": "IMDb",
+     "published": "2026-09-27T18:52:15Z",
+     "thumb": "https://fwmedia.fandomwire.com/wp-content/uploads/2026/09/27082732/ps5-sharpemu-and-tomb-raider-iv-vi-remastered.jpg",
+     "summary": "",
+     "video": false
+    },
+    {
      "title": "You're Wasting The Potential Of PlayStation 5 Headphones Without Trying This Feature",
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xSmR3QXVlaWt4QkFLUUNrVFhMbXNiSlJLbUowc2RraG9uUHBHRnF2eU1Tbk10SjFiV3daRUM0VTRzVnkwMUlvX1dCbDB5NjB1ajB2TFlyR3VtaVJ2ZXZVV190X2N3X1lob3MtYXFVWWMzVWlJVWxDYlpn?oc=5",
      "source": "bgr.com",
@@ -1137,7 +1146,7 @@
     {
      "title": "Alien Breed: 35th Anniversary Collection Review (PS5) - A Disappointing Blast Down Memory Lane",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcTBIeTVHNnlwWURZMkhzemc2dTl2SkxBZ3ZpMUEzd0RXakk1aDI5d3pUT1dRV1JLT3JjbXZHZlBycGJOUVNMUllLSHl3bUt5R3FTeFhidzJfZi1DeDhSS0dPY2ZoRjljUmpkZzVJU1BYaEktaUEyaFdscDBEQXBFZnRaRjh5Zw?oc=5",
-     "source": "psu.com",
+     "source": "PlayStation Universe",
      "published": "2026-09-27T18:10:14Z",
      "thumb": "https://www.psu.com/wp/wp-content/uploads/2026/09/alien-breed-collection-ps5-review.jpg",
      "summary": "",
@@ -1159,6 +1168,15 @@
      "published": "2026-09-27T12:40:00Z",
      "thumb": null,
      "summary": "",
+     "video": false
+    },
+    {
+     "title": "Demon’s Souls remake achieves remarkable framerate on PS5 emulator as progress continues at the speed of light",
+     "link": "https://www.msn.com/en-us/gaming/gaming-platforms/demon-s-souls-remake-achieves-remarkable-framerate-on-ps5-emulator-as-progress-continues-at-the-speed-of-light/ar-AA2d4e31",
+     "source": "Destructoid",
+     "published": "2026-09-27T11:37:04Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.kTPXCR5h0hhBxOgDDmv0Kw&pid=News&w=800&h=450&c=14",
+     "summary": "We're on the cusp of greatness. The post Demon’s Souls Remake achieves remarkable framerate on PS5 emulator as progress continues at the speed of light appeared first on Destructoid.",
      "video": false
     },
     {
@@ -1204,15 +1222,6 @@
      "published": "2026-09-27T02:01:00Z",
      "thumb": "https://www.bing.com/th?id=ONUT.21Q_ZQZItP597UOa5FEa-Q&pid=News&w=800&h=450&c=14",
      "summary": "A new open‑source project, AnyPS5, aims to run PlayStation 5 games natively on Windows and Linux without traditional emulation. Listed on GitHub, the tool relinks PS5 executables into native formats ...",
-     "video": false
-    },
-    {
-     "title": "7 PS5 Games Are Now Playable at 60 FPS on PC, Thanks to SharpEmu",
-     "link": "https://fandomwire.com/ps5-games-now-playable-60-fps-on-pc-sharpemu/",
-     "source": "FandomWire",
-     "published": "2026-09-27T01:28:00Z",
-     "thumb": "https://fwmedia.fandomwire.com/wp-content/uploads/2026/09/27082732/ps5-sharpemu-and-tomb-raider-iv-vi-remastered.jpg",
-     "summary": "SharpEmu's PS5 emulation progress continues as its compatibility list grows, with more games reaching playable status on PC.",
      "video": false
     },
     {
@@ -1270,15 +1279,6 @@
      "video": false
     },
     {
-     "title": "Is your Xbox Series X or PS5 as good as a Blu-ray player?",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTjVTMXlEUFdMdy1GMUhXZE8xYjdHQkdWcnJLZWl2OVNOM2N0bUVyb0ZyeURwR3pRMVgxRlNta3N2YTFRcENvc2ZBVkJieEpKNVBpOEhtTE1BRUtDUFZsby1PREdISlZ1aGdONXo0ZkNCZ3d4TGttV3oxU21ZRFZxWklfMzY?oc=5",
-     "source": "How-To Geek",
-     "published": "2026-09-26T19:30:14Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.NHZcVzpNENSEhB-DROl3_g&pid=News&w=800&h=450&c=14",
-     "summary": "",
-     "video": false
-    },
-    {
      "title": "Going Platinum: Sonic Origins Sends Me Back to the Genesis of My Own Gaming History",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLUhzUUJfUjRacEpjeG8xZjlvVm52UENLVk5fQkZsb05nUm05ejRTQnREUlZqb2xSYlMtYjNFZEY0ZUJJZzVVM1ZtaTllZlB3VkFlMEFLNFE2NXdZeE9wcXBoSmdVbXlMQmY2d3NlX1FyVE1GMmZKUmtxTmVQOG00MzdPV2FCalNfN3M0U0ViQUR1ejAzMDAwMFBfZ0sybllqQWwzalVmal92cWJvdmx5UFdZTXVVR1BxZkE?oc=5",
      "source": "Push Square",
@@ -1324,21 +1324,21 @@
      "video": false
     },
     {
-     "title": "All PS Plus Games Available Now",
-     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1Q3hLVkxMSjY5Q0VQNEdDQmhWMnpuMDU4RUxlTWZqQXI1b214ak81anR5OHNadjR2ajVPVXZPUWpiUjBlOWxYVmR3b2tFdmhRVFZnN1dxVTNUZUFhR0J6UDRBTmh3WG5sUXVjMjB2Vmg3dGc?oc=5",
-     "source": "Push Square",
-     "published": "2026-09-26T16:03:24Z",
-     "thumb": null,
-     "summary": "",
-     "video": false
-    },
-    {
      "title": "PlayStation may reconsider ending PS5 discs after talking to major JRPG publisher",
      "link": "https://www.notebookcheck.net/PlayStation-may-reconsider-ending-PS5-discs-after-talking-to-major-JRPG-publisher.1409418.0.html",
      "source": "Notebookcheck",
      "published": "2026-09-26T13:41:00Z",
      "thumb": "https://www.bing.com/th?id=ONUT.K20elK4FqpTUmRgGpnNPPQ&pid=News&w=800&h=450&c=14",
      "summary": "Sony’s move away from PS5 discs in 2028 threatens publishers who specialize in physical games. NIS America stocks limited editions of JRPGs that often include Blu-rays. Even so, after a conversation ...",
+     "video": false
+    },
+    {
+     "title": "Every Single One of September 2026’s Biggest PS5 Games Is PS5 Pro Enhanced Except One",
+     "link": "https://comicbook.com/gaming/news/ps5-pro-games-september-2026/",
+     "source": "ComicBook.com",
+     "published": "2026-09-26T12:18:00Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.tgPyVob8kVyz5GAYpBRqdw&pid=News&w=800&h=450&c=14",
+     "summary": "Every single major PS5 game released in September 2026 so far, minus one, is PS5 Pro enhanced, a rarity for the Sony console.",
      "video": false
     }
    ],
@@ -1471,6 +1471,15 @@
      "published": "2026-09-27T07:45:00Z",
      "thumb": "https://www.bing.com/th?id=ONUT.Ejppkey7PTPkp7Nbvh9EYw&pid=News&w=800&h=450&c=14",
      "summary": "Microsoft's next Xbox, allegedly codenamed Helix, might just be more powerful than the rumored PlayStation 6, according to internet leaks. Quite a bit more.",
+     "video": false
+    },
+    {
+     "title": "6 Xbox JRPGs Most Haven’t Played, But Definitely Should",
+     "link": "https://www.dualshockers.com/xbox-jrpgs-most-havent-played-but-definitely-should/",
+     "source": "DualShockers",
+     "published": "2026-09-27T06:30:00Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.qb3TgkLfl6_AikyTvgRfzw&pid=News&w=800&h=450&c=14",
+     "summary": "The original Xbox was home to very few JRPGs, but these obscure ones might have something left exploring if you're interested.",
      "video": false
     },
     {
@@ -1624,15 +1633,6 @@
      "published": "2026-09-25T18:00:00Z",
      "thumb": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/2-416c8016ebb73acd32b1.jpg",
      "summary": "Summary Out Now on Xbox Series X|S. Inspect, negotiate, repair, customize, resell. Five tips for smarter deals, exploration, and bringing the chaos. Buying a cheap car is easy. Figuring out whether it is actually a…",
-     "video": false
-    },
-    {
-     "title": "Microsoft CEO Discusses His Goals For The Future Of Xbox, Feels 'Fantastic' About The IP Portfolio",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbGx0WWFVV0xWVnBJQUZXVGVJaVBjWU0zX0tpR2JhRU5fLXh6LXJod0ljQVpGZng0ZGlCMUZDX2pTSmRmODZzWDFsZUxQb1BMNWxhZGFheHBSZC10eksybUlXd1pjUG5KMWd6a29MRTRCRlFHTTlkaUR6dXd4MTZtV0lhRnJNWHljdEZ5SnZBcDVZWnlJM2lJeEh4MkxEeHYxOXAwN3JteVk4bzNveTZBX29kZlZrZ09oRlZGQlF1UHRtR0FYcEZvS1dudGhwQQ?oc=5",
-     "source": "Pure Xbox",
-     "published": "2026-09-25T17:00:00Z",
-     "thumb": null,
-     "summary": "",
      "video": false
     }
    ],
@@ -2072,15 +2072,6 @@
      "video": false
     },
     {
-     "title": "Apple buried Copland 30 years ago. Now the failed OS boots in a browser",
-     "link": "https://www.theregister.com/os-platforms/2026/09/27/apple-buried-copland-30-years-ago-now-the-failed-os-boots-in-a-browser/5299201",
-     "source": "The Register",
-     "published": "2026-09-27T03:30:00Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.chhsGSA-01m-OdBqn2xrxQ&pid=News&w=800&h=450&c=14",
-     "summary": "Apple acquired NeXT at the end of 1996, just months after cancelling Copland. The first developer release of its NeXTSTEP-based successor, Rhapsody, followed in 1997 – continuing the musical codenames ...",
-     "video": false
-    },
-    {
      "title": "These are the best MacBook deals right now: September 2026 Buyer’s Guide",
      "link": "https://9to5mac.com/2026/09/26/these-are-the-best-macbook-deals/",
      "source": "9to5Mac",
@@ -2250,6 +2241,15 @@
      "thumb": "https://9to5mac.com/wp-content/uploads/sites/6/2026/05/apple-openai.jpg?quality=82&strip=all&w=1600",
      "summary": "OpenAI and the other defendants in Apple’s trade secret misappropriation lawsuit made a new filing, asking the court to strike two expert declarations and disregard other evidence Apple recently submitted. Here are the…",
      "video": false
+    },
+    {
+     "title": "macOS 27 adds new Apple Intelligence features to your favorite apps",
+     "link": "https://9to5mac.com/2026/09/25/macos-27-adds-new-apple-intelligence-features-to-your-favorite-apps/",
+     "source": "9to5Mac",
+     "published": "2026-09-25T23:24:55Z",
+     "thumb": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/apple-intelligence.jpg?quality=82&strip=all&w=1600",
+     "summary": "9to5Mac is brought to you by CleanMyMac by MacPaw . With the release of macOS 27 Golden Gate, use CleanMyMac first to free up space, optimize your system, and ensure your new Mac runs at 100% on day one. Learn more .…",
+     "video": false
     }
    ],
    "videos": [
@@ -2364,6 +2364,15 @@
    "accent": "#A855F7",
    "accent2": "#22D3EE",
    "items": [
+    {
+     "title": "Bill Gates says it's 'completely irresponsible' for AI to not have safeguards",
+     "link": "https://www.engadget.com/2270166/bill-gates-says-that-its-completely-irresponsible-for-ai-to-not-have-safeguards/",
+     "source": "Engadget",
+     "published": "2026-09-27T19:12:29Z",
+     "thumb": "https://www.engadget.com/img/gallery/bill-gates-says-its-completely-irresponsible-for-ai-to-not-have-safeguards/l-intro-1790535130.jpg",
+     "summary": "The Microsoft co-founder said that the more present danger is bad actors with access to AI tools.",
+     "video": false
+    },
     {
      "title": "Should you ditch your tablet for a foldable phone?",
      "link": "https://www.engadget.com/2267889/ditch-tablet-for-foldable-phone/",
@@ -2497,15 +2506,6 @@
      "published": "2026-09-27T13:30:00Z",
      "thumb": "https://www.engadget.com/img/gallery/why-its-important-to-not-put-your-pc-on-the-floor/l-intro-1790181446.jpg",
      "summary": "If you're not going to put it on your desk, at least do these things.",
-     "video": false
-    },
-    {
-     "title": "Humanoid robots are getting even creepier (this one can cry on command)",
-     "link": "https://www.engadget.com/2266933/humanoid-robot-cries-on-command/",
-     "source": "Engadget",
-     "published": "2026-09-27T13:15:00Z",
-     "thumb": "https://www.engadget.com/img/gallery/humanoid-robots-are-getting-even-creepier-this-one-can-cry-on-command/l-intro-1790191546.jpg",
-     "summary": "Humanoid robots have improved emotional mimicry to the point of being able to cry during an emotional conversation.",
      "video": false
     },
     {
@@ -2694,9 +2694,18 @@
    "accent2": "#EC4899",
    "items": [
     {
+     "title": "Anthropic CEO Amodei to Meet Trump With AI Safety Concern Rising",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRHFRLVNKbG5ZRElJX0ZuS05EczkzM2NfUE9aZzRFUUNhVklLVldPNTVNM0lKN1lDOXB4RDBqMkp4aEsxLTB3bFFwY1lUemRMV3RWU290SWk3Q2I0X1JBWWJQQkN0Nm5sUUNWRHhDZEtUX0dmdi1sYlltdjBRX0FpamJET1hOTFYtZzFqVjYxZmZxSHBoRGdvSlE0OVhWQUZlSDdjRWY3QV9rdWd0OXlZQUUwTnI?oc=5",
+     "source": "Bloomberg.com",
+     "published": "2026-09-27T18:48:09Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.BAQF9eP-1Q8UwTIHCadPgw&pid=News&w=800&h=450&c=14",
+     "summary": "",
+     "video": false
+    },
+    {
      "title": "Anthropic CEO to attend White House dinner with Trump",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSkZSLThQXzNiN1NrVm9OU3pHTzBRNDBWTUl3enZjcmJtYlhyWE9zRkU5VUhfUGlBSEFTamRiY3JVWmR4VlV1UWxYQUpXYlpORFB6enAzbzFQaWpQdWdDaVJTRHVLaUlwdjdrUkFXVDRjd2hnUWJzeVVkV19HOHJrQUpuQU1SZC1kclVOb2pRWVc5UnRJd0E?oc=5",
-     "source": "politico.com",
+     "source": "Politico",
      "published": "2026-09-27T18:25:00Z",
      "thumb": "https://www.bing.com/th?id=ONUT.xws2mRuI1laJhCrFEEat-A&pid=News&w=800&h=450&c=14",
      "summary": "",
@@ -2721,20 +2730,20 @@
      "video": false
     },
     {
+     "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVUY1RXhlS1RMdm1HNm1yV2FFMU9nMWNiUThPQ1QyZVZPMXNZVmlxU01SSVJISndvRDJXbkJaZWNlYjZERDdkN2VBVkhxN2toMnhNNno3eEFtYUVmclhCQTZxamFfUEx3MXAwc2k4b2gtVzFlR0dwYTNiLWt3c19odi1HdmtIUThU?oc=5",
+     "source": "TechCrunch",
+     "published": "2026-09-27T16:30:00Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.ScUT4HNH7JgaJ1DhCul10w&pid=News&w=800&h=450&c=14",
+     "summary": "",
+     "video": false
+    },
+    {
      "title": "Tesla Launches Grok in New Countries With Update 2026.32.7",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMlN6ZGpZVmFQcmw5Mi1xeU9zMThlUzBIMWVkVGRDMW1KQ0ZhNW9kdDRGcFU3M2VLNExRVDZkbEF3WEZLZWQ5d1JFcG05TzZwRWNYSWRMbEtDZ28yeEk5Y01aUW5OeU9fRTJ5WkxTcl80QnRwajJKREZCSmNIRXdYbi0xWHJZSE94RU5MNWZuTFhPbnI1bzc4eGF4WQ?oc=5",
      "source": "Not a Tesla App",
      "published": "2026-09-27T16:00:00Z",
      "thumb": null,
-     "summary": "",
-     "video": false
-    },
-    {
-     "title": "Scoop: Anthropic's Dario Amodei to have White House dinner with Trump",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa01meU5ZWVpKYVJodDlpcExfZUdQbnBqVEc1UUl5TGg2YnFxT05yd0I5RU9vd2ltcjhMY1VCeVBsTGluNjJ3X2hyNkJEZFlUbHI3SmNsdWpGbzA2NmNEdTg4UjMwdEo2UzdsUHg5WUl0S085cXVMN1lwN1Q0UzBWdQ?oc=5",
-     "source": "Axios",
-     "published": "2026-09-27T15:45:35Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.NUkjeJ6BnSylYe530UpYjw&pid=News&w=800&h=450&c=14",
      "summary": "",
      "video": false
     },
@@ -2793,12 +2802,12 @@
      "video": false
     },
     {
-     "title": "Anthropic says its AI models hacked 3 organizations on their own during tests",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX3ZqRkZfWUw5X3dBbVVkUzh3NGVXTXdrOEIwOVRGUHdTeTRaaURSWS1DYVA3aXdUREVFeTM1ZnF0Mm91bzJTb0R6OWR3a0VwaFBPQmFqeVRuQjdrUFZSSFpmbjMzSGZEX2xCeE84c3A2Q3dpRnlEcVZ5MFhLVUE5b0lwUml2eWFacWZDVHJsaVh5VVJMZjZRdmlNSWlkQW1Wa2Rkb3Jn0gGrAUFVX3lxTE9RRnJFaXBvLVJUT0NMMXRtN0JscFBCQTIzRHlQUFdYMjJ2bnZkQ080WGZQYUtqTGNaZTZidWljbFhnNklKVGFaWXBLbXdtV0xkOTlYcnhFOUxMYU1vUnJMclpyR21nYTBLUDh5UURFTy1MbGRUQThiWXNLSVVMWkZJQlpwWTNJQUpGM3dyVGNHZmp6Y0E0R29FaWtkd25sczZ0RktJRTRXcGVkNA?oc=5",
-     "source": "ABC News - Breaking News, Latest News and Videos",
-     "published": "2026-09-27T08:48:44Z",
-     "thumb": null,
-     "summary": "",
+     "title": "OpenAI, Anthropic investigate tens of thousands of AI incidents as frontier models bypass guardrails: report",
+     "link": "https://www.msn.com/en-us/technology/artificial-intelligence/openai-anthropic-investigate-tens-of-thousands-of-ai-incidents-as-frontier-models-bypass-guardrails-report/ar-AA2d3m9c",
+     "source": "Stocktwits",
+     "published": "2026-09-27T04:49:55Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.HKfQ_xVSsZPy2Sr2ZxtBhA&pid=News&w=800&h=450&c=14",
+     "summary": "The incidents include models bypassing guardrails, creating message boards, escaping sandboxes, hijacking websites, self-prompting and attempting to evade monitoring, per the report. ・Some of the activity occurred…",
      "video": false
     },
     {
@@ -2808,15 +2817,6 @@
      "published": "2026-09-27T04:44:51Z",
      "thumb": null,
      "summary": "",
-     "video": false
-    },
-    {
-     "title": "Anthropic and OpenAI sound the alarm on AI safety — and seek to shape how it’s controlled",
-     "link": "https://apnews.com/article/ai-slowdown-midterms-anthropic-openai-ipo-9a057de94eb8f30a2fdb5b938918627e",
-     "source": "Associated Press News",
-     "published": "2026-09-27T04:23:00Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.vIOC83PxydVpX4dCRiv07A&pid=News&w=800&h=450&c=14",
-     "summary": "As tech titans warned an AI-weary world that their own advanced systems could endanger humanity, the question emerged: What do they have to gain?",
      "video": false
     },
     {
@@ -2832,7 +2832,7 @@
      "title": "Scoop: Top AI companies probing tens of thousands of security incidents",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaUlRV1JkUEZFRkRINVBlWTR1SWxkZ1hjcUdOMkJDNzF4UXdBVHd2LVlqQmlwb0R3cTVuTFk3MEp1eHlUT0hsRTAzekszcl81ZjNoWDZCMkZBTlk4Z3dlV1RoZnd3YVZSQmpUWWEyc3EyWUFnRHFiQjNacUVEYmxuYXFxVldIdVJ3?oc=5",
      "source": "Axios",
-     "published": "2026-09-26T22:58:14Z",
+     "published": "2026-09-26T22:40:54Z",
      "thumb": "https://www.bing.com/th?id=ONUT.Wh1o34AAmj35MbKDFZk4OQ&pid=News&w=800&h=450&c=14",
      "summary": "",
      "video": false
@@ -2858,7 +2858,7 @@
     {
      "title": "OpenAI tools post user images from ChatGPT online",
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQc2x4VnlOTWhpTzl2QWxoWEZYMHJlYnQ0NnNyekgyQlEzQXBmbk8yeXU3a3pSX0I1cVVXS1k0bkotRzUzUXc0bzhNMHZwVFRCcTRLRnJPTUxSeXZYVE1NNlNmN25iNDZLaHE1b2NGYjctVml0MjBKNnF4ZnF6eVBOQmtZQmdlV1lKS1HSAYoBQVVfeXFMTTRVUXRIbmt5TXNHR1lYd0pHNXBOU0pGd3p5aDdORHNDSVZ6ZjdITlNwcXVzZE1xb0laLTVjWWtKNW0xQV9KRkhDYXg4Z0ZsNS1VT25vSnZkRi1XcGVwSjdWc1hoUFVORlliN3NGNG50OXRfdkZuOVl4bXdKb1lrR0stQWtJLTZKQkxB?oc=5",
-     "source": "DW.com",
+     "source": "dw.com",
      "published": "2026-09-26T19:36:49Z",
      "thumb": "https://www.bing.com/th?id=ONUT.2kJU7zUNuGTyMBOQCsjhPQ&pid=News&w=800&h=450&c=14",
      "summary": "",
@@ -2867,7 +2867,7 @@
     {
      "title": "Elon Musk admits Grok trails Anthropic by years, yet claims his agentic AI is exploding 100% monthly",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbEdJTmctN2Nyc0dlaElkN2tvbVRhT1VBeVJjVFVnRGRheVkwQlVzVjQ3QTRBZFJMbGpMcC1YRWgzMnlSUEdHUjM1OVZOSEVLSl9RYnVoVUlkYjZoWXlZV3Y5WHVsQUU0UG9EZzFIODFDX0dwdVpRSHZyVUp4YXVhMURBRWpUc0RuX056MzV5bWVnc1FzbDRDS0pKaWh5dGdtOFBrOGVFTmI2bVZGYXdITjk3NXlFQ0hJeVU3Y9IBwgFBVV95cUxQUkZ1SGYwUktTaUQ1U3FBRW9LNFpnMjM3YkhLMF82cUY2LXZQY3Q5TWUySFZ1YkhxRG1aanplYjNfMXU0YmpOYnRLejM1UmJEX2hpVlFCbmQybDNjZVBtOHl4MHNrRWpPOE91dlg2S1RIVkctaU11NzRkYUZZSmVqeHVNcG5lRXphNkhBUkZ4b01sQTJ1QmFkcWY3SVpFLVlUdWRvSk1Cemk4bFF5STZPYjZxYmo2MEVQVzJNWGdfWGJtZw?oc=5",
-     "source": "wccftech.com",
+     "source": "Wccftech",
      "published": "2026-09-26T19:02:16Z",
      "thumb": null,
      "summary": "",
@@ -2993,7 +2993,7 @@
    "name": "Google News: NY Rangers",
    "url": "https://news.google.com/rss/search?q=%22New+York+Rangers%22+OR+%22NY+Rangers%22&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "raw_count": 102,
+   "raw_count": 104,
    "kept": 12,
    "error": null,
    "stale": false
@@ -3073,7 +3073,7 @@
    "name": "Google News: Greeley/John Jay hockey",
    "url": "https://news.google.com/rss/search?q=Greeley+%22John+Jay%22+hockey&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "raw_count": 34,
+   "raw_count": 35,
    "kept": 12,
    "error": null,
    "stale": false
@@ -3133,7 +3133,7 @@
    "name": "Google News: Model Y L",
    "url": "https://news.google.com/rss/search?q=%22Model+Y+L%22+Tesla+when%3A30d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "raw_count": 81,
+   "raw_count": 82,
    "kept": 5,
    "error": null,
    "stale": false
@@ -3253,7 +3253,7 @@
    "name": "Bing News: PlayStation PS5",
    "url": "https://www.bing.com/news/search?q=PlayStation+PS5&format=rss",
    "ok": true,
-   "raw_count": 11,
+   "raw_count": 12,
    "kept": 8,
    "error": null,
    "stale": false
@@ -3443,7 +3443,7 @@
    "name": "Bing News: Apple iPhone Mac",
    "url": "https://www.bing.com/news/search?q=Apple+iPhone+Mac&format=rss",
    "ok": true,
-   "raw_count": 12,
+   "raw_count": 11,
    "kept": 8,
    "error": null,
    "stale": false
@@ -3503,7 +3503,7 @@
    "name": "Bing News: gadgets technology",
    "url": "https://www.bing.com/news/search?q=gadgets+technology&format=rss",
    "ok": true,
-   "raw_count": 12,
+   "raw_count": 11,
    "kept": 6,
    "error": null,
    "stale": false
@@ -3613,7 +3613,7 @@
    "name": "X-watch: Elon Musk (Musk posted on X when:3d)",
    "url": "https://news.google.com/rss/search?q=Musk+posted+on+X+when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "raw_count": 37,
+   "raw_count": 38,
    "kept": 6,
    "error": null,
    "stale": false
@@ -3663,7 +3663,7 @@
    "name": "X-watch: Teslarati (site:teslarati.com X post when:7d)",
    "url": "https://news.google.com/rss/search?q=site%3Ateslarati.com+X+post+when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "raw_count": 46,
+   "raw_count": 49,
    "kept": 6,
    "error": null,
    "stale": false
@@ -3673,7 +3673,7 @@
    "name": "X-watch: 9to5Mac (site:9to5mac.com when:3d)",
    "url": "https://news.google.com/rss/search?q=site%3A9to5mac.com+when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "raw_count": 56,
+   "raw_count": 55,
    "kept": 4,
    "error": null,
    "stale": false
@@ -3683,7 +3683,7 @@
    "name": "X-watch: Kevin Weekes (\"Kevin Weekes\" when:14d)",
    "url": "https://news.google.com/rss/search?q=%22Kevin+Weekes%22+when%3A14d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "raw_count": 14,
+   "raw_count": 13,
    "kept": 6,
    "error": null,
    "stale": false
@@ -4734,6 +4734,17 @@
    "handle": "JoeTegtmeyer"
   },
   {
+   "title": "SpaceX just got the green light Starship has waited years for",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE91M09vbC1aNzZxU1BnZTRjc1hSdmdhRmVDdGpZTFlZTHkyREpiU3JwcjkwdGVkcVdNV2ZFTG9kT21XZVFJVnJkTkJocnN0OHFFNUhoV1UzM3FPN1p2NS0wRnpHRzV5SXpoT2l3?oc=5",
+   "source": "Teslarati",
+   "published": "2026-09-27T17:23:16Z",
+   "thumb": null,
+   "summary": "",
+   "video": false,
+   "account": "Teslarati",
+   "handle": "Teslarati"
+  },
+  {
    "title": "NHL on ESPN returns Tuesday with opening night tripleheader",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY3lvV3ZJQlRmLXJTeVJKYTJZeHJlRHM2T3RzYVdrYkNYZkl3M0g5azhmRzhGdUlaNWV0Ukc4MU1GTlFORkJrMEdsSjNIcWxGeDR1bVRmYXNwTkdGZ2RHanB4RHV4SkxYeFdTYVFTa2pCSG8xMndSX2prUHR5SnNJLWdZZlBUUDZnejRIblNjRFFtUjI2NlVDRTdxTFlDZWhyV2c?oc=5",
    "source": "ESPN Press Room",
@@ -4743,17 +4754,6 @@
    "video": false,
    "account": "Kevin Weekes",
    "handle": "KevinWeekes"
-  },
-  {
-   "title": "SpaceX just got the green light Starship has waited years for",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE91M09vbC1aNzZxU1BnZTRjc1hSdmdhRmVDdGpZTFlZTHkyREpiU3JwcjkwdGVkcVdNV2ZFTG9kT21XZVFJVnJkTkJocnN0OHFFNUhoV1UzM3FPN1p2NS0wRnpHRzV5SXpoT2l3?oc=5",
-   "source": "Teslarati",
-   "published": "2026-09-27T16:22:26Z",
-   "thumb": null,
-   "summary": "",
-   "video": false,
-   "account": "Teslarati",
-   "handle": "Teslarati"
   },
   {
    "title": "Report: Apple working on new Vision Pro, with different form factors on the table",
@@ -4844,6 +4844,17 @@
    "handle": "elonmusk"
   },
   {
+   "title": "META Stock Rises Premarket: Zuckerberg Claims Threads Now Rivals Musk's X In Scale Or Close In Scale",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcFVoUzd2Rm9DNE5kWnRndDhMeHE1b1ZMLUtWY2wxMDF4Tm5Ndk9ZdnlEbVNJbHRzMWRkbmFFMUxhenV5bWxnUkNOU2hLRWU1WW5kZ1pvc2EzQVJoekNSVlRFYzdONDQwTFVqenJITzhCY05iYlA4LTNJczRoeGI3dW9xTzZ0cGlkanQtZEpBUE1VUlNwbnYzQ2wwcWlZOVNfS29ySXVoRmFSY2pfUDFLalRvSFNiN21LN2dZLWJORk5yT1ZHc2VIM0lVeUItMEZiQkVub0UyU2RVT3VYRGt4NTJvMzV1cW1wbFo1Yg?oc=5",
+   "source": "Stocktwits",
+   "published": "2026-09-27T05:26:07Z",
+   "thumb": "https://s.yimg.com/lo/mysterio/api/6421168ddd0e86138a966bd56cebf3eb132b6c00a05922442f31da043d983bdd/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F61b75d3871f0bfd61189667d353cac1c.jpg",
+   "summary": "",
+   "video": false,
+   "account": "Elon Musk",
+   "handle": "elonmusk"
+  },
+  {
    "title": "These are the best MacBook deals right now: September 2026 Buyer’s Guide",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ydWFhbUxNOFF5TjB2eVo4bHNXaTJCei1RRzlxYXMtUzNLeHdwUW9RRnEtNlBmQUJfWlBmWUl5R3prZ2E5Y1I2R2ZobFdNTnNBYXg3WnpNQU1WeVRIa2JCUGpWT296OGJWcVJkZ0pJSlpPUQ?oc=5",
    "source": "9to5Mac",
@@ -4888,26 +4899,26 @@
    "handle": "Teslarati"
   },
   {
+   "title": "Third-Generation Tesla ‘Model E’ Will Utilize Steel Construction",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMnBYYkRLd0MwcWREbktKcTdwbUZzZEJNQlVyU3lkS2lRakVjR2ZObVBKMlRsTVJ2VG9UVG95OTNqN2p5UjlXUWxURDM4ODFsdWZsQlV6T1gyMDF3b0d5LWNXU1RjU1Z6ZU93b0NySUJjS0QycnpBTHo2UF9YMmcyWWh4elY2U3NxZDE2cjRrNG55R1VWQjhjdHdqQQ?oc=5",
+   "source": "Teslarati",
+   "published": "2026-09-26T22:45:08Z",
+   "thumb": null,
+   "summary": "",
+   "video": false,
+   "account": "Teslarati",
+   "handle": "Teslarati"
+  },
+  {
    "title": "YouTube and Meta now say they’ll run ads for Alex Gibney’s Musk documentary.",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVTJsa2ZLdjEwUjJuNU9LTkp6NG93VFdjLUJyVy16QzY4X18tOEp0S09ZQWlTbjc1VjJQRWkxZzJOdlB5QldjNkhMdjRZUWh0Zm1UMXQ4b2VEbHZlZTRKa1ZmV3ZIY0dwdVRna2FDcFlBV0hnNzNqOVNrc0FNa1plN2MtT25sdGhkVVp5b0dWTVQ2LWQzc1FyVllsUERKcHViNEU5RXJnb2tUaWE4MGt4MHhZeWxTejB5Y1RVcg?oc=5",
-   "source": "The Verge",
+   "source": "theverge.com",
    "published": "2026-09-26T19:58:27Z",
    "thumb": "https://ai4chat-files.s3.amazonaws.com/images/image_1790468251522.jpg",
    "summary": "",
    "video": false,
    "account": "Elon Musk",
    "handle": "elonmusk"
-  },
-  {
-   "title": "Should You Leave Your Tesla Charger (UMC) Plugged In?",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Nb2dTODdJZEhWcGVyWkIxQ0dzRGV1M01fa1VITjl1SDRKMmRjN1Noc3lNSUZ5MEVjb2FPQjhCSVdXczhDNURRSzZycXVOU3pQV19CakpSbU10YjBNZkZKOHl0ZHo0SVU2NHc?oc=5",
-   "source": "Teslarati",
-   "published": "2026-09-26T17:58:09Z",
-   "thumb": null,
-   "summary": "",
-   "video": false,
-   "account": "Teslarati",
-   "handle": "Teslarati"
   },
   {
    "title": "Meta and YouTube say they will run ads for ‘Musk’ documentary after all",
@@ -4958,17 +4969,6 @@
    "source": "The Times of India",
    "published": "2026-09-26T08:06:00Z",
    "thumb": "https://www.bing.com/th?id=ONUT.rpC81PNYWLltCRB5jVjg2Q&pid=News&w=800&h=450&c=14",
-   "summary": "",
-   "video": false,
-   "account": "Elon Musk",
-   "handle": "elonmusk"
-  },
-  {
-   "title": "Palantir ‘Overpromising,’ Not Anthropic: Michael Burry Fires Back At Elon Musk In Growing AI Warfare Debate",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcTNjQ0JZWnhlZWh4b25aLW9zc2Flci1kUWJfNEY1cUxOUkJja0ctc0pnYkF3MEw5Uk1xZ0F5VmRjOTBSX1JJM3ZZTi1ETlN3bVRYN1RvM2FjV3lJamJkcEFIZ0FseVBtYk9VOHBYQlVJcXB0UFRYVFhxV2h4NTU4Yml4RUxpTm1TQW8zYnNoWnN6c2NUSlpNYlBreXpRamxIckpVeTQzY0dZaFkySE12UzNPODBjT0QtcjhoeTJBREpSUWI4WmtlQVJ1MDV4T2NncmRtMw?oc=5",
-   "source": "Stocktwits",
-   "published": "2026-09-26T05:31:48Z",
-   "thumb": null,
    "summary": "",
    "video": false,
    "account": "Elon Musk",
@@ -5032,7 +5032,7 @@
   {
    "title": "Gary Black: Meta's consumer AI strategy compared to Apple's 2007 iPhone launch",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObWkxVVZvTE1yTVlXWGY3OEh5VkZrMjZySTMtS1Q2dHNBaW9abjBWS2p3aUtvZlVUVnh1dUZZdEFFcW5LSDdablFGNkFIZ2dZM2tEMGljVGZDcl9JWVB5cVNjM01RRWVjZ3JqZ2xGd0ZWSUxxekJDY1pHV1NTZ1FlVG5yV3p4OUtuMXZ4Wm53?oc=5",
-   "source": "Traders Union",
+   "source": "tradersunion.com",
    "published": "2026-09-25T10:10:23Z",
    "thumb": null,
    "summary": "",
@@ -5119,7 +5119,7 @@
   {
    "title": "Gary Black: META shares seen attractive with growth in AI agent Muse",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSHc5ZF9hN0FWVERiNlZtMG5iT18xdElGMFRTS3NsNHdPckRwS25BYmdXQ3hVWnFXcklSeFZpNk12STE5dG1UakZWQjdkMlhyN29lTkNBbGJMWlFXVjN4T01fSlFMSzh1TzhpakJmS2pSNkMzMk5MSndJLWN1WUF5QlFKWFg?oc=5",
-   "source": "Traders Union",
+   "source": "tradersunion.com",
    "published": "2026-09-23T17:10:29Z",
    "thumb": null,
    "summary": "",
@@ -5442,16 +5442,16 @@
   }
  },
  "images": {
-  "missing_before": 251,
-  "og": 34,
-  "bing": 104,
-  "with_image": 225,
+  "missing_before": 249,
+  "og": 33,
+  "bing": 108,
+  "with_image": 230,
   "total": 338
  },
  "nhl": {
   "team": "NYR",
   "season": 20262027,
-  "fetched": "2026-09-27T19:04:07Z",
+  "fetched": "2026-09-27T19:45:57Z",
   "stale": false,
   "last": {
    "id": 2026010051,
