@@ -24,7 +24,7 @@
   }
   const fresh = iso => iso && Date.now() - new Date(iso) < 3 * 3600e3;
   const tm = (iso, short) => iso ? `<time class="${fresh(iso) ? 'fresh' : ''}" datetime="${iso}" data-short="${short ? 1 : ''}" title="${esc(NYf.format(new Date(iso)))}">${rel(iso, short)}</time>` : '';
-  const meta = it => `<div class="meta"><span class="src">${esc(it.source)}</span>${it.published ? '<span class="dot"></span>' + tm(it.published) : ''}</div>`;
+  const meta = it => `<div class="meta">${it.tag ? `<span class="tagb">${esc(it.tag)}</span>` : ''}<span class="src">${esc(it.source)}</span>${it.published ? '<span class="dot"></span>' + tm(it.published) : ''}</div>`;
   const kick = (s, solid) => `<span class="kicker${solid ? ' solid' : ''}" style="--k:${s.accent}">${esc(s.name)}</span>`;
   const ext = 'target="_blank" rel="noopener"';
   const dataText = it => `data-text="${esc((it.title + ' ' + it.source).toLowerCase())}"`;
@@ -86,7 +86,7 @@
         <div><div class="px">${fmt(w.price)}</div><div class="chg ${dir(w)}">${sgn(w.change)} (${sgn(w.pct)}%)</div></div></a></li>`
       : `<li><a class="row" href="${esc(w.url)}" ${ext}><div><div class="sym">${esc(w.symbol)}</div><div class="nm">Quote unavailable ↗</div></div><span></span><span></span></a></li>`).join('');
     const a = WL.find(w => w.as_of);
-    return `<section class="rail wl" style="--k:var(--blue)"><div class="rail-h"><i></i>My Watchlist<span class="sub">Nasdaq data</span></div><ul class="rows">${rows}</ul>
+    return `<section class="rail wl" style="--k:var(--blue)"><div class="rail-h"><i></i>My Watchlist${goalChip()}<span class="sub">Nasdaq data</span></div><ul class="rows">${rows}</ul>
       <div class="asof">${a ? 'As of ' + esc(a.as_of) : 'Quotes unavailable at build time'} · dotted line = previous close</div></section>`;
   }
   function latestRail(list, title = 'Latest', n = 12) {
@@ -166,6 +166,7 @@
       <span class="sub">${s.items.length} stories${s.videos && s.videos.length ? ` · ${s.videos.length} videos` : ''} · newest first</span>
       <div class="chips">${srcs.map(([n, c]) => `<span class="chip">${esc(n)} · ${c}</span>`).join('')}</div></header>`;
     if (heroes.length) h += `<section class="hero fade">${hcard(heroes[0], s, true)}<div class="hero-side">${heroes.slice(1).map(i => hcard(i, s)).join('')}</div></section>`;
+    if (s.watchlist) h += goalPanel(false);
     h += `<div class="cols"><div class="main">${briefing(b, s, true)}</div><aside class="side">${s.watchlist ? watchlist() : ''}${latestRail(allItems().filter(x => x.s.id !== s.id), 'Elsewhere on the hub', 6)}</aside></div></div>`;
     h += vband(s.videos, s, s.video_label || `${s.name} videos`);
     (s.video_strips || []).forEach(x => { h += vband(x.videos, s, x.label); });
@@ -257,6 +258,224 @@
       const row = $('.vrow', b); row.scrollBy({left: row.clientWidth * Number(btn.dataset.dir) * .75});
     }));
   }
+  // ---------- selling-goal tracker (settings live ONLY in this browser's localStorage) ----------
+  const GKEY = 'fh_goal_v1';
+  const CAR_IMG = 'img/model-yl-white.jpg';
+  const CAR_CREDIT = '<a href="https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_L_Premium_Long_Range_AWD_Pearl_White_Multi-Coat_01.jpg" target="_blank" rel="noopener">Photo: Ethan Llamas, CC BY-SA 4.0</a>';
+  const CAR_SVG = '<svg viewBox="0 0 64 24" width="30" height="12" fill="currentColor" aria-hidden="true"><path d="M8 17c-3 0-5-1-5-3.5S5 10 9 9.5L17 5c3-1.6 7-2 12-2 6 0 10 1 14 3.5l6 3.5c6 .5 11 2 11 5s-2 3-5 3h-3a6 6 0 0 0-11.5 0H22.5A6 6 0 0 0 11 17zm9-9.5 5-2.5h8v3.5zm16-2.5h4c3 0 5 .8 7 2.5l-11 1z"/><circle cx="16.8" cy="18" r="4.3"/><circle cx="46.2" cy="18" r="4.3"/></svg>';
+  const b64e = o => btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  const b64d = s => JSON.parse(decodeURIComponent(escape(atob(s.replace(/-/g, '+').replace(/_/g, '/')))));
+  function gLoad() { try { return JSON.parse(localStorage.getItem(GKEY)) || null; } catch (e) { return null; } }
+  function gSave(g) { localStorage.setItem(GKEY, JSON.stringify(g)); }
+  function gClean(g) {
+    const num = v => (v === '' || v == null || isNaN(+v)) ? null : +v;
+    const H = {};
+    Object.entries(g.holdings || {}).forEach(([s, h]) => { s = String(s).toUpperCase().trim(); if (s && num(h.shares) > 0) H[s] = {shares: num(h.shares), cost_basis_total: num(h.cost_basis_total), term: ['long', 'short'].includes(h.term) ? h.term : null}; });
+    const t = g.tax || {};
+    return {label: String(g.label || 'Selling goal').slice(0, 40), car: String(g.car || '').slice(0, 30), image: g.image === 'model-yl' ? 'model-yl' : '',
+      target: num(g.target) || 0, target_type: g.target_type === 'gross' ? 'gross' : 'net', holdings: H,
+      tax: {federal_long: num(t.federal_long), federal_short: num(t.federal_short), state: num(t.state), niit: num(t.niit)}};
+  }
+  const etDate = new Intl.DateTimeFormat('en-CA', {timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit'});
+  function closesOf(w) {
+    const m = {};
+    ['6M', '1M'].forEach(r => ((w.ranges || {})[r] || []).forEach(([ts, px]) => { m[etDate.format(new Date(ts))] = px; }));
+    if (w.price != null && w.as_of_date) m[w.as_of_date] = w.price;
+    return m;
+  }
+  const addDays = (iso, n) => { const d = new Date(iso + 'T12:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+  function goalCompute(g) {  // mirrors goal.py
+    const syms = Object.keys(g.holdings);
+    if (!syms.length || !(g.target > 0)) return {err: 'Add at least one holding and a target.'};
+    const miss = syms.filter(s => !WLM[s] || WLM[s].price == null);
+    if (miss.length) return {err: `No price data for ${miss.join(', ')} (tracker supports the watchlist tickers: ${WL.map(w => w.symbol).join(', ')}).`};
+    const tax = g.tax, C = {}, st = [];
+    let gross = 0;
+    syms.forEach(s => { C[s] = closesOf(WLM[s]); });
+    const latest = syms.map(s => WLM[s].as_of_date).sort().pop();
+    syms.forEach(s => {
+      const w = WLM[s], n = g.holdings[s].shares, v = w.price * n; gross += v;
+      const h = g.holdings[s], fed = h.term === 'long' ? tax.federal_long : h.term === 'short' ? tax.federal_short : null;
+      st.push({symbol: s, shares: n, price: w.price, pct: w.pct, date: w.as_of_date, value: v, dayv: (w.change || 0) * n, basis: h.cost_basis_total,
+        rate: fed == null || tax.state == null ? null : (fed + tax.state + (tax.niit || 0)) / 100});
+    });
+    const why = [];
+    if (st.some(x => x.basis == null)) why.push('cost basis');
+    if (st.some(x => x.rate == null)) why.push('holding term & tax rates');
+    const netOk = !why.length;
+    const netAt = m => st.reduce((a, x) => a + x.value * m - Math.max(0, x.value * m - x.basis) * x.rate, 0);
+    const estTax = netOk ? st.reduce((a, x) => a + Math.max(0, x.value - x.basis) * x.rate, 0) : null;
+    const net = netOk ? gross - estTax : null;
+    let mult, basis, pv;
+    if (g.target_type === 'net' && netOk) { let lo = 0, hi = 100; for (let i = 0; i < 80; i++) { const mid = (lo + hi) / 2; if (netAt(mid) < g.target) lo = mid; else hi = mid; } mult = hi; basis = 'net'; pv = net; }
+    else { mult = g.target / gross; basis = 'gross'; pv = gross; }
+    st.forEach(x => { x.weight = x.value / gross * 100; x.tp = x.price * mult; });
+    const dow = new Date(latest + 'T12:00:00Z').getUTCDay();
+    const monday = addDays(latest, -((dow + 6) % 7));
+    const common = Object.keys(C[syms[0]]).filter(d => syms.every(s => d in C[s])).sort();
+    const prevOf = (c, d) => Object.keys(c).filter(x => x < d).sort().pop();
+    const week = [0, 1, 2, 3, 4].map(i => {
+      const d = addDays(monday, i), row = {date: d, stocks: {}, total: null};
+      syms.forEach(s => { const c = C[s]; if (d in c && d <= latest) { const p = prevOf(c, d); row.stocks[s] = {close: c[d], pct: p ? (c[d] / c[p] - 1) * 100 : null, value: c[d] * g.holdings[s].shares}; } });
+      if (common.includes(d) && d <= latest) { row.total = syms.reduce((a, s) => a + C[s][d] * g.holdings[s].shares, 0); const p = common.filter(x => x < d).pop(); if (p) row.tpct = (row.total / syms.reduce((a, s) => a + C[s][p] * g.holdings[s].shares, 0) - 1) * 100; }
+      return row;
+    });
+    const month = common.filter(d => d > addDays(latest, -31)).map(d => ({date: d, total: syms.reduce((a, s) => a + C[s][d] * g.holdings[s].shares, 0)}));
+    const mv = [...st].sort((a, b) => (a.pct || 0) - (b.pct || 0)), top = [...st].sort((a, b) => b.weight - a.weight)[0];
+    return {g, st, gross, net, estTax, netOk, why, basis, pv, mult, pct: pv / g.target * 100, remaining: Math.max(0, g.target - pv), extra: Math.max(0, pv - g.target),
+      grossNeeded: gross * mult, rise: Math.max(0, (mult - 1) * 100), dayv: st.reduce((a, x) => a + x.dayv, 0), latest, week, month, best: mv[mv.length - 1], worst: mv[0], top,
+      asOf: (WL.find(w => w.as_of_date === latest) || {}).as_of};
+  }
+  const $$ = v => '$' + Math.round(v).toLocaleString('en-US');
+  const $k = v => '$' + (v >= 1e6 ? (v / 1e6).toFixed(2) + 'M' : v >= 1e4 ? (v / 1e3).toFixed(1).replace(/\.0$/, '') + 'K' : Math.round(v).toLocaleString('en-US'));
+  const pc = (v, d = 2) => v == null ? '' : `${v > 0 ? '+' : ''}${v.toFixed(d)}%`;
+  const cls = v => v > 0 ? 'up' : v < 0 ? 'down' : '';
+  const GCOL = ['#3b82f6', '#f59e0b', '#10b981', '#ec4899', '#a855f7', '#22d3ee'];
+  function goalChip() {
+    const g = gLoad(); if (!g) return '';
+    const r = goalCompute(g); if (r.err) return '';
+    return `<a class="gchip${r.pct >= 100 ? ' done' : ''}" href="#/finance" title="${esc(g.label)} (${r.basis}${r.basis === 'gross' ? ', before taxes' : ', after est. tax'})">${g.image ? CAR_SVG : ''}${$k(r.pv)} / ${$k(g.target)}</a>`;
+  }
+  function goalChart(pts, needed) {
+    if (pts.length < 2) return `<div class="gc-empty">Chart fills in as the week trades.</div>`;
+    const W = 560, Hh = 150, P = 6, ys = pts.map(p => p.total);
+    let lo = Math.min(...ys), hi = Math.max(...ys);
+    const showN = needed && needed < hi + (hi - lo + 1) * 1.5 && needed > lo - (hi - lo + 1) * 1.5;
+    if (showN) { lo = Math.min(lo, needed); hi = Math.max(hi, needed); }
+    const pad = (hi - lo) * 0.12 || hi * 0.01; lo -= pad; hi += pad;
+    const x = i => P + i * (W - 2 * P) / (pts.length - 1), y = v => Hh - P - (v - lo) / (hi - lo) * (Hh - 2 * P);
+    const up = ys[ys.length - 1] >= ys[0];
+    const line = pts.map((p, i) => `${x(i).toFixed(1)},${y(p.total).toFixed(1)}`).join(' ');
+    return `<svg class="gchart" viewBox="0 0 ${W} ${Hh + 18}" preserveAspectRatio="none" role="img" aria-label="Combined value">
+      ${showN ? `<line x1="0" x2="${W}" y1="${y(needed)}" y2="${y(needed)}" class="gneed"/><text x="${W - 4}" y="${y(needed) - 4}" text-anchor="end" class="glab">needed ${$k(needed)}</text>` : ''}
+      <polygon points="${x(0)},${Hh - P} ${line} ${x(pts.length - 1)},${Hh - P}" class="garea ${up ? 'up' : 'down'}"/><polyline points="${line}" class="gline ${up ? 'up' : 'down'}"/>
+      ${pts.map((p, i) => `<circle cx="${x(i)}" cy="${y(p.total)}" r="${pts.length > 8 ? 0 : 3.5}" class="gdot"><title>${p.date}: ${$$(p.total)}</title></circle>`).join('')}
+      <text x="${P}" y="${Hh + 14}" class="glab">${pts[0].date.slice(5)}</text><text x="${W - P}" y="${Hh + 14}" text-anchor="end" class="glab">${pts[pts.length - 1].date.slice(5)}</text></svg>`;
+  }
+  function goalForm(g) {
+    g = g || {label: '', car: '', image: '', target: '', target_type: 'net', holdings: {}, tax: {}};
+    const rows = Object.entries(g.holdings); while (rows.length < 4) rows.push(['', {}]);
+    const opts = sel => `<option value="">—</option>` + WL.map(w => `<option ${w.symbol === sel ? 'selected' : ''}>${esc(w.symbol)}</option>`).join('');
+    const v = x => x == null ? '' : esc(x), t = g.tax || {};
+    return `<form class="gform" id="gform" autocomplete="off">
+      <p class="gpriv">🔒 Stored only in this browser (localStorage). Nothing you enter is sent anywhere or published.</p>
+      <div class="gf-grid">
+        <label>Goal name<input name="label" value="${v(g.label)}" placeholder="e.g. New car fund"></label>
+        <label>Target amount ($)<input name="target" inputmode="decimal" value="${v(g.target)}" placeholder="e.g. 50000"></label>
+        <label>Target is<select name="target_type"><option value="net" ${g.target_type !== 'gross' ? 'selected' : ''}>Net (after tax)</option><option value="gross" ${g.target_type === 'gross' ? 'selected' : ''}>Gross (before tax)</option></select></label>
+        <label>Car hero image<select name="image"><option value="">None</option><option value="model-yl" ${g.image === 'model-yl' ? 'selected' : ''}>White Tesla Model Y L</option></select></label>
+        <label>Car name (for “% to your …”)<input name="car" value="${v(g.car)}" placeholder="e.g. Model YL"></label>
+      </div>
+      <table class="gf-h"><thead><tr><th>Ticker</th><th>Shares</th><th>Cost basis total ($, optional)</th><th>Held</th></tr></thead><tbody>
+      ${rows.map(([s, h]) => `<tr><td><select name="sym">${opts(s)}</select></td><td><input name="shares" inputmode="decimal" value="${v(h.shares)}"></td>
+        <td><input name="basis" inputmode="decimal" value="${v(h.cost_basis_total)}" placeholder="unknown"></td>
+        <td><select name="term"><option value="">?</option><option value="long" ${h.term === 'long' ? 'selected' : ''}>Long</option><option value="short" ${h.term === 'short' ? 'selected' : ''}>Short</option></select></td></tr>`).join('')}
+      </tbody></table>
+      <div class="gf-grid tax"><label>Federal long-term %<input name="federal_long" inputmode="decimal" value="${v(t.federal_long)}" placeholder="e.g. 15"></label>
+        <label>Federal short-term %<input name="federal_short" inputmode="decimal" value="${v(t.federal_short)}" placeholder="your bracket"></label>
+        <label>State %<input name="state" inputmode="decimal" value="${v(t.state)}" placeholder="e.g. 5"></label>
+        <label>NIIT % (optional)<input name="niit" inputmode="decimal" value="${v(t.niit)}" placeholder="3.8 if it applies"></label></div>
+      <div class="gf-act"><button type="submit" class="gbtn pri">Save goal</button><button type="button" class="gbtn" data-goal="cancel">Cancel</button>
+        <span class="sp"></span><button type="button" class="gbtn" data-goal="import">Import code</button></div>
+      <div class="gimp" hidden><textarea id="gimp" placeholder="Paste a setup code or setup link"></textarea><button type="button" class="gbtn" data-goal="doimport">Import</button></div>
+    </form>`;
+  }
+  function goalPanel(editing) {
+    const g = gLoad();
+    if (editing) return `<section class="goal edit" id="goal"><div class="g-h"><h2>${g ? 'Edit goal' : 'Set up my goal'}</h2></div>${goalForm(g)}</section>`;
+    if (!g) return `<section class="goal empty" id="goal"><div class="g-empty"><div><h2>Track a selling goal</h2><p>Pick shares from your watchlist and a target amount. It shows progress, this week's closes and the price moves you need. Everything stays private on this device.</p></div>
+      <button class="gbtn pri" data-goal="edit">Set up my goal</button></div></section>`;
+    const r = goalCompute(g);
+    if (r.err) return `<section class="goal" id="goal"><div class="g-h"><h2>${esc(g.label)}</h2></div><p class="gnote">${esc(r.err)}</p><div class="gf-act"><button class="gbtn" data-goal="edit">Edit goal</button></div></section>`;
+    const P = Math.max(0, Math.min(100, r.pct)), done = r.pct >= 100, car = g.car || 'goal';
+    const basisTxt = r.basis === 'net' ? 'after estimated tax' : 'gross, before taxes';
+    const segs = r.st.map((x, i) => `<i style="width:${x.value / Math.max(r.gross, g.target) * 100}%;background:${GCOL[i % 6]}" title="${x.symbol} ${$$(x.value)}"></i>`).join('');
+    const hero = g.image === 'model-yl' ? `<div class="g-car${done ? ' done' : ''}" style="--p:${P}%">
+        <div class="g-img"><img class="bw" src="${CAR_IMG}" alt=""><img class="col" src="${CAR_IMG}" alt="White Tesla Model Y L"><i class="seam"></i></div>
+        <div class="g-shade"></div>
+        <div class="g-cap"><div class="g-t">${CAR_SVG} ${esc(g.label)}</div><div class="g-big">${done ? `Goal reached! 🎉` : `${P.toFixed(1).replace(/\.0$/, '')}% to your ${esc(car)}`}</div>
+          <div class="g-sub">${$$(r.pv)} ${r.basis === 'net' ? 'net (est.)' : 'gross'} of ${$$(g.target)} ${g.target_type === 'net' ? 'net goal' : 'goal'} · ${done ? `${$$(r.extra)} extra for accessories` : `${$$(r.remaining)} to go`}</div></div>
+        ${done ? '<div class="confetti">' + Array.from({length: 18}, (_, i) => `<b style="--i:${i}"></b>`).join('') + '</div>' : ''}
+        <span class="credit">${CAR_CREDIT}</span></div>` :
+      `<div class="g-h"><h2>${esc(g.label)}</h2><div class="g-big sm">${done ? 'Goal reached! 🎉' : `${P.toFixed(1)}% to goal`}</div></div>`;
+    const road = `<div class="road" style="--p:${P}%"><div class="lane"></div><div class="fill"></div><span class="marker">${CAR_SVG}</span><span class="flag">🏁</span></div>`;
+    const weekRows = r.week.map(w => `<tr${w.total == null ? ' class="blank"' : ''}><th>${new Date(w.date + 'T12:00:00Z').toLocaleDateString('en-US', {weekday: 'short', timeZone: 'UTC'})}<small>${w.date.slice(5).replace('-', '/')}</small></th>
+      ${r.st.map(x => { const c = w.stocks[x.symbol]; return c ? `<td><b>${c.close.toFixed(2)}</b><small class="${cls(c.pct)}">${pc(c.pct)}</small><small class="pv">${$$(c.value)}</small></td>` : '<td class="na">—</td>'; }).join('')}
+      <td class="tot">${w.total != null ? `<b>${$$(w.total)}</b><small class="${cls(w.tpct)}">${pc(w.tpct)}</small>` : '—'}</td></tr>`).join('');
+    const weekPts = r.week.filter(w => w.total != null).map(w => ({date: w.date, total: w.total}));
+    return `<section class="goal${done ? ' reached' : ''}" id="goal">${hero}
+      ${road}
+      <div class="g-stats">
+        <div><span>${r.basis === 'net' ? 'Net (est.)' : 'Gross value'}</span><b>${$$(r.pv)}</b><small class="${cls(r.dayv)}">${r.dayv >= 0 ? '+' : '−'}${$$(Math.abs(r.dayv))} today (gross)</small></div>
+        <div><span>Target</span><b>${$$(g.target)}</b><small>${g.target_type === 'net' ? 'net, after tax' : 'gross'}</small></div>
+        <div><span>${done ? 'Extra' : 'Remaining'}</span><b>${$$(done ? r.extra : r.remaining)}</b><small>${done ? 'for accessories' : (100 - r.pct).toFixed(2) + '% to go'}</small></div>
+        <div><span>Rise needed</span><b>${done ? '0%' : pc(r.rise)}</b><small>all together (gross ${$k(r.grossNeeded)})</small></div>
+      </div>
+      <div class="gbar">${segs}<span class="gmark" style="left:${g.target / Math.max(r.gross, g.target) * 100}%"></span></div>
+      <ul class="glegend">${r.st.map((x, i) => `<li><i style="background:${GCOL[i % 6]}"></i><a href="#/stock/${esc(x.symbol)}">${esc(x.symbol)}</a> ${$$(x.value)} <em>${x.weight.toFixed(1)}%</em></li>`).join('')}</ul>
+      <p class="gnote">${r.basis === 'net' ? `Est. tax ${$$(r.estTax)} on gains → net ${$$(r.net)} from ${$$(r.gross)} gross. Estimate only, not tax advice.` :
+        `<b>Gross, before taxes.</b> ${g.target_type === 'net' ? `Add ${r.why.join(' and ')} to see after-tax progress.` : ''}`}</p>
+      <div class="g-cols">
+        <div class="g-card"><div class="g-ch"><h3>This week</h3><span>closes · ${esc(r.latest)}</span></div>
+          <div class="gtw"><table class="gweek"><thead><tr><th></th>${r.st.map(x => `<th>${esc(x.symbol)}</th>`).join('')}<th>Total</th></tr></thead><tbody>${weekRows}</tbody></table></div>
+          <div class="g-ch"><h3>Combined value</h3><div class="gseg"><button class="on" data-goal="rng" data-r="w">Week</button><button data-goal="rng" data-r="m">1M</button></div></div>
+          <div class="gcw" data-w='${esc(JSON.stringify(weekPts))}' data-m='${esc(JSON.stringify(r.month))}' data-n="${r.grossNeeded}">${goalChart(weekPts, r.grossNeeded)}</div></div>
+        <div class="g-card"><div class="g-ch"><h3>Target prices</h3><span>equal-% move</span></div>
+          <table class="gtp"><thead><tr><th></th><th>Now</th><th>Target</th><th>Move</th></tr></thead><tbody>
+          ${r.st.map(x => `<tr><th><a href="#/stock/${esc(x.symbol)}">${esc(x.symbol)}</a></th><td>${x.price.toFixed(2)}</td><td><b>${x.tp.toFixed(2)}</b></td><td class="${done ? 'up' : ''}">${pc((x.tp / x.price - 1) * 100)}</td></tr>`).join('')}</tbody></table>
+          <div class="gmov"><div><span>Best today</span><b class="${cls(r.best.pct)}">${esc(r.best.symbol)} ${pc(r.best.pct)}</b></div><div><span>Worst today</span><b class="${cls(r.worst.pct)}">${esc(r.worst.symbol)} ${pc(r.worst.pct)}</b></div></div>
+          <p class="gnote">${esc(r.top.symbol)} drives ~${r.top.weight.toFixed(0)}% of the total, so a 1% move in ${esc(r.top.symbol)} is worth ~${$$(r.top.value / 100)}. ${done ? '' : `Everything rising ${r.rise.toFixed(1)}% together gets you there.`}</p></div>
+      </div>
+      <div class="g-foot"><span>${esc(r.asOf || '')} · ${basisTxt}. Private: computed in this browser.</span>
+        <span class="sp"></span><button class="gbtn" data-goal="edit">Edit</button><button class="gbtn" data-goal="export">Setup link</button><button class="gbtn" data-goal="clear">Remove</button></div>
+      <div class="gexp" hidden></div></section>`;
+  }
+  function goalFromForm(f) {
+    const fd = n => [...f.querySelectorAll(`[name="${n}"]`)].map(e => e.value);
+    const H = {}, sy = fd('sym'), sh = fd('shares'), ba = fd('basis'), te = fd('term');
+    sy.forEach((s, i) => { if (s) H[s] = {shares: sh[i], cost_basis_total: ba[i], term: te[i]}; });
+    const one = n => (f.querySelector(`[name="${n}"]`) || {}).value;
+    return gClean({label: one('label'), car: one('car'), image: one('image'), target: one('target'), target_type: one('target_type'), holdings: H,
+      tax: {federal_long: one('federal_long'), federal_short: one('federal_short'), state: one('state'), niit: one('niit')}});
+  }
+  function goalRerender(editing) { const el = document.getElementById('goal'); if (el) el.outerHTML = goalPanel(editing); }
+  function goalImport(txt) {
+    const m = String(txt).match(/setup=([\w-]+)/); const code = m ? m[1] : String(txt).trim();
+    const g = gClean(b64d(code)); gSave(g); return g;
+  }
+  document.addEventListener('click', e => {
+    const b = e.target.closest('[data-goal]'); if (!b) return;
+    const a = b.dataset.goal;
+    if (a === 'edit') goalRerender(true);
+    else if (a === 'cancel') goalRerender(false);
+    else if (a === 'clear') { if (confirm('Remove your goal settings from this device?')) { localStorage.removeItem(GKEY); goalRerender(false); } }
+    else if (a === 'import') { const x = document.querySelector('.gimp'); x.hidden = !x.hidden; }
+    else if (a === 'doimport') { try { goalImport(document.getElementById('gimp').value); goalRerender(false); } catch (err) { alert('That setup code could not be read.'); } }
+    else if (a === 'export') {
+      const x = document.querySelector('.gexp'), link = location.href.split('#')[0] + '#/finance?setup=' + b64e(gLoad());
+      x.hidden = !x.hidden;
+      x.innerHTML = `<p>Private setup link: opening it on another device saves these settings there. The part after # never reaches a server, but anyone you send it to can see the numbers.</p><input readonly value="${esc(link)}" onclick="this.select()"><button class="gbtn" data-goal="copy">Copy</button>`;
+    } else if (a === 'copy') { const i = document.querySelector('.gexp input'); i.select(); (navigator.clipboard ? navigator.clipboard.writeText(i.value) : Promise.reject()).then(() => b.textContent = 'Copied', () => document.execCommand('copy')); }
+    else if (a === 'rng') {
+      const w = b.closest('.g-card').querySelector('.gcw');
+      b.parentNode.querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b));
+      w.innerHTML = goalChart(JSON.parse(w.dataset[b.dataset.r]), +w.dataset.n);
+    }
+  });
+  document.addEventListener('submit', e => {
+    if (e.target.id !== 'gform') return;
+    e.preventDefault();
+    const g = goalFromForm(e.target);
+    if (!Object.keys(g.holdings).length || !(g.target > 0)) { alert('Add at least one ticker with shares, and a target amount.'); return; }
+    gSave(g); goalRerender(false);
+  });
+  (function takeSetupLink() {  // #/finance?setup=<base64url> → save locally, then scrub it from the address bar
+    const m = location.hash.match(/[?&]setup=([\w-]+)/);
+    if (!m) return;
+    try { goalImport(m[1]); } catch (e) { console.warn('bad setup code'); }
+    history.replaceState(null, '', location.pathname + location.search + '#/finance');
+  })();
+
   function route() {
     const hsh = location.hash;
     const m = hsh.match(/^#\/stock\/([A-Z.]+)/i);
