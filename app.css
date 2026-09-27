@@ -442,3 +442,54 @@ svg.spark{width:84px;height:34px;display:block}
   .wbody h3{font-size:15.5px}
   .wbody p{font-size:13px}
 }
+
+/* ---------- Rangers Game Center ---------- */
+.nav a.nav-lock{color:#8b8b96;font-size:11.5px;margin-left:6px}.nav a.nav-lock:hover{color:#fff}
+.nhl{background:linear-gradient(135deg,#0b1a3d 0%,#141418 55%);border:1px solid #1f3a7a;border-radius:12px;overflow:hidden;margin:0 0 22px;position:relative}
+.nhl::before{content:"";position:absolute;left:0;top:0;right:0;height:4px;background:linear-gradient(90deg,#0038A8 0 60%,#CE1126 60% 80%,#fff 80%)}
+.nhl-h{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:16px 18px 6px}
+.nhl-h h2{margin:0;font:900 19px/1 var(--head);font-stretch:92%;text-transform:uppercase;letter-spacing:.01em;display:flex;align-items:center;gap:9px}
+.nhl-dot{width:10px;height:10px;border-radius:50%;background:#CE1126;box-shadow:0 0 0 3px #ce112633}
+.nhl-more{font-size:12.5px;color:#9fb4e8;white-space:nowrap}.nhl-more:hover{color:#fff}
+.nhl-body{display:grid;grid-template-columns:1.25fr 1fr;gap:14px;padding:8px 18px 12px}
+.nhl-k{font:800 11px/1 var(--head);letter-spacing:.12em;text-transform:uppercase;color:#8ea2d4;display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.nhl-k b{color:#fbbf24;font-weight:800}
+.nhl-badge{font:900 11px/1 var(--head);letter-spacing:.1em;padding:5px 8px;border-radius:4px;color:#fff}
+.nhl-badge.gd{background:#CE1126;box-shadow:0 0 0 3px #ce112640;animation:nhlp 1.6s ease-in-out infinite}
+.nhl-badge.live{background:#e11d48}
+@keyframes nhlp{50%{box-shadow:0 0 0 6px #ce112600}}
+@media (prefers-reduced-motion:reduce){.nhl-badge.gd{animation:none}}
+.nhl-next{display:block;background:#0a0f1fcc;border:1px solid #243b73;border-radius:10px;padding:14px;transition:border-color .2s}
+.nhl-next:hover{border-color:#4c6fd1}.nhl-next.hot{border-color:#CE1126;box-shadow:inset 0 0 0 1px #ce112655}
+.nhl-mu{display:flex;align-items:center;gap:10px}
+.nhl-logo{width:54px;height:54px;object-fit:contain;flex:none}
+.nhl-logo.sm{width:30px;height:30px}
+.nhl-logo.ph{display:grid;place-items:center;font:800 12px var(--head);background:#1e1e23;border-radius:50%}
+.nhl-vs{font:900 16px/1 var(--head);color:#8ea2d4;text-transform:uppercase}
+.nhl-opp{display:flex;flex-direction:column;gap:4px;min-width:0;margin-left:4px}
+.nhl-opp b{font:800 18px/1.15 var(--head);font-stretch:95%}
+.nhl-opp span{font-size:13px;color:#b8c3e0}
+.nhl-tv{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:12px;font-size:11px;color:#8ea2d4;text-transform:uppercase;letter-spacing:.08em;font-weight:700}
+.tv{font:800 11.5px/1 var(--head);letter-spacing:.04em;padding:5px 8px;border-radius:4px;background:#fff;color:#0b1a3d;text-transform:none}
+.nhl-note{margin:10px 0 0;font-size:12.5px;color:#fca5a5}
+.nhl-side{display:flex;flex-direction:column;gap:12px}
+.nhl-res{display:flex;align-items:center;gap:10px;background:#0a0f1f99;border:1px solid #243b73;border-radius:10px;padding:10px 12px}
+.nhl-res:hover{border-color:#4c6fd1}
+.nhl-wl{font:900 14px/1 var(--head);min-width:38px;text-align:center;padding:7px 6px;border-radius:5px;color:#fff}
+.nhl-wl.w{background:#16a34a}.nhl-wl.l{background:#b91c1c}.nhl-wl.otl{background:#b45309}
+.nhl-sc{font:900 22px/1 var(--head);letter-spacing:.02em}.nhl-sc small{font-size:11px;color:#8ea2d4}
+.nhl-ro{display:flex;flex-direction:column;gap:2px;min-width:0;font-size:12.5px;color:#b8c3e0}.nhl-ro b{color:#fff;font-size:13.5px}
+.nhl-up ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.nhl-row{display:grid;grid-template-columns:30px auto 1fr auto;align-items:center;gap:9px;padding:6px 4px;border-radius:6px;font-size:13px}
+.nhl-row:hover{background:#ffffff0a}
+.nhl-row b{font-weight:800}.nhl-row .d{color:#b8c3e0;font-size:12.5px}.nhl-row .t{color:#8ea2d4;font-size:11.5px;text-align:right}
+.nhl-row em{font-style:normal;color:#9fb4e8;font-size:12px;grid-column:3/5}
+.nhl-row .pre{font-style:normal;font:800 9.5px/1 var(--head);letter-spacing:.08em;text-transform:uppercase;background:#fbbf2433;color:#fbbf24;padding:2px 4px;border-radius:3px;vertical-align:1px}
+.nhl-foot{font-size:11.5px;color:#6e7ba0;padding:0 18px 14px}
+.shead + .nhl{margin-top:14px}
+@media (max-width:760px){
+  .nhl-body{grid-template-columns:1fr;padding:6px 14px 10px}
+  .nhl-h{padding:14px 14px 4px}.nhl-foot{padding:0 14px 12px}
+  .nhl-logo{width:44px;height:44px}.nhl-opp b{font-size:16px}
+  .nhl-row{grid-template-columns:28px auto 1fr;}.nhl-row .t{display:none}
+}

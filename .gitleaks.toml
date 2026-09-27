@@ -1,0 +1,37 @@
+# gitleaks rules for the PUBLIC Frank's Hub repo. Shape-based only: no private values live in this file.
+# The exact private values (goal numbers, tokens, device ids) are checked by a local pre-commit hook that reads
+# them from files outside this repo.
+title = "franks-hub public guard"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "hub-setup-link"
+description = "Goal/Lights setup link or code"
+regex = '''(?:setup=eyJ|[#?&]setup=[A-Za-z0-9_%-]{16,})'''
+
+[[rules]]
+id = "hub-worker-url"
+description = "Cloudflare Worker URL"
+regex = '''[A-Za-z0-9-]+\.workers\.dev'''
+
+[[rules]]
+id = "hub-share-counts"
+description = "Share counts next to tickers"
+regex = '''(?i)(?:"shares"\s*:\s*\d+|\b\d{1,7}\s+shares\s+(?:of\s+)?[A-Z]{1,5}\b|\b[A-Z]{1,5}\W{0,6}\d{1,7}\s*shares\b)'''
+
+[[rules]]
+id = "hub-goal-settings"
+description = "Goal tracker settings (cost basis, tax rates, target type)"
+regex = '''"(?:cost_basis_total|federal_long|federal_short|niit|target_type)"\s*:'''
+
+[[rules]]
+id = "hub-x-capture"
+description = "X follow list / capture data"
+regex = '''(?:"following"\s*:|"x_accounts"\s*:|"captured_at"\s*:|"time_label"\s*:|x_capture)'''
+
+[[rules]]
+id = "hub-lights-config"
+description = "Lights Worker settings"
+regex = '''(?:goveeToken|goveeWorkerUrl|lights-config\.json)'''
