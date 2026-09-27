@@ -276,3 +276,16 @@ svg.spark{width:84px;height:34px;display:block}
 .xp p{margin:6px 0 5px;font-size:13.5px;line-height:1.45;color:#dcdce2}
 .xp-link{font:700 11.5px/1 var(--sans);color:var(--blue)}
 .xp-link:hover{text-decoration:underline}
+
+/* ---------- iPhone / PWA safe areas ---------- */
+.masthead{padding-top:env(safe-area-inset-top)}
+.mh-inner,.tb-inner,.wrap{padding-left:max(28px,env(safe-area-inset-left));padding-right:max(28px,env(safe-area-inset-right))}
+.side{top:calc(120px + env(safe-area-inset-top))}
+.foot-in{padding-bottom:calc(26px + env(safe-area-inset-bottom))}
+@media (max-width:800px){
+  .wrap,.mh-inner,.tb-inner{padding-left:max(14px,env(safe-area-inset-left));padding-right:max(14px,env(safe-area-inset-right))}
+}
+@media (display-mode:standalone){
+  html{-webkit-tap-highlight-color:transparent}
+  body{overscroll-behavior-y:none}
+}

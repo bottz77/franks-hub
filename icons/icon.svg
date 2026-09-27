@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="g" cx="0.85" cy="0.05" r="0.9"><stop offset="0" stop-color="#e5202e" stop-opacity=".55"/><stop offset=".6" stop-color="#e5202e" stop-opacity="0"/></radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#17171b"/><stop offset="1" stop-color="#0a0a0c"/></linearGradient>
+    <pattern id="st" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="9" height="22" fill="#ffffff" fill-opacity=".035"/></pattern>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <rect width="512" height="512" fill="url(#g)"/>
+  <rect width="512" height="512" fill="url(#st)"/>
+  <g transform="translate(0.0 0.0) scale(1.0)">
+    <rect x="72" y="92" width="368" height="18" rx="4" fill="#e5202e"/>
+    <rect x="344" y="92" width="96" height="18" rx="4" fill="#ffcc00"/>
+    <text x="256" y="372" text-anchor="middle" font-family="Archivo" font-weight="900" font-stretch="88%" font-size="292" letter-spacing="-10" fill="#ffffff">F<tspan fill="#ffcc00">H</tspan></text>
+    <rect x="72" y="408" width="368" height="12" rx="3" fill="#ffffff" fill-opacity=".14"/>
+    <rect x="72" y="408" width="150" height="12" rx="3" fill="#e5202e"/>
+  </g>
+</svg>

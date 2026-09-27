@@ -276,4 +276,7 @@
   const ok = D.feeds.filter(f => f.ok).length;
   $('#feedstat').textContent = `${ok}/${D.feeds.length} feeds OK · ${D.images ? D.images.with_image + '/' + D.images.total + ' stories with images' : ''}`;
   renderTicker(); route();
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+    window.addEventListener('load', () => navigator.serviceWorker.register('sw.js', {scope: './'}).catch(() => {}));
+  }
 })();
