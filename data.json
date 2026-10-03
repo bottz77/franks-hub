@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-03T10:45:54.616672Z",
- "generated_at_ny": "Sat Oct 3, 2026 · 6:45 AM EDT",
+ "generated_at": "2026-10-03T11:47:16.394764Z",
+ "generated_at_ny": "Sat Oct 3, 2026 · 7:47 AM EDT",
  "sections": [
   {
    "id": "rangers",
@@ -528,6 +528,15 @@
    "accent2": "#9aa3ad",
    "items": [
     {
+     "title": "The Carmaker Vying With Tesla to Conquer the Robot Future",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaXN0bFdQVkxUVUk5WFZSWElVbmtYUkdnSnZvdTY2NHJnRjZyOW9vdG12dlM3QjgyZG9IckJTcC1wMHF5anV5d3BsUm5McFNSaU9oaXo4elVZYmFCSnRkTEotekZkWUM2RUUtc29iNE1DUFQ3dEhzLTE5bllhczAwRjdkSlFJS1B2aU9RZ3hycTRxRjRXblJfMFZySnFQOHZyanVn?oc=5",
+     "source": "WSJ",
+     "published": "2026-10-03T09:30:00Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.whttlYUYYJuLNAh2WivmUg&pid=News&w=800&h=450&c=14",
+     "summary": "",
+     "video": false
+    },
+    {
      "title": "Tesla teases “Halloween Mode” update with Optimus rising from a graveyard",
      "link": "https://www.teslarati.com/tesla-teases-halloween-mode-update-with-optimus-rising-from-a-graveyard/",
      "source": "Teslarati",
@@ -552,15 +561,6 @@
      "published": "2026-10-03T03:37:29Z",
      "thumb": "https://www.bing.com/th?id=ONUT.txne2-h6uvDjwuwIafyi6A&pid=News&w=800&h=450&c=14",
      "summary": "",
-     "video": false
-    },
-    {
-     "title": "Why Jim Cramer Says SpaceX Stake Matters More Than Tesla (TSLA) Vehicle Deliveries",
-     "link": "https://blockonomi.com/why-jim-cramer-says-spacex-stake-matters-more-than-tesla-tsla-vehicle-deliveries/",
-     "source": "Blockonomi",
-     "published": "2026-10-03T01:46:00Z",
-     "thumb": "https://blockonomi.com/wp-content/uploads/2026/10/Tesla-1-scaled-1.webp",
-     "summary": "Tesla stock rose 5% after beating Q3 delivery estimates. Jim Cramer says SpaceX exposure, not vehicle sales, is the true reason to own TSLA shares.",
      "video": false
     },
     {
@@ -600,6 +600,15 @@
      "video": false
     },
     {
+     "title": "Tesla FSD to Get Navigation Improvements and Pothole Detection",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMkN1UW5mX2g2X0NDTC1iSkdQOXlaOERCeFQ2MzdSTEk3aHRUV0pNVHd3Yms0T1ZzVkh0c2tYV2hHcnJ3RlV5MmFGRGJRZzFsSkpNVmszVjFOS2VMZTU4ejVINTZpMC04YVE2bEJOWktkZHQ3MVhPY2x4WGJMZFFIV0VfMmtMYmtvT0g1R3Q4cC1lNmpxeTR5anIyaEdwSFZ5VndZ?oc=5",
+     "source": "notateslaapp.com",
+     "published": "2026-10-02T19:11:00Z",
+     "thumb": null,
+     "summary": "",
+     "video": false
+    },
+    {
      "title": "Tesla Q3 Deliveries Top Expectations; The Stock Is Rising",
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUzdHU2lQU2hYbmhzN0ZRRVdwTHltRGIzUHl3dVVLLTU5dGczbFE1Rmt0bWpNZzg2NXVmZ0p2MFMzVjlFRkI5a3F1clRRNW1haEF1cHl2MnRlbmVWbzJzZWN3QzVya1dDWUF0Wk5hd2JhbVI0N2xHOXZpdW84enRvNTgzU2thSmR2SmhpVnk0bw?oc=5",
      "source": "Investor's Business Daily",
@@ -611,7 +620,7 @@
     {
      "title": "Onboard Footage Captured a 175MPH Tire Blowout in a Tesla Model S on German Autobahn",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVFJJTXpDU2xhQnJqZU80T0l4dzFoNDBmLXVtWThRV0lmVVJFT19sTzhwQVdnODFNV0JmUkF2VWJHd0JnYURWb3VUdV85WlNNSDZ0d2VaS0VfV1I2WS1ralloV1pEQzJqVC13cjdVZmFHQ0UtUjhjbVRtQ0JBN201QXZXcFJRazBmbXFERGJhZjhFMDVlZTZSSDdrYlJhdXY3U21tWGFB?oc=5",
-     "source": "autos.yahoo.com",
+     "source": "Yahoo Autos",
      "published": "2026-10-02T17:35:34Z",
      "thumb": "https://s.yimg.com/lo/mysterio/api/6eee2f0a50cc7ea7de19d05ec6281f83ed3d67862628f4824446a75b03f7aacf/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fguessing_headlights_178%2F0a72b861d21e219bedbb8643890e9d22.jpg",
      "summary": "",
@@ -663,24 +672,6 @@
      "video": false
     },
     {
-     "title": "Tesla Will Now Let You Drive Away From A Supercharger In An Emergency",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12YVNZMXhkME9xQkt2ejBVN2NXeHc5cXpLemE4bk9uQ1NJbFhLemw4NEZvLUFNTlpMRnpaV0xzcGFjcUY5S01IX0RlcFhCWXdrN0EyQ3FSTDZIZkpDQjVEQlZBVFZEVjdTSDZzeU1UeTJMZ0lxMTZqN1FCTEtMRFk?oc=5",
-     "source": "InsideEVs",
-     "published": "2026-10-02T15:54:00Z",
-     "thumb": "https://s.yimg.com/lo/mysterio/api/d7ccdd378b19576b1e79e672db8271e723cb28694ca5b9b1496c3a9431e8954b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsideevs_articles_320%2Fe95984a2fdc3ed6a43b6dcd4329e79f0.jpg",
-     "summary": "",
-     "video": false
-    },
-    {
-     "title": "Stock Market Today, Oct. 2: Tesla Rises on Q3 Delivery Beat",
-     "link": "https://www.fool.com/coverage/stock-market-today/2026/10/02/stock-market-today-oct-2-tesla-rises-on-q3-delivery-beat/",
-     "source": "The Motley Fool",
-     "published": "2026-10-02T15:11:00Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.HdDKcXfqwFzY3yPlvA014Q&pid=News&w=800&h=450&c=14",
-     "summary": "Tesla's Q3 deliveries of 486,532 vehicles topped consensus estimates by roughly 25,000 units, signaling sustained demand momentum, today, Oct. 2, 2026.",
-     "video": false
-    },
-    {
      "title": "Tesla might charge you up $25,000 if you use its latest feature",
      "link": "https://electrek.co/2026/10/02/tesla-emergency-drive-away-25000-supercharger-damage-who-pays/",
      "source": "Electrek",
@@ -713,6 +704,15 @@
      "source": "supercarblondie.com",
      "published": "2026-10-02T11:45:00Z",
      "thumb": "https://www.bing.com/th?id=ONUT.TibOsePifo62Os8RcVvvMA&pid=News&w=800&h=450&c=14",
+     "summary": "",
+     "video": false
+    },
+    {
+     "title": "Musk’s Terafab Advances as SpaceX and Tesla Commit $16.8 Billion to Texas Chip Plant",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVG1JWmZGTzR5VXByOGVhX29fTS11b0ZEZnhhOVRSUmxBSnJPdllpbzlRTEhmXy1EbjVpaFVwbDk0ZGFweFJEaHVwbm1FdnhIbnhheG11NDNTZ01CWFg3VHpVVnhCZk1zX2ZsZ0luUHhGZDBxY3ZyaVNxVHljVXVDaUJkRXVfY2dhVU44cERyX0p3OUNySnRwQkJ4QlJ4NlpOaGZVV0JqclNqczVHekpoemkzalpPbmRhRTRNVmgyN3I?oc=5",
+     "source": "Spherical Insights",
+     "published": "2026-10-02T06:50:43Z",
+     "thumb": null,
      "summary": "",
      "video": false
     },
@@ -878,15 +878,6 @@
      "video": false
     },
     {
-     "title": "Why Jim Cramer Says SpaceX Stake Matters More Than Tesla (TSLA) Vehicle Deliveries",
-     "link": "https://blockonomi.com/why-jim-cramer-says-spacex-stake-matters-more-than-tesla-tsla-vehicle-deliveries/",
-     "source": "Blockonomi",
-     "published": "2026-10-03T01:46:00Z",
-     "thumb": "https://blockonomi.com/wp-content/uploads/2026/10/Tesla-1-scaled-1.webp",
-     "summary": "Tesla stock rose 5% after beating Q3 delivery estimates. Jim Cramer says SpaceX exposure, not vehicle sales, is the true reason to own TSLA shares.",
-     "video": false
-    },
-    {
      "title": "Musk's 'Terafab' Groundbreaking Raises Hopes for Korean Chip Equipment Orders — HPSP, Hanmi Semiconductor Move to Lock Up Supply Chain",
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9HdXpaOW9Zb0YwZnJ1YUVBUVc3dG40TXNycFdIcWFnVDdHcjB6TERPM2VrLW9nTUxFOEs0Q3c3U3J3ZndwRGdJVkpFX2FVRmlXUGJlcVhsT2dRSXBaakQySUtwWThmT0k1c203cWlMVVA5UVduTlE?oc=5",
      "source": "finance.biggo.com",
@@ -936,7 +927,7 @@
      "link": "https://www.teslarati.com/spacexs-spy-satellite-launch-quietly-set-a-new-record/",
      "source": "Teslarati",
      "published": "2026-10-02T17:36:50Z",
-     "thumb": "https://www.teslarati.com/wp-content/uploads/2026/10/spacex-falcon-heavy-nrol-mission-1000x600.jpg",
+     "thumb": "https://www.bing.com/th?id=ONUT.DkYDX1noO1Hb5cju3S0I5g&pid=News&w=800&h=450&c=14",
      "summary": "SpaceX closed out one of its busiest days ever with a midnight Falcon Heavy launch from Florida, and the rocket’s two side boosters came home to finish off a landing record the company had never set before. Falcon…",
      "video": false
     },
@@ -961,7 +952,7 @@
     {
      "title": "Musk’s Remarks Don’t Mean SpaceX Cut Its Starship Launch Guidance",
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9abFJXZVc2c0ZEdnVwTHdrZzVRdC1DOU8xM1R1eHJtVF9kVHVDMjF6VUNMYTBxQUdTbWUtNkFtUlowX3VKYXUwT09RSk1tZXRKcVhWa1p1WjJ3M1c5N2tIRjczVENiVkFMTWEzRm9SdVJZUmhCLXpTQVpn?oc=5",
-     "source": "Barron's",
+     "source": "barrons.com",
      "published": "2026-10-02T14:51:00Z",
      "thumb": null,
      "summary": "",
@@ -983,6 +974,24 @@
      "published": "2026-10-02T11:45:00Z",
      "thumb": "https://www.bing.com/th?id=ONUT.TibOsePifo62Os8RcVvvMA&pid=News&w=800&h=450&c=14",
      "summary": "",
+     "video": false
+    },
+    {
+     "title": "Elon Musk gains $61 billion in a day as SpaceX and Tesla shares rise, pushing net worth back towards $1 trillion",
+     "link": "https://www.msn.com/en-us/money/investment/elon-musk-gains-61-billion-in-a-day-as-spacex-and-tesla-shares-rise-pushing-net-worth-back-towards-1-trillion/ar-AA2dr61x",
+     "source": "Forbes",
+     "published": "2026-10-02T11:28:10Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.F58qcJtq9pTcAkL9tNjGPg&pid=News&w=800&h=450&c=14",
+     "summary": "Elon Musk’s net worth rose to $979.7 billion on Friday as SpaceX and Tesla shares rose, moving his fortune back towards the $1 trillion mark.",
+     "video": false
+    },
+    {
+     "title": "Better AI Stock: SpaceX or Palantir?",
+     "link": "https://www.fool.com/investing/2026/10/02/better-ai-stock-spacex-or-palantir/",
+     "source": "The Motley Fool",
+     "published": "2026-10-02T11:00:00Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.WW_xx3q2g6mDFSrxBv9org&pid=News&w=800&h=450&c=14",
+     "summary": "Given how big a market opportunity AI has, there are several stocks that look like exciting investments investors should be buying right now. Palantir and SpaceX are tackling similar but different ...",
      "video": false
     },
     {
@@ -1009,7 +1018,16 @@
      "source": "The Motley Fool",
      "published": "2026-10-02T09:25:00Z",
      "thumb": "https://www.bing.com/th?id=ONUT.jva8qfi5j1VL9MjaQ8jmnQ&pid=News&w=800&h=450&c=14",
-     "summary": "A ton of anticipated growth is already priced into SpaceX stock. SpaceX went public with a lot of hype and fanfare. This was reflected in its post-IPO stock price movements, which",
+     "summary": "A ton of anticipated growth is already priced into SpaceX stock. SpaceX went public with a lot of hype and fanfare. This was reflected in its post-IPO stock price movements, which ...",
+     "video": false
+    },
+    {
+     "title": "SpaceX Crew-13 reaches ISS in record time after Florida launch",
+     "link": "https://www.usatoday.com/story/tech/space/2026/10/02/nasa-spacex-crew-13-iss-photos/92038269007/",
+     "source": "USA TODAY",
+     "published": "2026-10-02T08:33:00Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.VaFN6nC6KbERkRD-N44P3g&pid=News&w=800&h=450&c=14",
+     "summary": "Following an Oct. 1 launch from Florida, the astronauts on a mission known as Crew-13 have arrived at the International Space Station.",
      "video": false
     },
     {
@@ -1040,15 +1058,6 @@
      "video": false
     },
     {
-     "title": "‘An amazing ride’: SpaceX flight led by first Black female commander sets US speed record",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeV9aSUNESWdtb202c3YyZDQ1ZWdOa0lUU2p4aEpCV2lEdWNWbzRVdXJSamU1R3hBWlc0Uk9ZOXp5MldJeWo4RUhSMF9EZG4wWGF4RWJHdmpFalpvWTUwcmEySlVaeHMtWHhHaDNxc2ZiMU1kc283aUY0N3dOYkNRa3NzSjctNmFyUkpoNkc2NDlWY01NUVQ2RjFDZlk?oc=5",
-     "source": "The Guardian",
-     "published": "2026-10-02T00:50:00Z",
-     "thumb": "https://i.guim.co.uk/img/media/30ee35475e62cb104f1583c4f61e0383013ceeaa/734_0_5308_4248/master/5308.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=39b45539286099e7eb98601179ab4d07",
-     "summary": "",
-     "video": false
-    },
-    {
      "title": "SpaceX's Terafab Will Be Bigger Than Any Building on Earth. Here's When Investors Will Profit.",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNnhsbmJGSGwzTF9LT1BKazNkcXBhS0VYYTlzTEJudFAxVEpFaHJtOEtqdC1XMThXeDk2WWFBZE9GQzUwTzRaNG5rUEpHaEdEQ0hWU05qZ2l1UUNHYVdzbWxKMExIVUdZal83UW1TSnNZZkRVdzc3V0RGcXVfVG9leGgyd1VUVDNqMDZRU0g2YzZIYnlwZWN3OVZrbEd5UXNpMEdz?oc=5",
      "source": "Yahoo Finance",
@@ -1063,15 +1072,6 @@
      "source": "NASA",
      "published": "2026-10-01T23:14:06Z",
      "thumb": null,
-     "summary": "",
-     "video": false
-    },
-    {
-     "title": "SpaceX Crew-13 astronauts dock at ISS less than 8 hours after launch in fastest American flight ever",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSTdOUG9IVF9FeDFVU0poT1plSi02TjBmbVNhZVZ4MnZKVXFzQjlCWWlGWVFnamVqQVdFNUVTUGh0NUZIMzd1c0lJVWdObGhETFFKUC1IclRKVHVCVnZRdDE1TThXenpYaW4yajB4ckwtVjZvVlo1b2lSZGJ0a0pBb1lYamNLOVpiWDBTVjR2ZE1tWGh5VnhpWlNJemluVVRTQU1iY2tTdlRQbW5NSlpuNWJjZlFFQ1lRMjNJZXFuVF9yUHN3c0xzcQ?oc=5",
-     "source": "Space",
-     "published": "2026-10-01T23:09:36Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.-hKfg82TXq0dCUgSsdQOCw&pid=News&w=800&h=450&c=14",
      "summary": "",
      "video": false
     }
@@ -1232,6 +1232,15 @@
      "video": false
     },
     {
+     "title": "Nacon’s Revolution 5 Unlimited PS5 Controller Sets A New High Bar",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQakcxR3FNMGd3N2lMVkVYc1MzcWhCMlg1Z09OdlFZUklwbWNEOWZJeGZZNzBzNHFGRmtjRGUxeU1BcjExc0F6OXpYZEFZbHJMOENaOFBYekhFNEpmRDQ0aXlnazh4WktQNTI0cGx0Y1kwcXh5T1otc2paNXVxQ3pNc2dhVG5jeEc2QmdQeG42ZC1LUVlDUjZ1WHZjdXRfTUxxRER4VmV2YnZiQ0pTWXJwM1JGMmVlOXVFSFZ2ZA?oc=5",
+     "source": "Forbes",
+     "published": "2026-10-02T16:10:17Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.-P7KBcWWL339tN3_2V3eBQ&pid=News&w=800&h=450&c=14",
+     "summary": "",
+     "video": false
+    },
+    {
      "title": "Modded PS5 now runs original Xbox games, Xbox 360 and PC support are also in development",
      "link": "https://videocardz.com/newz/modded-ps5-now-runs-original-xbox-games-xbox-360-and-pc-support-are-also-in-development",
      "source": "VideoCardz.com",
@@ -1338,31 +1347,22 @@
      "thumb": "https://www.bing.com/th?id=ONUT.i_LbLeMIXCT6gOJ-UAeaGg&pid=News&w=800&h=450&c=14",
      "summary": "",
      "video": false
-    },
-    {
-     "title": "Signal Veil Is a PS5 Horror Game with a Style Unlike Any Other",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNjhzMzlQVDRwczB4LW9qRVRtZHMwSTFvMGdRTDZoU0ZESmctN0cwWlotbzVfTUN5bkp4czZORmY0eDJ1MWczcmVrZWQ3NzJtNGVPSU9XUEV0WFdfMWY4ejlPWkFnWDFNQlZIVk0ycHZRMDFzelZzRVVucjQtRWxwUnBENENRcmpsRVRyN3doazZhNDFzcE5qRHk2djlNcmp2WlpaTQ?oc=5",
-     "source": "Push Square",
-     "published": "2026-10-02T13:15:00Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.we7jbL2PR-Xe8Dcw58ulDA&pid=News&w=800&h=450&c=14",
-     "summary": "",
-     "video": false
     }
    ],
    "videos": [
+    {
+     "title": "GT World Series 2026 | Round 3 - Singapore | Nations Cup [ENGLISH]",
+     "link": "https://www.youtube.com/watch?v=4fjmJQOLvek",
+     "source": "PlayStation",
+     "thumb": "https://i1.ytimg.com/vi/4fjmJQOLvek/hqdefault.jpg",
+     "published": "2026-10-03T11:14:36Z"
+    },
     {
      "title": "GT World Series 2026 | Round 3 - Singapore | Nations Cup [ENGLISH]",
      "link": "https://www.youtube.com/watch?v=frVn9dzaWyM",
      "source": "PlayStation",
      "thumb": "https://i3.ytimg.com/vi/frVn9dzaWyM/hqdefault.jpg",
      "published": "2026-10-03T08:59:44Z"
-    },
-    {
-     "title": "World of Tanks Modern Armor - Steel Asylum Trailer | PS5 & PS4 Games",
-     "link": "https://www.youtube.com/watch?v=YxO0PvWKWjo",
-     "source": "PlayStation",
-     "thumb": "https://i2.ytimg.com/vi/YxO0PvWKWjo/hqdefault.jpg",
-     "published": "2026-10-02T19:00:07Z"
     },
     {
      "title": "Ace Combat 8 PS5 Unboxing",
@@ -1551,7 +1551,7 @@
     {
      "title": "Amazon Slashes Over $30 off the White Xbox Elite Series 2 Core Controller Ahead of Prime Big Deal Days",
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWXlnaTN3YjVqOHVLTm9xQllZR01LMExmanhweTNxTE9YOU95TzJESWNCWnJZOWdyZlFseGVfU29GS1Z4aEZKT0JlQTRLMmFTcmJfUTg1N09uVF9md1NCWDlmWDFzd05CanNtcERHdlh5TjZvNlo2ZW1zTE1HV2pwMlpvbzlwWkhGdkhUWS1raFV1Q29fYkI4QmR2YVpVMzJFNWlYZThaNTI3eHNvanl1dUFxZjhjR2RYelBheDR1UHc2Ry1YYVdRQkZ3?oc=5",
-     "source": "ign.com",
+     "source": "IGN",
      "published": "2026-10-02T14:37:18Z",
      "thumb": null,
      "summary": "",
@@ -1569,7 +1569,7 @@
     {
      "title": "Next Week on XBOX: New Games for October 5 to 9",
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd0pJMkRkQnc4VDR6cm4wWWVhTTVUaWRVSGZTVWxXM3p0Zk9xQTFSdHhfX3lpeElJa0JuRmMtZUNwd2VGcHk3R1pTczZaZHY0cFMxX3U3Wk5ROUs5NENvQ01HeWNKdzlGYUxROF9BVVFlNWFhWV9PelJqX3VjdDRrb2Q4emhHS2t5bTNNdmVIY9IBlAFBVV95cUxOdjNfWjllRGNpUGNBeXRCNGxseU5fV1B6aDFxOG9INndMRV9kcE9oVjFqTUtHSjJnOXg1NUdReUZNMW9oZTlNNVFsMVp3RHNTajNSM1F2ekI1VW9JUERtNmpXMzZGUktCYkgyX0ltX2JNUURQZ3M5eWxLdV80cXA5LTBSUGR4Y2x5Zi1tanU0VEM3WG9l?oc=5",
-     "source": "news.xbox.com",
+     "source": "Xbox Wire",
      "published": "2026-10-02T14:03:25Z",
      "thumb": "https://store-images.s-microsoft.com/image/apps.58579.14310770435065065.c8a1a91e-2c5b-498b-82e6-b6b66068ab7f.3a0cd049-41cd-417e-b194-ea9774b5f076?w=400&h=600",
      "summary": "",
@@ -1614,9 +1614,18 @@
     {
      "title": "Original Xbox Version of Halo: Combat Evolved Made Available to Play in a Browser",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ0RSMXQxR0staXNraWc2LVk5NVRRZ0diSzU4QWZjWUVOcmhYXzhkd1I4SGZCeExqc1FGVU5ZY19LZDIxOG80Q0xKN0Rod0YtZmtOekVhSVZWZzZDQU1hRkFuVWVVcHFlanRUQnpvWjVWVEFCakxjZWtoMlZrTllPaV9UcHBNREFYSDl2UEFUdnNkUFlSaUdfN2VsaGFlaW1sWXJJSEdhTndOZ1NuOXc?oc=5",
-     "source": "ign.com",
+     "source": "IGN",
      "published": "2026-10-02T12:07:42Z",
      "thumb": "https://www.bing.com/th?id=ONUT.TZNnmYN9ZsIfzQZEIOUdUQ&pid=News&w=800&h=450&c=14",
+     "summary": "",
+     "video": false
+    },
+    {
+     "title": "Talking Point: What Are You Playing This Weekend? (October 3-4)",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSTM1cU5sZW9jQ29GbWFRdFMwTWRzb3RSeTA1Q3dFWi05NDVybnRsOS10MEJwNW12cDR2Xy1qRnFzQ1RPTFIxQjlpMnQ0Q0plb3lHLXNSNUFpZmpIRklLODdVNmZHNW50T0pMeUMtQXd6dUViSkdhUnZta0JUcUlGODRYS1lHdmVmZkJaVFhHNkxZQ2g1d1FLQw?oc=5",
+     "source": "Pure Xbox",
+     "published": "2026-10-02T11:30:42Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.RtjOqrO5XlQEsHN4Y2bRMQ&pid=News&w=800&h=450&c=14",
      "summary": "",
      "video": false
     },
@@ -1645,15 +1654,6 @@
      "published": "2026-10-02T10:00:00Z",
      "thumb": null,
      "summary": "The Xbox is a household name and a beloved console for so many gamers around the world, but Microsoft has made it difficult to call it your favorite console.",
-     "video": false
-    },
-    {
-     "title": "Eight Games Are Leaving Xbox Game Pass In Early October 2026",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVlBvWGttc1Y2bkVhYlZhOTd4c0NKLXFXMjZ0NkpYVUluMUM4QVlDZUlyZUIycl9maVJEc3BwS3VWOTRnMlNKcEVGcUIzN3NETXdqSkR3UHE2V2s3UXJvZlJ3V1NYN2c0YXdSTjk3V1plUEh0VVRHcXNnN211QzR4bl8yTS1hRjhYdVpRc0h6cGs5N0p1UUl1UXltUXlHQzA?oc=5",
-     "source": "Pure Xbox",
-     "published": "2026-10-02T09:36:00Z",
-     "thumb": null,
-     "summary": "",
      "video": false
     }
    ],
@@ -1756,6 +1756,15 @@
    "accent2": "#00C3E3",
    "items": [
     {
+     "title": "Random: Tough Week? Grab Yourself A Brew & Get These Immaculate Zelda Tunes On Your Playlist, Pronto",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS2d5a3VVQ2x1ZXZPWDF6MXVlZnNWbjQxdkZiaXRQZi16Um5ab2ktejVZSWcyV0VmUmNRSFNjV0ZnOU0yeGlXaU14OUhBQ3c2ZDBqeVlDRFVFV1RtTGN0R0Nsd0RGRmxtMW5oNklkdllXaUJTNWVGcjlxY0N6cXh6bmRlbHcwX2lBRUw3dHVaU2QtcnhDU2dqNVp0eElKSi05V21ZeWRIUlVHQVhWNFlodDZKTnp3ZC01RF9VYUVtVnRMeWJoNEFfVVFUSTJ1OGRIZkpsbWMxRXI?oc=5",
+     "source": "Nintendo Life",
+     "published": "2026-10-03T10:00:00Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.4Te51YP827chsVGNlK0Ymg&pid=News&w=800&h=450&c=14",
+     "summary": "",
+     "video": false
+    },
+    {
      "title": "Reminder: Lies Of P Switch 2 Physical Release Now Available",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYTlBc011c2Zzc2FUTmdvZF9nNWRUVjhZdzF2aFVmcXhXSFludWxMMzFGMlF3WkJJNUllRERJLWx2VFQtUllndnRvZy1RZU94Q2pxNU5BSzFqZHdFRnVLODVKZklicWxNZGNoRGhOM19WQVd3RXVJYllZS2RJeV9mSEV3UUNySVJPdUpNZGJVWmFLOVRCM2RYZjZfTHFacUstWEE?oc=5",
      "source": "Nintendo Life",
@@ -1770,15 +1779,6 @@
      "source": "Nintendo Life",
      "published": "2026-10-03T01:55:00Z",
      "thumb": "https://www.bing.com/th?id=ONUT.ojwd6cIfHo6ipus1JDx8vg&pid=News&w=800&h=450&c=14",
-     "summary": "",
-     "video": false
-    },
-    {
-     "title": "Everything we know about the Nintendo Switch 2: Release info and more",
-     "link": "https://news.google.com/rss/articles/CBMihgpBVV95cUxPSzI5blpYcUEyUS1ZRlU4UlVXNnlqV0hKOXdmWjdfWmUzNm93UXhHM3RJM0c3Q2wxOHVKelY0Wl9waTJucHJwNGZhWlh0Z09OMWhiazdtS2RtWHJmci1HMnktQXJfSThqVGJxUktSTHlCZWVWVTFjOWVRZGxvU0tJcTZKX0Jsd2ZrR3Rpa1ZZMF81cFl2Ml9pLUt5UUJROU9LbVh0aEs1OUF0NUZQbkFIdENtLVMxQ0FlMnZWQXd5cVZISFBMRFprT0J0eGFJVDRXb19ncUlSRXp4YmUwLXR2MWdtRURPNjlFWUpQaHZDdExGVE1VdHA2RWZFOFBqQTdXNjRZSmhpVG1fWVJNdDU3dk1jajNpVDZKYmlzb1IxLXcyT0lQdV94ZFFQemhSZ09NcV9OekFVQXFfeUd3ZFV3S2ktUjhYV2d6MXhWZDVobFhzZmVwTHZZQzhKZmJkVE1vRjBqbWtfamVCOGVENXJfZ1pNNl91cGRoRnZaODVIQ2ZmNHNfLWxlR2NySFE0bV80OElZWTFwMEhZUnhkWUpKNTF0RVVnakJoTDhUMm9zQzN5OGNPT2JSWkpYWnU1Sm5naFE3MWtRYkY0SngyX1BrVjh0N0ZKM3pqREJsQTJwZnJraVZiV1lFMjAzT2U3TjQxSE1sWlU4UVpDdHp3QXlXVGN0VEZMWjI0Qm9DN3NlWGxFOXNfYXhWaDgwQWRGYlQ3cWQzQmlGVWJpNVB5LWZBYlhISkRqcGFFRFV4cTh6dllzT2FxbFhka2VKU0t4U25YcTZJRlVmdll5OWJ0TENpZ1lrT29KdTVmRHk0UDR3OFdGeVdfVjdOZ280ZC1jQUpVdWxqaThRR25QRnI2cTBvcmpKYV92bUkyYXA3X1NBODNGMVhlMkJCNF9odlRJZWZhZGM1ZHREZFN5LUowY0c1TW9ySmRCM280SHJOSnBnUlRfMlJ3cmpkQ19sczBsM1N6Z2NLaE53U0RDWmZrYnhlcV9PTTVHVC03QkU3bjFENFEzU01zZWpWUUp1anVPOGlMWUg4Ri1tak0tS19CbVRwck52Sy1hbGpLZ2VKYWJleHYzN0xONlh5ZXE3Tm5xbWJzOGVKTE8ycVB1YUNNR2tiQ1lEVndhTWZVUTdZQ0FBSUpyNGl4Y0NjbHhNa0p2bWtGWVNMejRDN0VSUndPemF0R2RpT052am1pVTN4RjdQUGRsUXJVX3VTV05sRHkwUHdITmpRQjRXU2U5OWZEV3ptYU5TVTd0NllsSkl6OVIwOUlhSnNrMExhQWhjbUlvbGxDOHpzd1RYMk82T2F3dXlmWUl5bzBLMzJSNUp1ckprNFZrZzJxVG1XOGZ1dnBVNXZ3WjVScjJabUFyTU9YM2lQY28wQ0FFQ3dFVV9kYkREZGFiel9JUEhoS2ZGenZMOUFYeENoMHFJSWk4alpTVDVIS25XZHYwa1o3dVBJenlMRFc5VDJBcnJSVHJpUVBuU3V4OTJabkZVcDlocGtRSGRKVXhtTjhQV2dJTVJGeWtaZV9CbXJ2QVBMejhzYnV3TzNoWVNzQzdYWkJXZWIydjZVRzBxX0VoYnQySVRSQTRiaHgxR2RGZ0tCamVyZ2YySWNnTXNVdHA0MzNMbXBwRVRvLUxObWhpOUJ1SzN6ZlRRN0FwMUQ5bXVVZnNKbmZUUUdHTFNFR3piendkdlBVQlZvN1dfUGpmUQ?oc=5",
-     "source": "ABC30 Fresno",
-     "published": "2026-10-03T01:34:51Z",
-     "thumb": null,
      "summary": "",
      "video": false
     },
@@ -1803,7 +1803,7 @@
     {
      "title": "You Can Play NASCAR in The Crew Motorfest on Nintendo Switch 2 Next Week",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc05EVnc3Ni1yd3pMbUhtdl9HWEZRUGtmQ0dqYnNJWVhiMGRJbGZxYUQzNHp0VzNJbmlkZDhwQkRBR2ZHdnI5dDNudkUxUzctejRINVpwN1YySHBOLXJTNVpyd3Iwcm1rWnVmWU1icm1kZEZUZEF3MGxDeG5YUlBadnQ3Rk51MVlBN1FIaU9Bc0JjcDNicF9QWUN0UFNtWGlWM1E?oc=5",
-     "source": "The Daily Downforce",
+     "source": "dailydownforce.com",
      "published": "2026-10-02T20:55:17Z",
      "thumb": null,
      "summary": "",
@@ -1828,20 +1828,11 @@
      "video": false
     },
     {
-     "title": "Moros Protocol launch trailer – retro FPS roguelite makes it to Nintendo Switch 2",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeGVCcmU5YnI5UkdhYVlvc1J6dWhmODQ4REZSZkg2SFZ3TXQybzZrMmUxQThUUzI1YWV6VTVDam16UkZOR3lHUnZqc0xPcklKbmZ6bVk3c19GbzhLclRFY0hKRTlWVzNxNkRBRk1uQmZyd0tzUGVFOGI1ZmZQT0lqblJSZVZlOU04bjZ2U181WDZGWmFjQi14TGkwNHFDUkt5dnF3NHQ0ZHJaclVORVc4Rg?oc=5",
-     "source": "Nintendo Everything",
-     "published": "2026-10-02T19:01:24Z",
-     "thumb": null,
-     "summary": "",
-     "video": false
-    },
-    {
      "title": "Nintendo Switch 2 Just Got 2 of the Last Decade's Best RPGs",
      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyN1NsLTZMdVpkYWdZcllzbEVoWHpqWEJJM0FfZ2ZsamdsaXRkQTVrZ1o2R3pKQ0lKb1hQd0QwTjBrd3M4aVNxVlNCRzRxTlZxTmRMaTFoTDJDenNId0UySkFqM0Q?oc=5",
      "source": "Polygon.com",
      "published": "2026-10-02T19:00:17Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.PMWaCbgJORuB-yEGH_LLpA&pid=News&w=800&h=450&c=14",
+     "thumb": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/dragon-quest-switch-2-rpgs.jpg?w=1600&h=900&fit=crop",
      "summary": "",
      "video": false
     },
@@ -1857,7 +1848,7 @@
     {
      "title": "Octopath Traveler 1 And 2 Are Great On Switch 2",
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9nRzNBdFpHOEw5QzYtSEQ1dzl0Uld4aFdDV3FiYWNITmFZWldQRGx6bjdVeEZTLWc3MEZaeWMtRXk0ZmRyZEwxNU1UZHZYSVpPOTk5ZjQtZG45Q3l2MWI5WkgyekFScjVsRG5xMktlSHdsMFhRbG41OFdR?oc=5",
-     "source": "consolecreatures.com",
+     "source": "Console Creatures",
      "published": "2026-10-02T18:43:19Z",
      "thumb": null,
      "summary": "",
@@ -1866,7 +1857,7 @@
     {
      "title": "Walmart Has a 512GB Nintendo Switch 2 Memory Card for $85, Possibly $10 Less With Unadvertised Coupon",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbkh2VlJJZEU0R0JWbHlGSHNYTXdHeFgwVUxXYmo5T1RvVG12RS11VWZUdUVQTndlVVhNNVJfeW1RU1BrQmlFNUwtTThIQ3Q5czNsYWdtVXJlYWRFLWJCQVNiZVpYUk5tLXk0R08tWE9abVBVRTBKWHBqQVBiRDZPMGFxT2JBRXI3cmtIcmFScU8yVzB6dk41Wm55MGpfZzFvUGNv?oc=5",
-     "source": "ign.com",
+     "source": "IGN",
      "published": "2026-10-02T18:33:18Z",
      "thumb": "https://assets-prd.ignimgs.com/2026/09/11/onnmemorycardzelda-1789151306754.jpg",
      "summary": "",
@@ -1900,6 +1891,24 @@
      "video": false
     },
     {
+     "title": "iam8bit Drops Special Lies of P Physical Edition for Switch 2 Today Alongside Marionette Puppet",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONjl4OVhFWndlcmhENXUzTDJDdHB3NHd1YkdHczBZbl9kdDd2ckJmNndTR2ZzNlMwTXpXaWVOcTJHdHFBOGU5c0FIUDA1UnI4ZVJwc1JTTmxqbU1ZTlI1NDh1blE5bmg2bk9QTUlEcTlyV21iTXhmUDl2TlVlV2dEZjl6X3ZCejJ4aFB5M2RkNkYwbkJsSHBjREFiZ1lCckFBdU9RZlNnOE12X2NmeXlhcXMzMWdCZw?oc=5",
+     "source": "GoNintendo",
+     "published": "2026-10-02T17:28:38Z",
+     "thumb": "https://gonintendo.com/attachments/image/87056/file/medium-b474af86eff9a39de2d9829eea056c0e.png",
+     "summary": "",
+     "video": false
+    },
+    {
+     "title": "Former Rockstar dev believes Grand Theft Auto VI on Switch 2 wouldn’t ‘even make sense’",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZC1jaTBIaXB0REtLYzhqUHlqU1Utb2p6MzNWSmlPN0NvMDdaTjhnTGtzckxnNGZNTnZpdktWeXpyVXZyUVZtbWdST0JZdHlqMXowd3R2WnZhLVRCcDdaVUFEVElQSlItaWJrbUVIZVp2eGtpQUttdjhjaWZGMUltUG5sWHNxVVZRbkpKRC04ckZGbFZBcmNRNEhzYXhmTElsX0liTEZUYkRxR1BjVzdUZ3UtNXVJR2xST1Q2bDRoU1pLRzFy?oc=5",
+     "source": "Nintendo Wire",
+     "published": "2026-10-02T17:27:48Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.A3GhNZHe0Iw4kJiNaxDHIw&pid=News&w=800&h=450&c=14",
+     "summary": "",
+     "video": false
+    },
+    {
      "title": "The AOC 16\" Portable USB Monitor For Laptop, Switch, or Gaming Handheld Drops to $47.49 for Prime Day",
      "link": "https://www.ign.com/articles/aoc-usb-portable-monitor-deal-october-2026",
      "source": "IGN",
@@ -1915,6 +1924,15 @@
      "published": "2026-10-02T15:30:00Z",
      "thumb": null,
      "summary": "",
+     "video": false
+    },
+    {
+     "title": "10 best Nintendo Switch 2 games you can play right now",
+     "link": "https://www.msn.com/en-us/gaming/gaming-platforms/10-best-nintendo-switch-2-games-you-can-play-right-now/ar-AA2dtLMg",
+     "source": "Comic Book Resources",
+     "published": "2026-10-02T15:15:11Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.q2AYVB-9MPMq4rL4iY2_hQ&pid=News&w=800&h=450&c=14",
+     "summary": "The Switch 2 has become a valid competitor against PS5 and Xbox Series X/s, and a major factor is the games it has on offer.",
      "video": false
     },
     {
@@ -1951,24 +1969,6 @@
      "published": "2026-10-02T10:00:00Z",
      "thumb": "https://www.bing.com/th?id=ONUT.nHEAmbTFGPk8ez-puTEX3g&pid=News&w=800&h=450&c=14",
      "summary": "",
-     "video": false
-    },
-    {
-     "title": "Nintendo Switch 2 Gets Brand-New Console Update for October 2026",
-     "link": "https://gamerant.com/nintendo-switch-2-console-system-update-patch-notes-october-2026/",
-     "source": "Game Rant",
-     "published": "2026-10-02T09:51:00Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.b9Y9qRdIZWMfw5tzWEhOkA&pid=News&w=800&h=450&c=14",
-     "summary": "Amid a busy slate of game releases, Nintendo Switch 2 users now have a new system firmware update to download and install on their console.",
-     "video": false
-    },
-    {
-     "title": "Heartworm launch trailer – lo-fi psychological horror thriller hits Nintendo Switch 2",
-     "link": "https://nintendoeverything.com/heartworm-launch-trailer/",
-     "source": "Nintendo Everything",
-     "published": "2026-10-02T08:30:00Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.LjEN1luhrI81lEjpJ5usog&pid=News&w=800&h=450&c=14",
-     "summary": "DreadXP and Vincent Adinolfi brought Heartworm to Nintendo Switch 2 this week, and we have the launch trailer. This is a new lo-fi psychological horror thriller that blends the spirit of the survival ...",
      "video": false
     }
    ],
@@ -2057,6 +2057,24 @@
    "accent2": "#F5F5F7",
    "items": [
     {
+     "title": "T-Mobile's free Apple iPhone 18 Pro deal is dead — how to save $1,000 this weekend",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02MUFiLW14TEVpQkRxMFp4eGZYd1RyaWg4SHl4SDVsXzE5em5hMUFjTVZMaUpLQ2Y3dDZtQjZQZVV3ZU82T1dCZUJXZEJpYXJNVjJESjdhbFBTRDZzRVFDUnNEV3ZFd1VF?oc=5",
+     "source": "Mashable",
+     "published": "2026-10-03T11:12:35Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.Cra0QN_TfpHMJXp-7JvJrg&pid=News&w=800&h=450&c=14",
+     "summary": "",
+     "video": false
+    },
+    {
+     "title": "Best iPhone 18 cases for iPhone 18 Pro & 18 Pro Max",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNVQyeGtaZFppOHY5a01HamFhOXJrRF9iMHVIaS1kdjhtTm1qMkgxYkhXSkNvVVFETVhlUEJFYzRiSzNtbG1WbXVIalVNX1dkclptWWdDU19OLURLZ0FMSkk4V0l0bUNXT3hMTlVic0lLSmFuVlpjT1lLN216VlVUbDI3MURnclVoREVCaTNITEhUOWRwNXB5NHB4WQ?oc=5",
+     "source": "Macworld",
+     "published": "2026-10-03T09:38:35Z",
+     "thumb": null,
+     "summary": "",
+     "video": false
+    },
+    {
      "title": "Apple will update Macs to protect users from AI agents with full disk access",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUDRRTmRHQURXblJFVlgwQ2JpNUFLRVVBcTNRVmxKRDgzX1pWbVUxZHJfeUNBTlVsT0pQV2Q5T2xOdzFjQ1FlQ09NajFXU2xfODhBNVNiOWJIbnphRTF2VDJzNWEtTHBpOFlGSmw5Tmtnc2FUcjBKTVExeDZ6MFNlSFh2ODlYWmh4OFZtb1FR?oc=5",
      "source": "Mashable",
@@ -2066,28 +2084,10 @@
      "video": false
     },
     {
-     "title": "Best iPhone 18 cases for iPhone 18 Pro & 18 Pro Max",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNVQyeGtaZFppOHY5a01HamFhOXJrRF9iMHVIaS1kdjhtTm1qMkgxYkhXSkNvVVFETVhlUEJFYzRiSzNtbG1WbXVIalVNX1dkclptWWdDU19OLURLZ0FMSkk4V0l0bUNXT3hMTlVic0lLSmFuVlpjT1lLN216VlVUbDI3MURnclVoREVCaTNITEhUOWRwNXB5NHB4WQ?oc=5",
-     "source": "macworld.com",
-     "published": "2026-10-03T08:08:35Z",
-     "thumb": null,
-     "summary": "",
-     "video": false
-    },
-    {
-     "title": "T-Mobile's free Apple iPhone 18 Pro deal is dead — how to save $1,000 this weekend",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02MUFiLW14TEVpQkRxMFp4eGZYd1RyaWg4SHl4SDVsXzE5em5hMUFjTVZMaUpLQ2Y3dDZtQjZQZVV3ZU82T1dCZUJXZEJpYXJNVjJESjdhbFBTRDZzRVFDUnNEV3ZFd1VF?oc=5",
-     "source": "Mashable",
-     "published": "2026-10-03T07:00:00Z",
-     "thumb": "https://www.bing.com/th?id=ONUT.Cra0QN_TfpHMJXp-7JvJrg&pid=News&w=800&h=450&c=14",
-     "summary": "",
-     "video": false
-    },
-    {
      "title": "Why is Apple, the 2nd largest holding in All-Country, not joining the AI investment race? Reading the next decade through iPhone Duo, Mac Studio, and a new CEO | Individual ...",
      "link": "https://note.com/heiseinotanukiti/n/n5f8d9c21477a?hl=en",
      "source": "note",
-     "published": "2026-10-03T03:43:00Z",
+     "published": "2026-10-03T04:45:00Z",
      "thumb": "https://www.bing.com/th?id=ONUT.JKsRRzyoGt5MrWBKIhSdUg&pid=News&w=800&h=450&c=14",
      "summary": "Apple.The ticker is AAPL.As the company that makes the iPhone, I think almost everyone knows it. However, when looking into Apple in 2026, it is at a very significant turning point.The AI race, a new ...",
      "video": false
@@ -2122,7 +2122,7 @@
     {
      "title": "Apple Confirms AT&T iPhone 18 Pro Max Problems. You Might Need a New Phone",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUWlkMnY1T1J0YmZVZmFQSnNCcElVOENZRDdHYVBNd1lxS045UFdTR25LaFJabWIzQnFKbHZZUThQV3l4eEJVZ014V1UtWUtBc1B1Ti1vaVNPcVQtS0JxYm9FdTVSZXNhMS1FcngzaTU0c2lJanRQSm9uZmYwTUxaTFI4YzdGQzFBNFE5aloyaDRZSk5iMkphMm1xcVE0UQ?oc=5",
-     "source": "pcmag.com",
+     "source": "PCMag",
      "published": "2026-10-02T23:59:18Z",
      "thumb": "https://i.pcmag.com/imagery/articles/06h6NJK0d4qbfsrUHWcCPVN-1.fit_lim.size_1200x630.v1790931853.jpg",
      "summary": "",
@@ -2386,6 +2386,24 @@
    "accent2": "#22D3EE",
    "items": [
     {
+     "title": "How to Collect CDs",
+     "link": "https://www.wired.com/story/how-to-collect-cds/",
+     "source": "Wired",
+     "published": "2026-10-03T11:30:00Z",
+     "thumb": "https://media.wired.com/photos/6abf78edd50732f925738f64/master/pass/GettyImages-1176910306.jpg",
+     "summary": "Fed up with paying to stream music you’ll never actually own? Give the little silver disc a spin. Here’s how to start a CD collection or get more out of one you already have.",
+     "video": false
+    },
+    {
+     "title": "The Best E-Readers That Aren't a Kindle (2026): Kobo, Boox",
+     "link": "https://www.wired.com/gallery/best-ereaders/",
+     "source": "Wired",
+     "published": "2026-10-03T11:05:00Z",
+     "thumb": "https://media.wired.com/photos/6ac0197d8e2ff9873e4241c1/master/pass/The%20Best%20E-Readers%20That%20Aren't%20a%20Kindle%20102026%20top%20art%20SOURCE%20Kobo.jpg",
+     "summary": "Want to untether your reading from Amazon? These Kindle alternatives deserve a spot on your nightstand.",
+     "video": false
+    },
+    {
      "title": "Best Mosquito Repellents for Your Yard: What Works and What Doesn’t (2026)",
      "link": "https://www.wired.com/story/best-mosquito-repellents/",
      "source": "Wired",
@@ -2401,24 +2419,6 @@
      "published": "2026-10-03T09:00:00Z",
      "thumb": "https://media.wired.com/photos/6abf7988fd75bc6c14087434/master/pass/7d3bd2cd-5a0e-48eb-a36f-9d7b95b305df%20%C2%A9%20Luiz%20Rocha%20.JPG",
      "summary": "Scientists left structures up to 100 meters under the surface. Here’s what they found when they retrieved them 10 years later.",
-     "video": false
-    },
-    {
-     "title": "Hoka Coupon Codes: 30% Off in October 2026",
-     "link": "https://www.wired.com/story/hoka-coupon-code/",
-     "source": "Wired",
-     "published": "2026-10-03T05:00:00Z",
-     "thumb": "https://media.wired.com/photos/66ea076ea8e714f02ce0d63e/master/pass/WIRED-Coupons-15.jpg",
-     "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for October 2026.",
-     "video": false
-    },
-    {
-     "title": "Chewy Promo Codes: $20 Off October 2026",
-     "link": "https://www.wired.com/story/chewy-promo-code/",
-     "source": "Wired",
-     "published": "2026-10-03T05:00:00Z",
-     "thumb": "https://media.wired.com/photos/66ea077015aa1d8092e99428/master/pass/WIRED-Coupons-6.jpg",
-     "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order of $49, 50% off pet food, and more October 2026 discounts.",
      "video": false
     },
     {
@@ -2718,17 +2718,17 @@
      "title": "The eternal complement",
      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVWmpWcUY1SVAtVWc2bnhmNHhSOWVFYnY4aGR3RG4xRHZwWlNNdFhwRS1aSUZhQk5kNUpGRnhBdU03T01rU0JXaWdnQ1hPck1RT0lCbE03V3Q5Ti05?oc=5",
      "source": "OpenAI",
-     "published": "2026-10-03T08:35:52Z",
+     "published": "2026-10-03T11:39:33Z",
      "thumb": null,
      "summary": "",
      "video": false
     },
     {
-     "title": "xAI Wins Court Order Halting Minnesota AI Fake Nude Ban",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORkh5ZnVPWGhab2pFSGx3aFZjVzVsSzdTck1udXItWU1NaUdvaUxyWEI1NFVIczYxdVFrazJGOXRScGJONHNlM2szU3dLMXozR0JpSnVxZFViTDJyc3V4SXM1bmlKTnZJNjhCanUzd1Z5YVpPNm1PRmJwcXNhTHI1dUUxQkhpbWwwclZEcWRqRXo?oc=5",
-     "source": "Benzinga",
-     "published": "2026-10-03T05:57:01Z",
-     "thumb": null,
+     "title": "Anthropic Is Aiming To Transform Healthcare—Here’s How",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOFdMaUxYZThZN1lmTFNDV1VXNDIxakQxTndoX0E5ckduNFR1a29TbnByNV9TZmc0N1dHWVQ2OTJSS0lVN0J6MmVlbUY2dmM1TldnRmpQMjVnd3Fpa0hrNTVLcjVYNU9MMFNoUnZTYWRkR3pUZVBJNDNEQVVkN2h0aXJvdGh4blJQWElGN19JbllwbGVxU3phaG5mRUt3blpDbmJwRGxLV08?oc=5",
+     "source": "Forbes",
+     "published": "2026-10-03T10:00:00Z",
+     "thumb": "https://www.bing.com/th?id=ONUT.fTQlSPdQyFujTAS4L3xuYQ&pid=News&w=800&h=450&c=14",
      "summary": "",
      "video": false
     },
@@ -2736,16 +2736,25 @@
      "title": "Anthropic Delivers Massive News for AI Stock Investors",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWGRqNXdncGdoWTRScGJMTXpNUzJCX1RvZnBYeXQyb01aZ1BicXg3M0h2cFplSlhpZV8ycDFadHVwVkQ5eVZCTGV2a0wzLTZKclQ2X0dQYlFoQjM1VGFLV0dlZ1g4YW91R0hMZ2E4SEVnTUxTVk02VFhPU2lERG1kNk9GTVNpOE1sNDVWZ0hETnBlT0sxSWJWOQ?oc=5",
      "source": "The Motley Fool",
-     "published": "2026-10-03T05:32:58Z",
+     "published": "2026-10-03T06:21:00Z",
      "thumb": "https://www.theglobeandmail.com/pf/resources/assets/meta/twitter-summary-240x240.png?d=970",
      "summary": "",
      "video": false
     },
     {
-     "title": "US appeals court blocks Minnesota law barring ‘nudified’ photos in xAI lawsuit",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcExOblljSjQ2R2pwakVIZmVjMWRjR3NZWU9kSmdzaHY3TDgweXNZTmpfdmdyejI3cFZCNUd0TGxJLUc4eTFRaUc5OFJWd1h6SzBIbUpJNEg3eERtXzdKd1BwMlZvd2llVXp3QXplcGJMcmItRXJoNEtfOWVwYjY4ZUZuQVgtblNSQVU2d3JyVGQxY1BpTks2NHVlbllFa2kwbElVZWdaQmhpekdtOUZkTi1zdnhwYUFtRlRland1eTBtVEU?oc=5",
-     "source": "The Straits Times",
-     "published": "2026-10-03T01:15:00Z",
+     "title": "xAI Wins Court Order Halting Minnesota AI Fake Nude Ban",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORkh5ZnVPWGhab2pFSGx3aFZjVzVsSzdTck1udXItWU1NaUdvaUxyWEI1NFVIczYxdVFrazJGOXRScGJONHNlM2szU3dLMXozR0JpSnVxZFViTDJyc3V4SXM1bmlKTnZJNjhCanUzd1Z5YVpPNm1PRmJwcXNhTHI1dUUxQkhpbWwwclZEcWRqRXo?oc=5",
+     "source": "benzinga.com",
+     "published": "2026-10-03T05:57:01Z",
+     "thumb": null,
+     "summary": "",
+     "video": false
+    },
+    {
+     "title": "US appeals court blocks Minnesota law barring ‘nudified’ photos in XAI lawsuit",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYktLN1cxRTVnd0NCd1l4ODE1YXY5bU1EVUxzWU9ZOUkxOVJlM056RnMxRG5mYjV1YU94ZlJmQ25aRGliQm5jQjJpcXNEWXZsQTZNZ2hnMDZoTTFHZHV2WEZpUXR3ampZOTMyaFR3VWt0aGVFTGNJdnQwWlRIdTVxYkd1NTdBbWdLYThpX3dZRnpKd2ZVVEtaWTA2eHVqMzdrRG1Zc05ZNElLZw?oc=5",
+     "source": "KWSN",
+     "published": "2026-10-03T01:20:28Z",
      "thumb": "https://www.bing.com/th?id=ONUT.uHIL-EzUz46nyrYRLjGe0g&pid=News&w=800&h=450&c=14",
      "summary": "",
      "video": false
@@ -2825,7 +2834,7 @@
     {
      "title": "US appeals court blocks Minnesota's AI 'nudification' law for now in XAI lawsuit",
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOd3Y3Yng0MHU0Nklnd2M2T2plUGFhQV9jYTdVMG9uREQyc0Q3SjJTV2pERDNPZ0dqNlNFMEc4bzZWR0lYWVNsd08xQUlfems1dTJ1OGpITjZoN2VRYXp5WEtpc25HNGlqQ2IwSnoyVENoX2xkT0lfeFdwT3NIZFBFQWcxblZweDg?oc=5",
-     "source": "ledger-enquirer.com",
+     "source": "Columbus Ledger-Enquirer",
      "published": "2026-10-02T21:25:03Z",
      "thumb": "https://www.bing.com/th?id=ONUT.V2G27VHJ-jLDYIZ5qXzM7g&pid=News&w=800&h=450&c=14",
      "summary": "",
@@ -2919,15 +2928,6 @@
      "published": "2026-10-02T17:00:00Z",
      "thumb": "https://www.bing.com/th?id=ONUT.gk6dBLA7KsLRLE3AF9fcNA&pid=News&w=800&h=450&c=14",
      "summary": "",
-     "video": false
-    },
-    {
-     "title": "OpenAI warns over 100 organizations about rogue AI agent activity",
-     "link": "https://www.foxnews.com/live-news/openai-rogue-ai-warning-hugging-face-hack-10-02-26",
-     "source": "Fox News",
-     "published": "2026-10-02T16:56:00Z",
-     "thumb": "https://assets.foxnews.com/liveblog/fn/prod/images/2026/10/37865b163fcdd54503acbab5870d98d8.jpg",
-     "summary": "OpenAI said this week that in some cases, their models used the internet in \"unintended ways\" or did not have the \"ideal restrictions\" in place to stop them from hacking out of sandbox test ...",
      "video": false
     }
    ],
@@ -3144,8 +3144,8 @@
    "name": "Bing News: Tesla",
    "url": "https://www.bing.com/news/search?q=Tesla&format=rss",
    "ok": true,
-   "raw_count": 12,
-   "kept": 8,
+   "raw_count": 2,
+   "kept": 2,
    "error": null,
    "stale": false
   },
@@ -3224,8 +3224,8 @@
    "name": "Bing News: SpaceX",
    "url": "https://www.bing.com/news/search?q=SpaceX&format=rss",
    "ok": true,
-   "raw_count": 2,
-   "kept": 2,
+   "raw_count": 12,
+   "kept": 8,
    "error": null,
    "stale": false
   },
@@ -3334,7 +3334,7 @@
    "name": "Bing News: Xbox",
    "url": "https://www.bing.com/news/search?q=Xbox&format=rss",
    "ok": true,
-   "raw_count": 12,
+   "raw_count": 11,
    "kept": 8,
    "error": null,
    "stale": false
@@ -3464,7 +3464,7 @@
    "name": "Bing News: Apple iPhone Mac",
    "url": "https://www.bing.com/news/search?q=Apple+iPhone+Mac&format=rss",
    "ok": true,
-   "raw_count": 10,
+   "raw_count": 11,
    "kept": 8,
    "error": null,
    "stale": false
@@ -3594,7 +3594,7 @@
    "name": "Bing News: artificial intelligence OpenAI",
    "url": "https://www.bing.com/news/search?q=artificial+intelligence+OpenAI&format=rss",
    "ok": true,
-   "raw_count": 12,
+   "raw_count": 10,
    "kept": 8,
    "error": null,
    "stale": false
@@ -3624,7 +3624,7 @@
    "name": "X-watch: Elon Musk (\"Elon Musk\" X post when:3d)",
    "url": "https://news.google.com/rss/search?q=%22Elon+Musk%22+X+post+when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "raw_count": 43,
+   "raw_count": 44,
    "kept": 6,
    "error": null,
    "stale": false
@@ -3634,7 +3634,7 @@
    "name": "X-watch: Elon Musk (Musk posted on X when:3d)",
    "url": "https://news.google.com/rss/search?q=Musk+posted+on+X+when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "raw_count": 46,
+   "raw_count": 48,
    "kept": 6,
    "error": null,
    "stale": false
@@ -3684,7 +3684,7 @@
    "name": "X-watch: Teslarati (site:teslarati.com X post when:7d)",
    "url": "https://news.google.com/rss/search?q=site%3Ateslarati.com+X+post+when%3A7d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "raw_count": 63,
+   "raw_count": 64,
    "kept": 6,
    "error": null,
    "stale": false
@@ -3694,7 +3694,7 @@
    "name": "X-watch: 9to5Mac (site:9to5mac.com when:3d)",
    "url": "https://news.google.com/rss/search?q=site%3A9to5mac.com+when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "ok": true,
-   "raw_count": 92,
+   "raw_count": 90,
    "kept": 4,
    "error": null,
    "stale": false
@@ -4744,6 +4744,39 @@
  ],
  "xwatch": [
   {
+   "title": "Shivon Zilis, mother of 4 of Elon Musk's 14 children, says Musk has broken up with her",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JV1V1QjdrOGRhanY4WjNIbDB4NVVjZmpnM09ZYmNIUzBMeW5ENHM1VGxOZEhYdXNrMzJVdVFVUll0V2dNdGJaQU5TajBtcksyNF80Q0JwUWhiU0dVb21j?oc=5",
+   "source": "Mothership",
+   "published": "2026-10-03T11:38:50Z",
+   "thumb": null,
+   "summary": "",
+   "video": false,
+   "account": "Elon Musk",
+   "handle": "elonmusk"
+  },
+  {
+   "title": "‘Instagram is for girls’: Elon Musk reignites rivalry with Meta, sparks gender debate",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRE52UXBhRUhqVDhmQnRBYU1SNGNHMHFZUnFDbTYzc21TWDFMUm1NRi1uTVEycm8xdzRsNWdaSmtqMU5KVjFEVDlRVDNnNWtCZkdlcF8zVWxxd0k5eXd1ZHJOYnExRmNNbURzYnBIVlBHWmRWNC1Jd0tWSUljcGRQcUFnUzJEYUdSRmZBWWxtNzZXUG83N0syRDlVRmE0ODVxcW56SXM4QUYyVGJRR1J0NHJGTTJfbmJxRDZPWXRsOGpTME5KcktpSnNfejRTYUnSAc8BQVVfeXFMT0ROdlFwYUVIalQ4ZkJ0QWFNUjRjRzBxWVJxQ202M3NtU1gxTFJtTUYtbk1RMnJvMXc0bDVnWkprajFOSlYxRFQ5UVQzZzVrQmZHZXBfM1VscXdJOXl3dWRyTmJxMUZjTW1Ec2JwSFZQR1pkVjQtSXdLVklJY3BkUHFBZ1MyRGFHUkZmQVlsbTc2V1BvNzdLMkQ5VUZhNDg1cXFueklzOEFGMlRiUUdSdDRyRk0yX25icUQ2T1l0bDhqUzBOSnJLaUpzX3o0U2FJ?oc=5",
+   "source": "StoryBoard 18",
+   "published": "2026-10-03T11:31:02Z",
+   "thumb": null,
+   "summary": "",
+   "video": false,
+   "account": "Elon Musk",
+   "handle": "elonmusk"
+  },
+  {
+   "title": "What to Know About the 4 Women Elon Musk Shares Children With",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE92RFBhczhJeE1LYUZsYlAwZHhaX0JSTTFZWVd6em45MUZTaEh6dUd6WkxrUFBvVDdXOGZPZjBiTDVWY0RfSkt0cm12Znl0dldpZC03T2owS0FOTFdELW5uRk40bjlWOTh4WnhkTXROa2hlOXhUOXNfSzJR?oc=5",
+   "source": "People.com",
+   "published": "2026-10-03T10:45:00Z",
+   "thumb": "https://www.bing.com/th?id=ONUT.Ew4la1G26UFLnrt9VwRegQ&pid=News&w=800&h=450&c=14",
+   "summary": "",
+   "video": false,
+   "account": "Elon Musk",
+   "handle": "elonmusk"
+  },
+  {
    "title": "‘Instagram is for girls’: Elon Musk’s latest dig at Meta sparks gender debate",
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVG9RTFh0RE9vbWFOd25rT0RoeFB0UnZCblRaSFRNbjdPajRvR1RXN2hmTmdScjFxR25WQUhnekwtdHFzMzZTS3JLWndjbndXNVV4dlRrUG9qckNEdWJuNERscjlocTlqRzgtSW5OeGd0eUtpR2pyRm1MZWVRNnJGYTBEZTI2QjBjOG9KSnBkYUZYX1huU0drcTVJSnYyWjZrc180VXgxb3NsUThhN3ljZHhOVHFUcTJ5R1VrMU5WbjNzVFZYUWQ3VNIBzgFBVV95cUxNZ0FIcnFweVlnLXIwUXR2cmJ2V2doU20zWlZLMUtsRXlmdFBEZWNhNE1VdUUyTllhOGFzeDl3b29uZGVEZmdHdTIyMEJncGZEbW1ISVhmUFVvSEp1NWMtaDlzRHY5NkZLb3VqRW1oM1FrV05TT0VHS3NPMXB6T01pRm02VFNiaTNMaUVuS3k0dGZxbXdMa01ueWVuRmVDNk85cjkwNUNWSTlqNmxYWHd2akI5a2pwUGE2T3g0UkFGcFJWOFpvSjV1WWxXLXNpdw?oc=5",
    "source": "Moneycontrol.com",
@@ -4779,7 +4812,7 @@
   {
    "title": "Elon Musk humiliated as ex-girlfriend Shivon Zilis releases bizarre breakup details on X",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdXdnTXhZU0F5cDFUVzJRcl9Vc2hwd3g3U0lnVjZTa2JzcHZuWlhPLXpZWURTTC1CaGJUdHFtZjZLV0dEeGsxREtQOF9pSklCT0IyX1d3Z1IwN0xsTktRREJSRmp2SlY3MEJHaE9QOTRtVFllNVpBU1pKOFhkeV9EZFN5TVFnTDFF0gGOAUFVX3lxTFBodTFiaTVBZHBWRjYtTTB2Uzc3WWtpWGNSMUdFS01UU2htakVqNnlHZllDOHNhNjJTa3hsSThIWWNzLTVQZ2Q2QUdvWVpoeVBSanJyVnRLLWY3LTZGcXV5STBacmszaVFHSDNGcjBZZWJLMlN1MmRPdkxNaUthMjdFRTQwNHRxX1pQbHFKUlE?oc=5",
-   "source": "The Mirror US",
+   "source": "themirror.com",
    "published": "2026-10-03T03:56:00Z",
    "thumb": null,
    "summary": "",
@@ -4799,28 +4832,6 @@
    "handle": "elonmusk"
   },
   {
-   "title": "Musk's partner Shivon confirms breakup: 'Things went from love to separation in a week,' says Shivon Zilis;...",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQnVqWTlfUlMxcnE4MTl3M0ZGbnZVQ3FOdllmQ05tYkVwX280MWx6MUlYbWdsMkRjd01YZzN2UlVXNXprZzdYOWpHUHlYdWNMRXBoSHptVUJrZXhUbzdWMUZiYkdReURDT1V1MHByaGlGVVBaekx4R2QtM2FCY2FBMGNGd0pfTUxrX3N0YzRTNzFsdlB6ZURKTVBXVUhjcGF5RVAwVEwyOHFaeGRIUDV5cFl6al9Jc0ZIVmh1cEtFZU1aemxNbWhxYW9nRdIBywFBVV95cUxOQnVqWTlfUlMxcnE4MTl3M0ZGbnZVQ3FOdllmQ05tYkVwX280MWx6MUlYbWdsMkRjd01YZzN2UlVXNXprZzdYOWpHUHlYdWNMRXBoSHptVUJrZXhUbzdWMUZiYkdReURDT1V1MHByaGlGVVBaekx4R2QtM2FCY2FBMGNGd0pfTUxrX3N0YzRTNzFsdlB6ZURKTVBXVUhjcGF5RVAwVEwyOHFaeGRIUDV5cFl6al9Jc0ZIVmh1cEtFZU1aemxNbWhxYW9nRQ?oc=5",
-   "source": "Bhaskar English",
-   "published": "2026-10-03T01:21:03Z",
-   "thumb": null,
-   "summary": "",
-   "video": false,
-   "account": "Elon Musk",
-   "handle": "elonmusk"
-  },
-  {
-   "title": "Elon Musk-Shivon Zilis Breakup: Who Are Their Four Kids? Check Twins Strider and Azure, Daughter Arcadia, Son Seldon Lycurgus, Birth Years, Age and More",
-   "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNUG1BbnRWMTFMRm9zdXJSOUd4ZXpYQldHaTZfTmpiRXRTT0ZzQkFIRV83aGp5dmlDa2ZFUjFnNnB3UDItR3JvVHF3c3hiRFZDSGhNaEFMTWRjLVgzQ2FLQ2ZuMktBT0tLZ0JFaXA1Z21aUjhyMXlaUUZJc191RXkwX1BMMElBbWdsZzJ6UDdFYzAxQ3Z5b1d2NlZlb2ZfOHNuazNjZ2dWbl80amYyUnFDUXdIa1h5ZmFsZjdwNXgxUThuYjAwM0l4VXE4RnJTQ1pEalR3MUtrenpxRE9fVzhScXVfUGNXUjNDMmFWZkZEbzR2WFZkaTlkMXVqM0NWZ01YNE9uMnZOWmtzcFR4LUpaaG44QXRkSlR4Rkx1R3VOalTSAaACQVVfeXFMTVBtQW50VjExTEZvc3VyUjlHeGV6WEJXR2k2X05qYkV0U09Gc0JBSEVfN2hqeXZpQ2tmRVIxZzZwd1AyLUdyb1Rxd3N4YkRWQ0hoTWhBTE1kYy1YM0NhS0NmbjJLQU9LS2dCRWlwNWdtWlI4cjF5WlFGSXNfdUV5MF9QTDBJQW1nbGcyelA3RWMwMUN2eW9XdjZWZW9mXzhzbmszY2dnVm5fNGpmMlJxQ1F3SGtYeWZhbGY3cDV4MVE4bmIwMDNJeFVxOEZyU0NaRGpUdzFLa3p6cURPX1c4UnF1X1BjV1IzQzJhVmZGRG80dlhWZGk5ZDF1ajNDVmdNWDRPbjJ2Tlprc3BUeC1KWmhuOEF0ZEpUeEZMdUd1TmpU?oc=5",
-   "source": "The Sunday Guardian",
-   "published": "2026-10-02T23:51:55Z",
-   "thumb": null,
-   "summary": "",
-   "video": false,
-   "account": "Elon Musk",
-   "handle": "elonmusk"
-  },
-  {
    "title": "Meta Could Pay Billions To End Teen Addiction Trial – Gary Black Says That Could Boost META Stock",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQM3UxWUZqVHBXenpjVXlBbmFBZkw5cTkwZ2FUSnRnMjc3QUVEZGx1bk5vd3JqdEtvbTkxSVRqdTR4aV9sVFpRWmtqYUpENGlhRlVJZGpEakNDMmVmeUJzeExSTGxTMnhUNVBva19aYm9JX2dVcXJJclVNU3VJM3o3WURUa0pSZThYSzZ4aWJXcjBFUHlIMzFuOHU2MkFoTjZDNGh4NDF2bzNXZlBzMWctalM3ejVpU2RXeVo2SW93?oc=5",
    "source": "Stocktwits",
@@ -4830,6 +4841,17 @@
    "video": false,
    "account": "Gary Black",
    "handle": "garyblack00"
+  },
+  {
+   "title": "SpaceX’s midnight spy satellite launch quietly set a new record",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObm5QUVJyektJOTVNVTAxOWNyMHlFck0yYTVtbFNJWHYzUUZVU3dleHE2SzVySnVreF9oR01pSkRnY1QyTjVHSWlBYzBsVXNjVnpVdDdhQjBLcFhRLW9OYlVNM0NqMnllTUhKOWVBRUNaTEs1cDdhbVk3Q3Z2S0FVY1oxT1VhdVk?oc=5",
+   "source": "Teslarati",
+   "published": "2026-10-02T22:42:56Z",
+   "thumb": "https://www.bing.com/th?id=ONUT.DkYDX1noO1Hb5cju3S0I5g&pid=News&w=800&h=450&c=14",
+   "summary": "",
+   "video": false,
+   "account": "Teslarati",
+   "handle": "Teslarati"
   },
   {
    "title": "Shivon Zilis says she was 'let go' from relationship with Elon Musk",
@@ -4898,17 +4920,6 @@
    "handle": "elonmusk"
   },
   {
-   "title": "SpaceX’s midnight spy satellite launch quietly set a new record",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObm5QUVJyektJOTVNVTAxOWNyMHlFck0yYTVtbFNJWHYzUUZVU3dleHE2SzVySnVreF9oR01pSkRnY1QyTjVHSWlBYzBsVXNjVnpVdDdhQjBLcFhRLW9OYlVNM0NqMnllTUhKOWVBRUNaTEs1cDdhbVk3Q3Z2S0FVY1oxT1VhdVk?oc=5",
-   "source": "Teslarati",
-   "published": "2026-10-02T20:54:25Z",
-   "thumb": "https://www.bing.com/th?id=ONUT.DkYDX1noO1Hb5cju3S0I5g&pid=News&w=800&h=450&c=14",
-   "summary": "",
-   "video": false,
-   "account": "Teslarati",
-   "handle": "Teslarati"
-  },
-  {
    "title": "Apple confirms iPhone 18 Pro Max AT&T cellular issues, affected devices require hardware replacement",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbDA5TVVnY3ZXMV9OVi12ODQzVnJveWVaRGoxeV9Bd19lVkY3MXRoRFdXU0ZvclRpODc2YmNIeWhmYTkzd0pLa1dDQ0FfdXJsMkdWaUVEMllvNFo2dVlvd3VJMUNfd2RORG5VQU4xUzhXcjVPbG9sU0hKTHlqRExSZXhFZE8yV3pmV0ZwZ0pIMlctYmc5UlFlTTNjNjZwaGZaYnBWQUhqZ05nV09WQUZyazVlWW5MUUhzREFYak5JbnVXbUNTSjZQSXp3?oc=5",
    "source": "9to5Mac",
@@ -4918,17 +4929,6 @@
    "video": false,
    "account": "9to5Mac",
    "handle": "9to5mac"
-  },
-  {
-   "title": "Elon Musk's ex faces scrutiny for claims about his \"tortured soul\" and \"how hard he fights for humanity\"",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQU1PcUdMNlV6eVFYQ1JiUWUxMzIwNHRkSGlFZTNPLThORGRZRjBKaGJEMFQ5d2ZybVVaRmRFdVJVcXZXMEhDU0lOT29oR0tLYUpVZEx3Zi04X05CaE5VQmpUOExsZE1LaWJIUlF1UFVsV0JqdUpLV05WNm1kWjdLQlFUVFJnejZ2S2ZseUdZRld4SGFXczZaMmxVVnBEa3Y5Q2hCUDNLR0J3eUN4YW9FMlNKN2FnZEF4cm1wR3RhNnlHNU9kcDVrUUFGNXJqRl9fLUVfYi02dnIzblU3U0E?oc=5",
-   "source": "tag24.com",
-   "published": "2026-10-02T20:32:00Z",
-   "thumb": "https://media.tag24.com/1200x800/s/m/sm56eryq7g5oswepy6634glopbw3f2rv.jpg",
-   "summary": "",
-   "video": false,
-   "account": "Elon Musk",
-   "handle": "elonmusk"
   },
   {
    "title": "‘HomePad’ coming: Will Apple hold an October special event?",
@@ -4953,21 +4953,21 @@
    "handle": "9to5mac"
   },
   {
-   "title": "Portable Solar Powered Electric Vehicle Charging Stations",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQUExZnRxWVozNG10Z2M3R2kxMllGSjBHUDhHaW1kdjI1NklLVDY3MmNJNHhWN3MwZFIxUkZGME5yX29pWGxFaTk2MFFnQmN0a085eXpJSmw3Mk9xVzNuRk0wZldVTXZVRXpmOXljdHVaQ3BNY1c0MUlBQjJZbUg5bHIxdmpxTU84MEJfNw?oc=5",
+   "title": "Tesla deliveries best Wall Street guesses alongside second-best energy quarter",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5McXhndTR4R0ZCZDlrMWs1RjRndEdGSjF1Uk5iaHcyUkV6UkdmbnpKQTR6LU1XZFYyR0k5WW9od3o5c1o1azlWVTMyRzNxWnZVQmR1UkhWRl9MU0xfbDJlYzBqUHhiUTBLUmZfTHQzRktCV3pkVTE0TUVQak1NZVU?oc=5",
    "source": "Teslarati",
-   "published": "2026-10-02T18:23:55Z",
-   "thumb": null,
+   "published": "2026-10-02T18:47:01Z",
+   "thumb": "https://www.bing.com/th?id=ONUT.LWcF7CQPbfEkeB9u0wbD_w&pid=News&w=800&h=450&c=14",
    "summary": "",
    "video": false,
    "account": "Teslarati",
    "handle": "Teslarati"
   },
   {
-   "title": "Should You Leave Your Tesla Charger (UMC) Plugged In?",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Nb2dTODdJZEhWcGVyWkIxQ0dzRGV1M01fa1VITjl1SDRKMmRjN1Noc3lNSUZ5MEVjb2FPQjhCSVdXczhDNURRSzZycXVOU3pQV19CakpSbU10YjBNZkZKOHl0ZHo0SVU2NHc?oc=5",
+   "title": "Portable Solar Powered Electric Vehicle Charging Stations",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQUExZnRxWVozNG10Z2M3R2kxMllGSjBHUDhHaW1kdjI1NklLVDY3MmNJNHhWN3MwZFIxUkZGME5yX29pWGxFaTk2MFFnQmN0a085eXpJSmw3Mk9xVzNuRk0wZldVTXZVRXpmOXljdHVaQ3BNY1c0MUlBQjJZbUg5bHIxdmpxTU84MEJfNw?oc=5",
    "source": "Teslarati",
-   "published": "2026-10-02T18:06:21Z",
+   "published": "2026-10-02T18:23:55Z",
    "thumb": null,
    "summary": "",
    "video": false,
@@ -5087,7 +5087,7 @@
   {
    "title": "Lucid Motors Rolls Out UX 3.0 for the Air Sedan, but Not All Owners Would Benefit",
    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNczBhMG4ydFZhc3ppVWh1NFJNMDZ0X2dIdVV2SFhFRUpfR1NUeTR5TVVjR2RLa0FfTm96bnFsRUZTeXRVT0JKaGc2WjBvOGI1c0FPcm14MENZMWsyX0NNYVBxQXBsaFFVekdPcWNGakZfZTdURHc0TGhJUV9OanNkZGc1VlE4aGhLUHo2UG9HS0JzeXJmMkhJdVNMbVp2WklwYUZjbXRrTm50eXpIdDZibmI0RWJBNzJqR05SdnVra1FST3lX?oc=5",
-   "source": "autoevolution.com",
+   "source": "autoevolution",
    "published": "2026-09-30T19:56:32Z",
    "thumb": null,
    "summary": "",
@@ -5097,7 +5097,7 @@
   {
    "title": "IONNA Ranked #1 in JD Power Study as Network More than Doubles Size During 2026",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUWJJUEFod1pMdVdLdXlHUkEtQkpsWkFVZ3pWX09MZ3lBa00ybmpRdDNmYVB2TkZQcjkwVkM5OW1DRUdJaWpOdkNydTFfNmhVSGxjRlBhYVdSR0w3ME5LakdwOHNLa0tqVFBFZHd6LVV5d19ZdjFpdW5mM1BEN0VMTjBjemJYVTVJQXc2Z0J6TjJPdmswU3F4cGlnMkJJYzdjbjI5Tmp2dWgzbTY2WURUbFc4NDNabzV1Q0t1UWV3Ym1fT2ZRNFgwU2Q3cHRMQklkQnc?oc=5",
-   "source": "streetinsider.com",
+   "source": "StreetInsider",
    "published": "2026-09-30T17:12:35Z",
    "thumb": "https://s.yimg.com/lo/mysterio/api/22bac56c5bc46adee0cc085827e7f69b33dc82938cc879046171b6dabd532227/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fprnewswire.com%2F609d6565c98bd7c73d763e807a041c4d.jpg",
    "summary": "",
@@ -5182,49 +5182,51 @@
  ],
  "briefings": {
   "date": "2026-10-03",
-  "written_at": "2026-10-03T06:45:39-04:00",
+  "written_at": "2026-10-03T07:47:11-04:00",
   "top": {
    "title": "Today's Briefing",
-   "dek": "Rangers take a 2–0 shutout into Utah at MSG Sunday, Elon keeps Terafab–TSMC as talks-only while Halloween Mode teases Optimus, IGN stacks Ghost of Yōtei DLC + Doom Slaughter Mode, and ASOT Rotterdam 2027 / ABGT700 still own the trance lane.",
+   "dek": "Rangers carry a 2–0 shutout into Utah at MSG Sunday, IGN stacks Ghost of Yōtei DLC + an Avengers: Secret Wars delay tease, Tesla keeps Halloween Mode / FSD / Terafab in the feed, and ASOT Rotterdam 2027 / ABGT700 still own trance.",
    "items": [
     {
      "section": "rangers",
      "tag": "Rangers",
      "head": "After Garand’s shutout: Utah at MSG Sunday",
      "x": [
-      "NYRangers",
-      "NHL"
+      "NYRangers"
      ],
-     "text": "Hub NHL: last was **NYR 2–0 @ DET** — [Garand’s first NHL shutout](https://news.google.com/rss/articles/CBMijgFBVV95cUxQRng5dm5sZ3docE5QUC1pc2tYcEtDTHFVUHpSbktIUzhIWWt1MXN6THY3cHJnekZVZWVRalBvQWw2NHFxRlI2ZTJyMHNYNUpQandoMmdEZUF3REVIR1hkbGRhMGE1Mk9Ya0tNbFI4ZVZ3TVRzX3JNeVpET1lrbE9pY1RQLWVwTEhfa1k4aTBB?oc=5) / [Dylan Garand Caps “Craziest Week”](https://news.google.com/rss/articles/CBMihwFBVV95cUxNSXY2MEdoQzkyMGZLUkw3YmZGYzBScFVaNnlNUXdWQmVOdHdFeTlOZDR5dGc2RU5PYThlVnNwek5PSi1oMVlzSFZaLXBYTm5tZlJOZGhodmQ2anJQN1Q4SHZDQVpHcGtTSVZtNFNXRzhiRmQzV0VPNHJwUV8xdjFkSW5VeExVVWc?oc=5). Next: [Utah at MSG Sunday](https://www.nhl.com/gamecenter/uta-vs-nyr/2026/10/04/2026020036) (MSG), then Isles Tue. ESPN still has the [Larkin IR + boos](https://www.espn.com/nhl/story/_/id/50087005/amid-trade-request-red-wings-move-larkin-injured-reserve) lane from Little Caesars."
-    },
-    {
-     "section": "tesla",
-     "tag": "Tesla",
-     "head": "Terafab talks + Halloween Mode + FSD story",
-     "x": [
-      "elonmusk",
-      "dezmondOliver"
-     ],
-     "text": "@elonmusk: [discussions with TSMC about Terafab might lead to something](https://x.com/elonmusk/status/2106290920605790717). Headlines: Tesla [teases Halloween Mode with Optimus rising from a graveyard](https://www.teslarati.com/tesla-teases-halloween-mode-update-with-optimus-rising-from-a-graveyard/) and says [FSD’s two biggest fixes are on the way](https://news.google.com/rss/articles/CBMilgFBVV95cUxNSzROSUl3Skg2ejBPT0xpQzVYMTdwSVBCMjUyYk55cWNfTGVqTU41TFVnOVFMdTNmdEhJYmRzcTZvc0dteFJkeXpRbXpPdGxwYXMyX0toUlpuakFoSzF5VzRtVTBMM2VZdFVQRlFaUWpRV3p6NWZCeGlXRlZlRk1KSmhHVG54dnNWTUljOFVFYkJlbTNuZXc?oc=5). On X: @dezmondOliver says a [wife who had avoided FSD just did a three-hour coast drive with zero interventions](https://x.com/dezmondOliver/status/2106123658284740649)."
+     "text": "@NYRangers: [Good morning and happy Saturday](https://x.com/NYRangers/status/2106342837939765387). Hub NHL: last was **NYR 2–0 @ DET** — [Garand gets first NHL shutout](https://news.google.com/rss/articles/CBMijgFBVV95cUxQRng5dm5sZ3docE5QUC1pc2tYcEtDTHFVUHpSbktIUzhIWWt1MXN6THY3cHJnekZVZWVRalBvQWw2NHFxRlI2ZTJyMHNYNUpQandoMmdEZUF3REVIR1hkbGRhMGE1Mk9Ya0tNbFI4ZVZ3TVRzX3JNeVpET1lrbE9pY1RQLWVwTEhfa1k4aTBB?oc=5) / [Dylan Garand Caps “Craziest Week”](https://news.google.com/rss/articles/CBMihwFBVV95cUxNSXY2MEdoQzkyMGZLUkw3YmZGYzBScFVaNnlNUXdWQmVOdHdFeTlOZDR5dGc2RU5PYThlVnNwek5PSi1oMVlzSFZaLXBYTm5tZlJOZGhodmQ2anJQN1Q4SHZDQVpHcGtTSVZtNFNXRzhiRmQzV0VPNHJwUV8xdjFkSW5VeExVVWc?oc=5). Next: [Utah at MSG Sunday](https://www.nhl.com/gamecenter/uta-vs-nyr/2026/10/04/2026020036) (MSG), then Isles Tue. ESPN still has the [Larkin IR + boos](https://www.espn.com/nhl/story/_/id/50087005/amid-trade-request-red-wings-move-larkin-injured-reserve) lane from Little Caesars."
     },
     {
      "section": "ps5",
      "tag": "PS5",
-     "head": "Yōtei expansion chatter + QSSR on base PS5",
+     "head": "Yōtei expansion chatter + Secret Wars delay",
      "x": [
       "IGN"
      ],
-     "text": "@IGN: [Echoes of Sekigahara story expansion + Most Wanted mode add more to Ghost of Yotei](https://x.com/IGN/status/2106323435223740521). Feed: [QSSR AI upscaling lands on base PS5](https://www.online-tech-tips.com/ps5-qssr-ai-upscaling-base-ps5/) and PlayStation Blog’s [Official Podcast Episode 549: Friendly Ghosts](https://blog.playstation.com/2026/10/02/official-playstation-podcast-episode-549-friendly-ghosts/)."
+     "text": "@IGN: [Echoes of Sekigahara + Most Wanted add more to Ghost of Yotei](https://x.com/IGN/status/2106323435223740521) and [Avengers: Secret Wars filming delay could push the release](https://x.com/IGN/status/2106338540267184152). Feed: [QSSR AI upscaling on base PS5](https://www.online-tech-tips.com/ps5-qssr-ai-upscaling-base-ps5/) and PlayStation Blog’s [Official Podcast Episode 549: Friendly Ghosts](https://blog.playstation.com/2026/10/02/official-playstation-podcast-episode-549-friendly-ghosts/)."
+    },
+    {
+     "section": "tesla",
+     "tag": "Tesla",
+     "head": "Halloween Mode + FSD fixes + Terafab talk",
+     "text": "Teslarati: Tesla [teases Halloween Mode with Optimus rising from a graveyard](https://www.teslarati.com/tesla-teases-halloween-mode-update-with-optimus-rising-from-a-graveyard/). Also: [FSD’s two biggest fixes are on the way](https://news.google.com/rss/articles/CBMilgFBVV95cUxNSzROSUl3Skg2ejBPT0xpQzVYMTdwSVBCMjUyYk55cWNfTGVqTU41TFVnOVFMdTNmdEhJYmRzcTZvc0dteFJkeXpRbXpPdGxwYXMyX0toUlpuakFoSzF5VzRtVTBMM2VZdFVQRlFaUWpRV3p6NWZCeGlXRlZlRk1KSmhHVG54dnNWTUljOFVFYkJlbTNuZXc?oc=5) and [TSMC reportedly evaluating a Terafab partnership](https://news.google.com/rss/articles/CBMidkFVX3lxTFBXVC01NnRqdmszUkg0YkVyVzRFZEJyd2l5UGktT1pkanRQLXIzT3VQa09RbVljNGJpV1NIcWpLWlRKRlBNN1lZM0EzMVNIb0dvOTJacEVfeV9zMWdIVmg5LTY5M3czYThjRmVXS1BOV21iZEp0Zmc?oc=5). Model 3/Y [16\" screen + faster 0-60](https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHhhQ3JHOWtfc0pXTjd4LVU3ZkJDYXctZ09FalM3dzdoVXhYdVpLX1lhRXFURGoyMjVMTWxSYXJHdUI2dU1OMGdTSlpGbzFsV3Y3Mmg5Sm1mLVRYN0N1QmlaOVE0bHUxZGlUZ1NZRndxdUE5bEJLNGk5TWtYTmdpMmZjLWkxU2YwMm91bm9aRVJFNzB3cF9MbWNxaUlKY2VS?oc=5) chatter is still circulating."
     },
     {
      "section": "ai",
      "tag": "AI",
-     "head": "OpenAI warns orgs + xAI Minnesota pause",
+     "head": "xAI Minnesota pause + Apple vs AI agents",
+     "text": "Headlines: [xAI wins a court order halting Minnesota’s AI fake-nude ban](https://news.google.com/rss/articles/CBMikAFBVV95cUxORkh5ZnVPWGhab2pFSGx3aFZjVzVsSzdTck1udXItWU1NaUdvaUxyWEI1NFVIczYxdVFrazJGOXRScGJONHNlM2szU3dLMXozR0JpSnVxZFViTDJyc3V4SXM1bmlKTnZJNjhCanUzd1Z5YVpPNm1PRmJwcXNhTHI1dUUxQkhpbWwwclZEcWRqRXo?oc=5). Ars: Apple [changes full-disk access permissions to curb abuse from AI agents](https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/)."
+    },
+    {
+     "section": "tech",
+     "tag": "Tech",
+     "head": "Dark-mode joke + EPA Zeldin trip on X",
      "x": [
-      "ControlAI",
-      "allgarbled"
+      "shl",
+      "wholemars",
+      "EPA"
      ],
-     "text": "@ControlAI: [OpenAI notified more than 100 organizations about attacks or harmful activity by its AIs](https://x.com/ControlAI/status/2106308366117011502). Headlines: [xAI wins a court order halting Minnesota’s AI fake-nude ban](https://news.google.com/rss/articles/CBMikAFBVV95cUxORkh5ZnVPWGhab2pFSGx3aFZjVzVsSzdTck1udXItWU1NaUdvaUxyWEI1NFVIczYxdVFrazJGOXRScGJONHNlM2szU3dLMXozR0JpSnVxZFViTDJyc3V4SXM1bmlKTnZJNjhCanUzd1Z5YVpPNm1PRmJwcXNhTHI1dUUxQkhpbWwwclZEcWRqRXo?oc=5). @allgarbled memes [ChatGPT asking for access to neurons](https://x.com/allgarbled/status/2106238431210934331)."
+     "text": "@shl (via @wholemars repost): [“Your tax dollars went towards dark mode”](https://x.com/shl/status/2106125505942446275). @wholemars also shared a [Thomas Sowell](https://x.com/wholemars/status/2106337212724138256) video. @EPA: [Lee Zeldin’s two-day NH/ME trip — PFAS tech, marine-engine rules, water pipeline](https://x.com/EPA/status/2106199606065320080)."
     }
    ]
   },
@@ -5236,7 +5238,7 @@
       "x": [
        "NYRangers"
       ],
-      "text": "Hub NHL / NHL.com: **NYR @ DET** FINAL **2–0** — [Garand gets first NHL shutout, Rangers blank Red Wings](https://news.google.com/rss/articles/CBMijgFBVV95cUxQRng5dm5sZ3docE5QUC1pc2tYcEtDTHFVUHpSbktIUzhIWWt1MXN6THY3cHJnekZVZWVRalBvQWw2NHFxRlI2ZTJyMHNYNUpQandoMmdEZUF3REVIR1hkbGRhMGE1Mk9Ya0tNbFI4ZVZ3TVRzX3JNeVpET1lrbE9pY1RQLWVwTEhfa1k4aTBB?oc=5) / [Dylan Garand Caps “Craziest Week”](https://news.google.com/rss/articles/CBMihwFBVV95cUxNSXY2MEdoQzkyMGZLUkw3YmZGYzBScFVaNnlNUXdWQmVOdHdFeTlOZDR5dGc2RU5PYThlVnNwek5PSi1oMVlzSFZaLXBYTm5tZlJOZGhodmQ2anJQN1Q4SHZDQVpHcGtTSVZtNFNXRzhiRmQzV0VPNHJwUV8xdjFkSW5VeExVVWc?oc=5). Next: [Utah Mammoth at MSG Sun Oct 4](https://www.nhl.com/gamecenter/uta-vs-nyr/2026/10/04/2026020036) (MSG), then [Isles Tue](https://www.nhl.com/gamecenter/nyi-vs-nyr/2026/10/06/2026020048)."
+      "text": "@NYRangers: [Good morning and happy Saturday](https://x.com/NYRangers/status/2106342837939765387). Hub NHL / NHL.com: **NYR @ DET** FINAL **2–0** — [Garand gets first NHL shutout, Rangers blank Red Wings](https://news.google.com/rss/articles/CBMijgFBVV95cUxQRng5dm5sZ3docE5QUC1pc2tYcEtDTHFVUHpSbktIUzhIWWt1MXN6THY3cHJnekZVZWVRalBvQWw2NHFxRlI2ZTJyMHNYNUpQandoMmdEZUF3REVIR1hkbGRhMGE1Mk9Ya0tNbFI4ZVZ3TVRzX3JNeVpET1lrbE9pY1RQLWVwTEhfa1k4aTBB?oc=5) / [Dylan Garand Caps “Craziest Week”](https://news.google.com/rss/articles/CBMihwFBVV95cUxNSXY2MEdoQzkyMGZLUkw3YmZGYzBScFVaNnlNUXdWQmVOdHdFeTlOZDR5dGc2RU5PYThlVnNwek5PSi1oMVlzSFZaLXBYTm5tZlJOZGhodmQ2anJQN1Q4SHZDQVpHcGtTSVZtNFNXRzhiRmQzV0VPNHJwUV8xdjFkSW5VeExVVWc?oc=5). Next: [Utah Mammoth at MSG Sun Oct 4](https://www.nhl.com/gamecenter/uta-vs-nyr/2026/10/04/2026020036) (MSG), then [Isles Tue](https://www.nhl.com/gamecenter/nyi-vs-nyr/2026/10/06/2026020048)."
      },
      {
       "head": "Larkin IR / boos still in the DET recap",
@@ -5259,18 +5261,12 @@
       "text": "Teslarati: Tesla [teases “Halloween Mode” update with Optimus rising from a graveyard](https://www.teslarati.com/tesla-teases-halloween-mode-update-with-optimus-rising-from-a-graveyard/). Also: Tesla says [fixes on Full Self-Driving’s two biggest issues are on the way](https://news.google.com/rss/articles/CBMilgFBVV95cUxNSzROSUl3Skg2ejBPT0xpQzVYMTdwSVBCMjUyYk55cWNfTGVqTU41TFVnOVFMdTNmdEhJYmRzcTZvc0dteFJkeXpRbXpPdGxwYXMyX0toUlpuakFoSzF5VzRtVTBMM2VZdFVQRlFaUWpRV3p6NWZCeGlXRlZlRk1KSmhHVG54dnNWTUljOFVFYkJlbTNuZXc?oc=5) and [Model 3/Y updates with 16\" screen + faster 0-60](https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHhhQ3JHOWtfc0pXTjd4LVU3ZkJDYXctZ09FalM3dzdoVXhYdVpLX1lhRXFURGoyMjVMTWxSYXJHdUI2dU1OMGdTSlpGbzFsV3Y3Mmg5Sm1mLVRYN0N1QmlaOVE0bHUxZGlUZ1NZRndxdUE5bEJLNGk5TWtYTmdpMmZjLWkxU2YwMm91bm9aRVJFNzB3cF9MbWNxaUlKY2VS?oc=5) are still circulating."
      },
      {
-      "head": "Terafab–TSMC: Elon says talks only (for now)",
-      "x": [
-       "elonmusk"
-      ],
-      "text": "@elonmusk: [discussions with TSMC about Terafab might lead to something](https://x.com/elonmusk/status/2106290920605790717). Headlines: [TSMC reportedly evaluating a partnership with Musk’s Terafab](https://news.google.com/rss/articles/CBMidkFVX3lxTFBXVC01NnRqdmszUkg0YkVyVzRFZEJyd2l5UGktT1pkanRQLXIzT3VQa09RbVljNGJpV1NIcWpLWlRKRlBNN1lZM0EzMVNIb0dvOTJacEVfeV9zMWdIVmg5LTY5M3czYThjRmVXS1BOV21iZEp0Zmc?oc=5)."
+      "head": "Terafab–TSMC chatter still early",
+      "text": "Headlines: [TSMC reportedly evaluating a partnership with Musk’s Terafab](https://news.google.com/rss/articles/CBMidkFVX3lxTFBXVC01NnRqdmszUkg0YkVyVzRFZEJyd2l5UGktT1pkanRQLXIzT3VQa09RbVljNGJpV1NIcWpLWlRKRlBNN1lZM0EzMVNIb0dvOTJacEVfeV9zMWdIVmg5LTY5M3czYThjRmVXS1BOV21iZEp0Zmc?oc=5) and [Terafab groundbreaking raises hopes for Korean chip equipment orders](https://news.google.com/rss/articles/CBMidkFVX3lxTE9HdXpaOW9Zb0YwZnJ1YUVBUVc3dG40TXNycFdIcWFnVDdHcjB6TERPM2VrLW9nTUxFOEs0Q3c3U3J3ZndwRGdJVkpFX2FVRmlXUGJlcVhsT2dRSXBaakQySUtwWThmT0k1c203cWlMVVA5UVduTlE?oc=5). Treat as early partnership talk, not a done deal."
      },
      {
-      "head": "FSD zero-intervention story on X",
-      "x": [
-       "dezmondOliver"
-      ],
-      "text": "@dezmondOliver: a [wife who had avoided FSD recently used it for a three-hour drive to the coast and back with zero interventions](https://x.com/dezmondOliver/status/2106123658284740649)."
+      "head": "Q3 deliveries / stock chatter",
+      "text": "IBD: [Tesla Q3 deliveries top expectations; the stock is rising](https://news.google.com/rss/articles/CBMijwFBVV95cUxPUzdHU2lQU2hYbmhzN0ZRRVdwTHltRGIzUHl3dVVLLTU5dGczbFE1Rmt0bWpNZzg2NXVmZ0p2MFMzVjlFRkI5a3F1clRRNW1haEF1cHl2MnRlbmVWbzJzZWN3QzVya1dDWUF0Wk5hd2JhbVI0N2xHOXZpdW84enRvNTgzU2thSmR2SmhpVnk0bw?oc=5). CNBC (Finance lane): [Cybercab’s rocky first month in Austin — expanding is the hard part](https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html)."
      }
     ]
    },
@@ -5281,8 +5277,8 @@
       "text": "SpaceX feed: [SDA’s Fourth Tranche 1 Mission](https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XbnVpODR4eS1keE1WaDNVU1hmQ2N4YnY3eWdCcW1KSWM4dk5KSWFscDk0eERzQ0ZnXzlhSTBZbkZtbS1uM2V1VVdGUTNGNjhHZXhVNQ?oc=5). NASA: [Crew-12 is heading home after concluding its station science mission](https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/); [Christina Koch to join NFL fans in Philadelphia](https://www.nasa.gov/news-release/nasa-astronaut-christina-koch-to-join-nfl-fans-in-philadelphia/). Teslarati: [midnight spy satellite launch quietly set a new record](https://www.teslarati.com/spacexs-spy-satellite-launch-quietly-set-a-new-record/)."
      },
      {
-      "head": "Terafab bleed-over; Cramer on SpaceX stake",
-      "text": "Same Terafab/TSMC chatter as Tesla — treat as early talks. Also circulating: [Jim Cramer says SpaceX stake matters more than Tesla deliveries](https://blockonomi.com/why-jim-cramer-says-spacex-stake-matters-more-than-tesla-tsla-vehicle-deliveries/)."
+      "head": "Terafab bleed-over into space feeds",
+      "text": "Same Terafab/TSMC chatter as Tesla — [TSMC evaluating Terafab partnership](https://news.google.com/rss/articles/CBMidkFVX3lxTFBXVC01NnRqdmszUkg0YkVyVzRFZEJyd2l5UGktT1pkanRQLXIzT3VQa09RbVljNGJpV1NIcWpLWlRKRlBNN1lZM0EzMVNIb0dvOTJacEVfeV9zMWdIVmg5LTY5M3czYThjRmVXS1BOV21iZEp0Zmc?oc=5) — treat as early talks, not a launch update."
      }
     ]
    },
@@ -5300,11 +5296,11 @@
       "text": "Online Tech Tips: [PS5 QSSR AI upscaling arrives on the base PS5](https://www.online-tech-tips.com/ps5-qssr-ai-upscaling-base-ps5/). Push Square: Sony [prepping an improved PS App with expanded social features](https://news.google.com/rss/articles/CBMioAFBVV95cUxPS05FQVdVUjBpQzZEN3NBaWhxemZyRnVUUUZxelFiQVB4WTFSRGdtRTZtcFByS3lwZzV5a1h4OGxWVGVLaU5kY1kxelpJT0FZNjJPdV90WFlhWGtxSENUVk5xRWVfektHWnc4ak1qand5eU9Icm5ueTU4U2VHb1plRW05VkJneG14MDRDRWVGNlhobjdDUFdOVGI3d0xKdVpZ?oc=5) and [quietly improved base PS5 hardware with internal optimisations](https://news.google.com/rss/articles/CBMivAFBVV95cUxOMUJtQ19PNnFxTXhRUGtzMEtFS2wyRWFWdXBNaUVIeUVfX1V6bjE0aUxTRDE0WjczcUZwYU9mQ2h0S19TaElMS2JSRGN0YW92dDRudEdmUzhqbVdxN05JYVViUW5zYzVWS2dWaFM5eWFfWmJiaUZEMGZuRFpKN25JcUJHSGlCbkhySG5SQmNCOXNIbVgwcDFxQkVUZGpfTURmSXRIMFpxVkJLSWQ1LVd4RDJ0dmxfaC1Kbzk4ZA?oc=5)."
      },
      {
-      "head": "Doom: The Dark Ages free Slaughter Mode",
+      "head": "Avengers: Secret Wars delay tease (IGN)",
       "x": [
        "IGN"
       ],
-      "text": "@IGN: [id Software announced a free Doom: The Dark Ages update for the Revelations DLC next month with an endless single-player Slaughter Mode](https://x.com/IGN/status/2106308312220172799)."
+      "text": "@IGN: an [Avengers: Secret Wars filming delay could push back the movie’s release date](https://x.com/IGN/status/2106338540267184152) — MCU chatter in the gaming lane this morning."
      }
     ]
    },
@@ -5344,11 +5340,11 @@
     "items": [
      {
       "head": "iPhone 18 Pro Max AT&T: free replacement",
-      "text": "MacRumors: Apple says [iPhone 18 Pro Max users with the AT&T cellular issue need to have the device replaced](https://www.macrumors.com/2026/10/02/apple-statement-on-iphone-18-pro-max-att-issue/). Engadget: [Apple acknowledges AT&T network bug on iPhone 18 Pro Max](https://news.google.com/rss/articles/CBMifkFVX3lxTE14M0tiVWgwNDgyS1F2eEphdFdmS3BzTzZVUkdWLUk2b0VBNGVHd1VrTjAycFJ4Sms1STFNbnBsc0Z3Rm9TQXE3aWxDbVdxeGkzQ1pjVkw1OGNMN1pfMWxMNmF3MmJzeHpZWlQxdGdEWlJCV2ZyWUVjanJfVGt2dw?oc=5)."
+      "text": "MacRumors: Apple says [iPhone 18 Pro Max users with the AT&T cellular issue need to have the device replaced](https://www.macrumors.com/2026/10/02/apple-statement-on-iphone-18-pro-max-att-issue/). Engadget: [Apple acknowledges AT&T network bug on iPhone 18 Pro Max](https://www.engadget.com/2276489/apple-att-network-bug-iphone-18-pro-max/)."
      },
      {
       "head": "Mac Full Disk Access clamp vs AI agents",
-      "text": "Mashable / Ars: Apple will [update Macs to protect users from AI agents with full disk access](https://news.google.com/rss/articles/CBMijgFBVV95cUxPUDRRTmRHQURXblJFVlgwQ2JpNUFLRVVBcTNRVmxKRDgzX1pWbVUxZHJfeUNBTlVsT0pQV2Q5T2xOdzFjQ1FlQ09NajFXU2xfODhBNVNiOWJIbnphRTF2VDJzNWEtTHBpOFlGSmw5Tmtnc2FUcjBKTVExeDZ6MFNlSFh2ODlYWmh4OFZtb1FR?oc=5) / [changes full-disk access permissions to curb abuse from AI agents](https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/). The Verge: [limit Mac disk access as AI agents ‘substantially’ increase risk](https://news.google.com/rss/articles/CBMigAFBVV95cUxNaEpCUDhoOXZGM2Rpc2tIdHZTMWNBTW1lSjJScno2dmhVMjhseXdNbFV0NlNmSUN0blRoUE5YamtKUkpmN1NWaXFRazkwWUhOckE3Y1lTRllPZUhmZ3R2a3lUeVNLTmRfRzVIQmZOb2VhQl9ITXdVcUdoc2xPZlJENA?oc=5)."
+      "text": "Mashable / Ars: Apple will [update Macs to protect users from AI agents with full disk access](https://news.google.com/rss/articles/CBMijgFBVV95cUxPUDRRTmRHQURXblJFVlgwQ2JpNUFLRVVBcTNRVmxKRDgzX1pWbVUxZHJfeUNBTlVsT0pQV2Q5T2xOdzFjQ1FlQ09NajFXU2xfODhBNVNiOWJIbnphRTF2VDJzNWEtTHBpOFlGSmw5Tmtnc2FUcjBKTVExeDZ6MFNlSFh2ODlYWmh4OFZtb1FR?oc=5) / [changes full-disk access permissions to curb abuse from AI agents](https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/)."
      }
     ]
    },
@@ -5356,19 +5352,19 @@
     "items": [
      {
       "head": "Meta Muse open-source gadget kit",
-      "text": "TechCrunch: [Meta wants your next gadget to be Muse-infused](https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/). The Verge: [open-sources code to let you make Muse AI gadgets](https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link)."
+      "text": "TechCrunch: [Meta wants your next gadget to be Muse-infused](https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/)."
      },
      {
       "head": "Lyft settlement + Flock ban bill",
       "text": "Engadget: [Lyft agrees to pay $272.5 million to settle a worker-classification lawsuit](https://www.engadget.com/2276430/lyft-agrees-to-pay-272-5-million-to-settle-worker-classification-lawsuit/). TechCrunch: [Sanders introduces a bill to ban the federal government from using Flock](https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/)."
      },
      {
-      "head": "Doom-in-SQL + Max/Paramount merge chatter",
+      "head": "Doom-in-SQL + dark-mode joke on X",
       "x": [
-       "wholemars",
-       "shl"
+       "shl",
+       "wholemars"
       ],
-      "text": "Ars: someone [got Doom running in an SQL database](https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/). On X: @wholemars reacts to a report that [HBO Max and Paramount+ are merging into a single streaming service](https://x.com/wholemars/status/2106318358891348153); @shl jokes that [tax dollars went toward dark mode](https://x.com/shl/status/2106125505942446275)."
+      "text": "Ars: someone [got Doom running in an SQL database](https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/). On X: @shl jokes that [tax dollars went toward dark mode](https://x.com/shl/status/2106125505942446275) (reposted by @wholemars); @wholemars also shared a [Thomas Sowell](https://x.com/wholemars/status/2106337212724138256) video."
      }
     ]
    },
@@ -5376,36 +5372,31 @@
     "items": [
      {
       "head": "xAI wins pause on Minnesota ‘nudify’ law",
-      "text": "Benzinga / Straits Times: [xAI wins a court order halting Minnesota’s AI fake-nude ban](https://news.google.com/rss/articles/CBMikAFBVV95cUxORkh5ZnVPWGhab2pFSGx3aFZjVzVsSzdTck1udXItWU1NaUdvaUxyWEI1NFVIczYxdVFrazJGOXRScGJONHNlM2szU3dLMXozR0JpSnVxZFViTDJyc3V4SXM1bmlKTnZJNjhCanUzd1Z5YVpPNm1PRmJwcXNhTHI1dUUxQkhpbWwwclZEcWRqRXo?oc=5) / US appeals court [blocks Minnesota law barring ‘nudified’ photos in an xAI lawsuit](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcExOblljSjQ2R2pwakVIZmVjMWRjR3NZWU9kSmdzaHY3TDgweXNZTmpfdmdyejI3cFZCNUd0TGxJLUc4eTFRaUc5OFJWd1h6SzBIbUpJNEg3eERtXzdKd1BwMlZvd2llVXp3QXplcGJMcmItRXJoNEtfOWVwYjY4ZUZuQVgtblNSQVU2d3JyVGQxY1BpTks2NHVlbllFa2kwbElVZWdaQmhpekdtOUZkTi1zdnhwYUFtRlRland1eTBtVEU?oc=5)."
+      "text": "Benzinga / KWSN: [xAI wins a court order halting Minnesota’s AI fake-nude ban](https://news.google.com/rss/articles/CBMikAFBVV95cUxORkh5ZnVPWGhab2pFSGx3aFZjVzVsSzdTck1udXItWU1NaUdvaUxyWEI1NFVIczYxdVFrazJGOXRScGJONHNlM2szU3dLMXozR0JpSnVxZFViTDJyc3V4SXM1bmlKTnZJNjhCanUzd1Z5YVpPNm1PRmJwcXNhTHI1dUUxQkhpbWwwclZEcWRqRXo?oc=5) / US appeals court [blocks Minnesota law barring ‘nudified’ photos in an xAI lawsuit](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYktLN1cxRTVnd0NCd1l4ODE1YXY5bU1EVUxzWU9ZOUkxOVJlM056RnMxRG5mYjV1YU94ZlJmQ25aRGliQm5jQjJpcXNEWXZsQTZNZ2hnMDZoTTFHZHV2WEZpUXR3ampZOTMyaFR3VWt0aGVFTGNJdnQwWlRIdTVxYkd1NTdBbWdLYThpX3dZRnpKd2ZVVEtaWTA2eHVqMzdrRG1Zc05ZNElLZw?oc=5)."
      },
      {
-      "head": "Anthropic’s $100M Claude Frontier Academy",
-      "text": "Anthropic: [Claude Frontier Academy — $100M to train 10,000 engineers](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FNlFxVHBSRkl5bVF0c253UE5sUEFac3dDZmQ4bzFjc2lER0hNcjFmUUxPVFI5T0xQcldFTXhsd1diR2h4UUVoRnl4TWxEVnp5WXpCMFdkZHNKdlA1bFV4QTVqUDI?oc=5) / [Anthropic funds $100M academy to train deployed AI engineers](https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQXV6ZlR2N2dURDl4ZVlZOGp2bV9PVlcwd0lUTTJNYzhKTjBrcjZpQW9xQ3VfemJVN2V4RkFWN0NLX292b3E5UjBpQ0tEX3RhNzdNejd4bXV0bmpUaDRfZ2owWFN5dENhY2lkRnZIZHZ6dHVqQ2ExYkpHVFhrX1ZMTm9OR212ckVTb214cVpvT01ycHh2U09yaEZyaUpnMGpFdjMxSVE5ZjVXUQ?oc=5)."
+      "head": "Apple clamps Mac FDA vs AI agents",
+      "text": "Ars: Apple [changes full-disk access permissions to curb abuse from AI agents](https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/). Same story in [Apple](#/apple)."
      },
      {
-      "head": "OpenAI org warnings + neuron meme on X",
-      "x": [
-       "ControlAI",
-       "allgarbled",
-       "elonmusk"
-      ],
-      "text": "@ControlAI: [OpenAI notified more than 100 organizations about attacks or harmful activity by its AIs](https://x.com/ControlAI/status/2106308366117011502). @allgarbled: meme of [ChatGPT asking for access to neurons](https://x.com/allgarbled/status/2106238431210934331). @elonmusk on [Terafab–TSMC discussions](https://x.com/elonmusk/status/2106290920605790717). Also: Ars on [Apple’s full-disk access clamp vs AI agents](https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/)."
+      "head": "Anthropic healthcare / investor clip noise",
+      "text": "Forbes: [Anthropic is aiming to transform healthcare](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOFdMaUxYZThZN1lmTFNDV1VXNDIxakQxTndoX0E5ckduNFR1a29TbnByNV9TZmc0N1dHWVQ2OTJSS0lVN0J6MmVlbUY2dmM1TldnRmpQMjVnd3Fpa0hrNTVLcjVYNU9MMFNoUnZTYWRkR3pUZVBJNDNEQVVkN2h0aXJvdGh4blJQWElGN19JbllwbGVxU3phaG5mRUt3blpDbmJwRGxLV08?oc=5). Motley Fool still circulating [massive news for AI stock investors](https://news.google.com/rss/articles/CBMimAFBVV95cUxNWGRqNXdncGdoWTRScGJMTXpNUzJCX1RvZnBYeXQyb01aZ1BicXg3M0h2cFplSlhpZV8ycDFadHVwVkQ5eVZCTGV2a0wzLTZKclQ2X0dQYlFoQjM1VGFLV0dlZ1g4YW91R0hMZ2E4SEVnTUxTVk02VFhPU2lERG1kNk9GTVNpOE1sNDVWZ0hETnBlT0sxSWJWOQ?oc=5) — treat as commentary, not a primary filing."
      }
     ]
    }
   }
  },
  "images": {
-  "missing_before": 256,
-  "og": 27,
-  "bing": 107,
-  "with_image": 216,
+  "missing_before": 253,
+  "og": 25,
+  "bing": 110,
+  "with_image": 220,
   "total": 338
  },
  "nhl": {
   "team": "NYR",
   "season": 20262027,
-  "fetched": "2026-10-03T10:46:38Z",
+  "fetched": "2026-10-03T11:47:56Z",
   "stale": false,
   "last": {
    "id": 2026020017,
