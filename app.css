@@ -821,3 +821,14 @@ a.jj-src{color:#aaf7fd;font-weight:700}a.jj-src:hover{color:#fff}
 /* (private styles removed) */
 
 /* (private styles removed) */
+/* JJHC league games (GameSheet) */
+.jjg-wrap{margin:4px 18px 4px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.jjg-tbl{width:100%;border-collapse:collapse;font-size:13.5px;min-width:560px}
+.jjg-tbl th{text-align:left;font:800 10.5px/1 var(--head);letter-spacing:.1em;text-transform:uppercase;color:#8fb7e8;padding:8px 8px;border-bottom:1px solid #2a5a8f}
+.jjg-tbl td{padding:9px 8px;border-bottom:1px solid #ffffff10;color:#dbe6f5;vertical-align:middle}
+.jjg-tbl tr.past td{opacity:.5}
+.jjg-d{white-space:nowrap;font-weight:700}.jjg-t{white-space:nowrap;color:#aaf7fd}
+.jjg-o b{color:#fff}.jjg-r{color:#a9bcd6}.jjg-l a{color:#8fb7e8;font-weight:800}
+.jjg-ha{display:inline-block;font:800 10.5px/1 var(--head);letter-spacing:.06em;text-transform:uppercase;padding:4px 6px;border-radius:3px}
+.jjg-ha.h{background:#aaf7fd;color:#03112e}.jjg-ha.a{background:#2b4f9e;color:#fff}
+@media (max-width:600px){.jjg-tbl{min-width:0;font-size:12.5px}.jjg-tbl th:nth-child(3),.jjg-tbl td:nth-child(3),.jjg-tbl th:nth-child(6),.jjg-tbl td:nth-child(6){display:none}.jjg-wrap{margin:4px 10px}}
