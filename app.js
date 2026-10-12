@@ -280,6 +280,35 @@
       <div class="jj-tfoot"><span>${esc(T.name)} · ${T.games.length} league games · ${esc(T.first || '')} – ${esc(T.last || '')}</span><a href="${esc(url)}" ${ext}>GameSheet ↗</a></div></div>`).join('');
     return h + `<div class="jj-foot">League games from GameSheet (HVHSHL), updated ${esc(rel(G.updated))} · times ET · practices and ice times below are from JJPUCK.com</div></section>`;
   }
+  // ---------- ONE combined JJHC schedule (Frank, Oct 12 2026): GameSheet league games + JJPUCK practices, by date/time ----------
+  function jjCombined() {
+    const G = D.jjgames, J = D.jjpuck, gsUrl = (G && G.season_url) || 'https://gamesheetstats.com/seasons/15368/games';
+    const pk = (J && J.teams) || [], gt = (G && G.teams) || [];
+    const norm = s => /^(jv|junior varsity)$/i.test(String(s || '').trim()) ? 'jv' : String(s || '').trim().toLowerCase();
+    const keys = [...new Set([...gt.map(T => norm(T.label || T.name)), ...pk.map(T => norm(T.label || T.name))])].sort((a, b) => (a === 'varsity' ? 0 : a === 'jv' ? 1 : 2) - (b === 'varsity' ? 0 : b === 'jv' ? 1 : 2));
+    const day = d => new Intl.DateTimeFormat('en-US', {timeZone: 'America/New_York', weekday: 'short'}).format(d), num = d => new Intl.DateTimeFormat('en-US', {timeZone: 'America/New_York', day: 'numeric'}).format(d), mon = d => new Intl.DateTimeFormat('en-US', {timeZone: 'America/New_York', month: 'short'}).format(d);
+    const gPast = g => g.past || (g.start_et && new Date(g.start_et).getTime() + 3 * 36e5 < Date.now());
+    const gameRow = g => { const d = new Date(g.start_et), away = g.home_away === 'away', today = ETd.format(d) === ETd.format(new Date());
+      return `<li class="jj-ev jjc-game${gPast(g) ? ' past' : ''}${today ? ' today' : ''}"><div class="jj-date"><span>${esc(day(d))}</span><b>${esc(num(d))}</b><i>${esc(mon(d))}</i></div>
+        <div class="jj-main"><div class="jj-what"><span class="jj-pill g">Game</span><b>${away ? '@' : 'vs'} ${esc(g.opponent)}</b><span class="jjg-ha ${away ? 'a' : 'h'}">${away ? 'Away' : 'Home'}</span>${g.score ? ` <span class="jj-score">${esc(g.score)}</span>` : ''}${today ? '<span class="jj-today">Today</span>' : ''}</div>
+        <div class="jj-sub"><span class="jj-time">${esc(g.time || 'TBA')} ET</span><span class="jj-venue">${esc(g.location || 'Rink TBA')}</span>${g.url ? `<a class="jjc-gs" href="${esc(g.url)}" ${ext}>GameSheet ↗</a>` : ''}</div></div></li>`; };
+    const tabs = keys.map(k => {
+      const gT = gt.find(T => norm(T.label || T.name) === k), pT = pk.find(T => norm(T.label || T.name) === k);
+      const games = ((gT && gT.games) || []).map(g => ({t: new Date(g.start_et).getTime(), h: gameRow(g)}));
+      const prac = ((pT && pT.upcoming_other) || []).filter(e => e.start).map(e => ({t: new Date(e.start).getTime(), h: jjRow(e, pT).replace('class="jj-ev', `class="jj-ev jjc-prac${jjEnded(e) ? ' past' : ''}`)}));
+      const items = [...games, ...prac].sort((a, b) => a.t - b.t);
+      return {k, label: k === 'jv' ? 'JV' : (gT && gT.label) || (pT && pT.label) || k, games: games.length, prac: prac.length, items, pT};
+    }).filter(x => x.items.length);
+    let h = `<section class="jj jjc fade"><div class="jj-h"><h2><span class="jj-dot"></span>JJHC Schedule</h2>
+      <a class="jj-more" href="${esc(gsUrl)}" ${ext}>League games on GameSheet ↗</a></div>
+      <div class="jj-credit"><span class="jj-credit-k">Sources</span><span class="jj-credit-t">League games from <a href="${esc(gsUrl)}" ${ext}><b>GameSheet</b></a> · ${esc((G && G.league) || 'Hudson Valley HS Hockey League 2026/27')} · practices &amp; ice times from <a href="${esc((J && J.site) || JJ_SITE)}" ${ext}><b>JJPUCK.com</b></a></span>
+      <span class="jj-credit-l"><a href="${esc((J && J.schedule_url) || 'https://www.jjpuck.com/schedule')}" ${ext}>Club schedule ↗</a></span></div>`;
+    if (!tabs.length) return h + `<p class="jj-empty" style="margin:0 18px 16px">Schedule unavailable right now.</p></section>`;
+    h += `<div class="jj-tabs" role="tablist">${tabs.map((T, i) => `<button type="button" role="tab" class="jj-tab${i ? '' : ' on'}" data-jj-tab="c-${esc(T.k)}" aria-selected="${i ? 'false' : 'true'}">${esc(T.label)}<small>${T.games} games · ${T.prac} practices</small></button>`).join('')}</div>`;
+    h += tabs.map((T, i) => `<div class="jj-panel" data-jj-panel="c-${esc(T.k)}"${i ? ' hidden' : ''}><div class="jjc-key"><span class="jj-pill g">Game</span> league game <span class="jj-pill p">Practice</span> ice time</div><ul class="jj-list">${T.items.map(x => x.h).join('')}</ul>
+      <div class="jj-tfoot"><span>${esc(T.label)} · ${T.games} league games · ${T.prac} upcoming practices</span>${T.pT ? `<a href="${esc(T.pT.schedule_url)}" ${ext}>JJPUCK.com ↗</a>` : ''}</div></div>`).join('');
+    return h + `<div class="jj-foot">Games: GameSheet (HVHSHL)${G && G.updated ? `, updated ${esc(rel(G.updated))}` : ''} · practices: JJPUCK.com at each Hub rebuild · times ET; check the sources for last-minute changes</div></section>`;
+  }
   function jjCard() {
     const J = D.jjpuck, teams = (J && J.teams) || [];
     let h = `<section class="jj fade"><div class="jj-h"><h2><span class="jj-dot"></span>${jjHasGS() ? 'JJHC Practices &amp; Ice Times' : 'JJHC Schedule'}</h2>
@@ -420,7 +449,7 @@
     const srcs = Object.entries(s.items.reduce((a, i) => (a[i.source] = (a[i.source] || 0) + 1, a), {})).sort((a, b) => b[1] - a[1]).slice(0, 6);
     let h = `<div class="wrap" style="${K(s)}"><header class="shead fade"><h1><span>${esc(s.icon)}</span> ${esc(s.full_name)}</h1>
       <span class="sub">${s.items.length} stories${s.videos && s.videos.length ? ` · ${s.videos.length} videos` : ''} · newest first${s.id === 'johnjay' ? ` · club info &amp; schedules from <a class="jj-src" href="https://www.jjpuck.com/" ${ext}>JJPUCK.com</a> · league games from <a class="jj-src" href="https://gamesheetstats.com/seasons/15368/games" ${ext}>GameSheet</a>` : ''}</span>
-      <div class="chips">${srcs.map(([n, c]) => `<span class="chip">${esc(n)} · ${c}</span>`).join('')}</div></header>${s.id === 'rangers' ? rangersCard() + nhlSeasonSection() : ''}${s.id === 'johnjay' ? jjGamesCard() + jjCard() + jjPlansList() : ''}`;
+      <div class="chips">${srcs.map(([n, c]) => `<span class="chip">${esc(n)} · ${c}</span>`).join('')}</div></header>${s.id === 'rangers' ? rangersCard() + nhlSeasonSection() : ''}${s.id === 'johnjay' ? (jjHasGS() ? jjCombined() : jjCard()) + jjPlansList() : ''}`;
     if (heroes.length) h += `<section class="hero fade">${hcard(heroes[0], s, true)}<div class="hero-side">${heroes.slice(1).map(i => hcard(i, s)).join('')}</div></section>`;
     /* (private feature removed from the public build) */
     h += `<div class="cols"><div class="main">${briefing(b, s, true)}</div><aside class="side">${s.watchlist ? P('watchlist') : ''}${latestRail(allItems().filter(x => x.s.id !== s.id), 'Elsewhere on the hub', 6)}</aside></div></div>`;
