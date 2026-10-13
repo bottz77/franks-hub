@@ -846,3 +846,8 @@ a.jj-src{color:#aaf7fd;font-weight:700}a.jj-src:hover{color:#fff}
 .jjc .jjc-key .jj-pill.g{background:#f59e0b;color:#1a1000}
 
 /* (private styles removed) */
+.g-alt{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin:8px 20px 0;padding:10px 14px;background:#15161b;border:1px dashed #ffffff22;border-radius:10px}
+.g-alt-l{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#a1a1aa;font-weight:700}
+.g-alt b{font:900 18px/1.1 var(--head)}.g-alt small{font-size:12px;color:#a1a1aa}
+.g-alt-r{margin-left:auto;font:800 16px/1.1 var(--head);color:#f59e0b;display:flex;gap:6px;align-items:baseline}.g-alt-r small{font-weight:400}
+@media (max-width:640px){.g-alt{margin:8px 14px 0}.g-alt-r{margin-left:0}}
