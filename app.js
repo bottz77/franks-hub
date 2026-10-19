@@ -13,6 +13,7 @@
   const PRIV = {};  // private-only features (stripped from the public build)
   const P = (name, ...a) => PRIV[name] ? PRIV[name](...a) : '';
   let WATCH = null;
+  const LIMITED = D.role === 'limited';   // limited private view (Jen: Lights + Watch; private/roles.js). The server enforces it; this only tidies the UI
   let BOOKMARKS = null;
   /* (private feature removed from the public build) */
   const HOME = {id: 'top', name: 'Home', full_name: "Frank's Hub", accent: '#e5202e', accent2: '#ffcc00', icon: '★'};
