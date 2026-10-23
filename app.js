@@ -469,9 +469,31 @@
   function renderNav(active) {
     const tabs = [HOME, ...D.sections];
     /* (private feature removed from the public build) */
-    nav.innerHTML = [...tabs, ...EXT].map(s => `<a href="#/${s.id}" class="${s.id === active ? 'active' : ''}" style="--c:${s.accent}">${esc(s.id === 'top' ? 'Home' : s.name)}</a>`).join('')
-      + (D.private_url ? `<a class="nav-lock" href="${esc(D.private_url)}" rel="noopener" title="Frank's private pages (login required)">🔒 My stuff</a>` : '');
-    const el = $('a.active', nav); if (el && nav.scrollWidth > nav.clientWidth) nav.scrollLeft = Math.max(0, el.offsetLeft - nav.clientWidth / 2 + el.offsetWidth / 2);
+    const all = [...tabs, ...EXT], byId = Object.fromEntries(all.map(t => [t.id, t]));
+    const GROUPS = [['Hockey', ['rangers', 'johnjay']], ['Tesla & Space', ['tesla', 'spacex']], ['Gaming', ['ps5', 'xbox', 'switch']], ['Tech', ['apple', 'tech', 'ai']]];
+    const known = new Set(['top', ...GROUPS.flatMap(g => g[1])]);
+    const groups = GROUPS.map(([n, ids]) => [n, ids.map(i => byId[i]).filter(Boolean)]);
+    const mine = all.filter(t => !known.has(t.id));            // private site: everything else (Finance, Music, Watch, Lights, ...)
+    if (mine.length) groups.push(['My stuff', mine]);
+    const live = groups.filter(g => g[1].length);
+    const lbl = s => esc(s.id === 'top' ? 'Home' : s.name);
+    const link = (s, cls = '') => `<a href="#/${s.id}" class="${cls}${s.id === active ? ' active' : ''}" style="--c:${s.accent}">${lbl(s)}</a>`;
+    const PRIMARY = ['rangers', 'johnjay', 'tesla', 'ai'].map(i => byId[i]).filter(Boolean);
+    const activeObj = byId[active], activeInMore = activeObj && active !== 'top' && !PRIMARY.includes(activeObj);
+    const menu = live.map(([n, items]) => `<div class="nm-grp"><div class="nm-h">${esc(n)}</div>${items.map(s => link(s, 'nm-a')).join('')}</div>`).join('')
+      + (D.private_url ? `<div class="nm-grp"><a class="nm-a nav-lock" href="${esc(D.private_url)}" rel="noopener">🔒 My stuff (login)</a></div>` : '');
+    nav.innerHTML = `<div class="nav-prim">${link(HOME)}${PRIMARY.map(s => link(s)).join('')}</div>`
+      + `<button type="button" class="nav-more${activeInMore ? ' active' : ''}" aria-expanded="false" aria-controls="navmenu"><span class="hb" aria-hidden="true"><i></i><i></i><i></i></span><span class="nm-l1">Sections</span><span class="nm-l2">More${activeInMore ? ': ' + lbl(activeObj) : ''}</span><span class="car" aria-hidden="true">▾</span></button>`
+      + `<div class="nav-menu" id="navmenu" hidden><div class="nm-inner">${link(HOME, 'nm-a nm-home')}${menu}</div></div>`;
+    const btn = $('.nav-more', nav), pan = $('#navmenu', nav);
+    const setOpen = o => { pan.hidden = !o; btn.setAttribute('aria-expanded', String(o)); document.body.classList.toggle('navmenu-open', o); };
+    btn.onclick = e => { e.stopPropagation(); setOpen(pan.hidden); };
+    pan.onclick = e => { if (e.target.closest('a')) setOpen(false); };
+    if (!window.__navDoc) { window.__navDoc = 1;
+      document.addEventListener('click', e => { const p = $('#navmenu'); if (p && !p.hidden && !e.target.closest('#navmenu')) { p.hidden = true; document.body.classList.remove('navmenu-open'); const b = $('.nav-more'); b && b.setAttribute('aria-expanded', 'false'); } });
+      document.addEventListener('keydown', e => { if (e.key === 'Escape') { const p = $('#navmenu'); if (p && !p.hidden) { p.hidden = true; document.body.classList.remove('navmenu-open'); } } });
+      const sb = $('.search'); if (sb) { const ic = $('svg', sb); ic && ic.addEventListener('click', () => { sb.classList.add('open'); q.focus(); }); q.addEventListener('blur', () => { if (!q.value) sb.classList.remove('open'); }); }
+    }
   }
   function renderTicker() {
     const items = allItems().slice(0, 24).map(({it, s}) => `<a href="${esc(it.link)}" ${ext} style="--c:${s.accent}"><b>${esc(s.name)}</b>${esc(it.title)}</a>`).join('');
