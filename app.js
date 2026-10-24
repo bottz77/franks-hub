@@ -473,12 +473,14 @@
     const GROUPS = [['Hockey', ['rangers', 'johnjay']], ['Tesla & Space', ['tesla', 'spacex']], ['Gaming', ['ps5', 'xbox', 'switch']], ['Tech', ['apple', 'tech', 'ai']]];
     const known = new Set(['top', ...GROUPS.flatMap(g => g[1])]);
     const groups = GROUPS.map(([n, ids]) => [n, ids.map(i => byId[i]).filter(Boolean)]);
-    const mine = all.filter(t => !known.has(t.id));            // private site: everything else (Finance, Music, Watch, Lights, ...)
-    if (mine.length) groups.push(['My stuff', mine]);
+    const MINE_ORDER = ['lights', 'watch', 'finance', 'music'];  // Frank: private stuff on top, Lights first
+    const mo = t => { const i = MINE_ORDER.indexOf(t.id); return i < 0 ? MINE_ORDER.length : i; };
+    const mine = all.filter(t => !known.has(t.id)).map((t, i) => [t, i]).sort((x, y) => mo(x[0]) - mo(y[0]) || x[1] - y[1]).map(x => x[0]);
+    if (mine.length) groups.unshift(['My stuff', mine]);
     const live = groups.filter(g => g[1].length);
     const lbl = s => esc(s.id === 'top' ? 'Home' : s.name);
     const link = (s, cls = '') => `<a href="#/${s.id}" class="${cls}${s.id === active ? ' active' : ''}" style="--c:${s.accent}">${lbl(s)}</a>`;
-    const PRIMARY = ['rangers', 'johnjay', 'tesla', 'ai'].map(i => byId[i]).filter(Boolean);
+    const PRIMARY = ['lights', 'rangers', 'johnjay', 'tesla', 'ai'].map(i => byId[i]).filter(Boolean);
     const activeObj = byId[active], activeInMore = activeObj && active !== 'top' && !PRIMARY.includes(activeObj);
     const menu = live.map(([n, items]) => `<div class="nm-grp"><div class="nm-h">${esc(n)}</div>${items.map(s => link(s, 'nm-a')).join('')}</div>`).join('')
       + (D.private_url ? `<div class="nm-grp"><a class="nm-a nav-lock" href="${esc(D.private_url)}" rel="noopener">🔒 My stuff (login)</a></div>` : '');
