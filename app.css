@@ -717,6 +717,27 @@ a.jj-src{color:#aaf7fd;font-weight:700}a.jj-src:hover{color:#fff}
 }
 
 /* ---------- JJHC Varsity practice plans ---------- */
+/* JJHC Record & Stats (jjStatsCard) */
+.jjs-stale{margin:0 18px 12px;padding:8px 12px;border:1px solid #fbbf2466;background:#fbbf2414;border-radius:8px;font-size:12.5px;color:#fbbf24}
+.jjs-rec{display:flex;align-items:center;gap:14px 22px;flex-wrap:wrap;margin:0 18px 14px;padding:12px 14px;background:#03112e99;border:1px solid #1d3558;border-radius:10px}
+.jjs-big{display:flex;flex-direction:column;gap:3px}.jjs-big b{font:900 38px/1 var(--head);color:#fff;letter-spacing:.01em}
+.jjs-big span,.jjs-kv span{font:800 10px/1 var(--head);letter-spacing:.12em;text-transform:uppercase;color:#8fb7e8}
+.jjs-kv{display:flex;gap:10px 22px;flex-wrap:wrap}.jjs-kv div{display:flex;flex-direction:column;gap:4px}.jjs-kv b{font:900 19px/1 var(--head);color:#aaf7fd}
+.jjs-blk{padding:0 18px 10px}
+.jjs-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid #1d3558;border-radius:9px;background:#03112e99}
+.jjs-tbl{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+.jjs-tbl th{font:800 10.5px/1 var(--head);letter-spacing:.08em;text-transform:uppercase;color:#8fb7e8;padding:8px 9px;text-align:center;border-bottom:1px solid #1d3558;white-space:nowrap}
+.jjs-tbl td{padding:7px 9px;text-align:center;border-top:1px solid #1d355866;white-space:nowrap;color:#e3ecfa}
+.jjs-tbl .l{text-align:left}.jjs-tbl td b{color:#fff}
+.jjs-tbl tr.us td{background:#aaf7fd1f;color:#fff;font-weight:800}.jjs-tbl tr.us td.l{box-shadow:inset 3px 0 0 #aaf7fd}
+.jjs-res{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.jjs-res li{display:flex;align-items:center;gap:10px;background:#03112e99;border:1px solid #1d3558;border-radius:9px;padding:8px 10px;min-width:0}
+.jjs-wlt{flex:none;width:26px;height:26px;border-radius:6px;display:grid;place-items:center;font:900 13px/1 var(--head);background:#ffffff14;color:#c4d3ea}
+.jjs-wlt.w{background:#22c55e;color:#03112e}.jjs-wlt.l{background:#ef4444;color:#fff}.jjs-wlt.t{background:#fbbf24;color:#03112e}
+.jjs-sc{flex:none;font:900 16px/1 var(--head);color:#fff;min-width:38px}
+.jjs-op{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px;font-size:13.5px}.jjs-op small{font-size:11.5px;color:#a9b8d3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.jjs-res a{flex:none;font-size:12px;color:#aaf7fd;font-weight:700}.jjs-res a:hover{color:#fff}
+@media (max-width:640px){.jjs-rec{margin:0 14px 12px}.jjs-blk{padding:0 14px 10px}.jjs-stale{margin:0 14px 12px}.jjs-big b{font-size:32px}.jjs-tbl{font-size:12.5px}.jjs-tbl th,.jjs-tbl td{padding:7px 6px}}
 .jjp{background:linear-gradient(135deg,#071a3a 0%,#141418 60%);border:1px solid #1d3d6b;border-radius:12px;overflow:hidden;margin:0 0 22px;position:relative}
 .jjp::before{content:"";position:absolute;left:0;top:0;right:0;height:4px;background:linear-gradient(90deg,#aaf7fd 0 55%,#2b4f9e 55% 85%,#fff 85%)}
 .jjp-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:16px 18px 4px;flex-wrap:wrap}

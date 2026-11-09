@@ -327,6 +327,35 @@
     card.querySelectorAll('[data-jj-panel]').forEach(p => { p.hidden = p.dataset.jjPanel !== b.dataset.jjTab; });
   });
 
+  // ---------- JJHC Varsity record & stats (GameSheet season 15368 / division 82827 via jjstats.py; players first name + # only) ----------
+  function jjStatsCard() {
+    const S = D.jjstats; if (!S || !S.record) return '';
+    const R = S.record, url = S.source_url || 'https://gamesheetstats.com/seasons/15368/standings?filter[division]=82827';
+    const ord = n => n ? n + (['th', 'st', 'nd', 'rd'][(n % 100 - 20) % 10] || ['th', 'st', 'nd', 'rd'][n % 100] || 'th') : '';
+    const f3 = x => x == null ? '–' : Number(x).toFixed(3).replace(/^0/, ''), f2 = x => x == null ? '–' : Number(x).toFixed(2);
+    const sg = n => n == null ? '–' : (n > 0 ? '+' : '') + n;
+    const nst = (S.standings || []).length;
+    let h = `<section class="jj jjs fade" id="record-stats"><div class="jj-h"><h2><span class="jj-dot"></span>Record &amp; Stats</h2>
+      <a class="jj-more" href="${esc(url)}" ${ext}>Standings on GameSheet ↗</a></div>
+      <div class="jj-credit"><span class="jj-credit-k">Source</span><span class="jj-credit-t">Varsity record, standings and player stats from <a href="${esc(url)}" ${ext}><b>GameSheet</b></a> · ${esc(S.league || 'Hudson Valley HS Hockey League 2026/27')} · ${esc(S.division || 'Varsity')}</span></div>`;
+    if (S.stale) h += `<div class="jjs-stale">GameSheet couldn't be reached at the last rebuild: showing the cached copy from ${esc(rel(S.fetched))}.</div>`;
+    h += `<div class="jjs-rec"><div class="jjs-big"><b>${esc(R.record || `${R.w}-${R.l}-${R.t}`)}</b><span>W-L-T</span></div>
+      <div class="jjs-kv"><div><b>${esc(ord(R.rank))}</b><span>of ${nst} in division</span></div><div><b>${esc(R.pts ?? '–')}</b><span>points</span></div>
+      <div><b>${esc(R.gf ?? '–')}–${esc(R.ga ?? '–')}</b><span>GF–GA (${esc(sg(R.diff))})</span></div>${R.streak ? `<div><b>${esc(R.streak)}</b><span>streak</span></div>` : ''}</div></div>`;
+    if (nst) h += `<div class="jjs-blk"><div class="jj-k">Division standings</div><div class="jjs-wrap"><table class="jjs-tbl"><thead><tr><th>#</th><th class="l">Team</th><th>GP</th><th>W-L-T</th><th>PTS</th><th>GF</th><th>GA</th><th>DIFF</th></tr></thead><tbody>
+      ${S.standings.map(r => `<tr class="${r.is_john_jay ? 'us' : ''}"><td>${esc(r.rank ?? '')}</td><td class="l">${esc(r.team)}</td><td>${esc(r.gp)}</td><td>${esc(r.record)}</td><td><b>${esc(r.pts)}</b></td><td>${esc(r.gf)}</td><td>${esc(r.ga)}</td><td>${esc(sg(r.diff))}</td></tr>`).join('')}</tbody></table></div></div>`;
+    const res = (S.results || []).slice().reverse();
+    if (res.length) h += `<div class="jjs-blk"><div class="jj-k">Results</div><ul class="jjs-res">${res.map(g => { const away = g.home_away === 'away', r = g.result || '';
+      return `<li><span class="jjs-wlt ${esc(r.toLowerCase())}">${esc(r || '–')}</span><span class="jjs-sc">${esc((g.score && g.score.display) || '')}</span>
+        <span class="jjs-op"><b>${away ? '@' : 'vs'} ${esc(g.opponent)}</b><small>${esc(g.date || '')}${g.location ? ` · ${esc(g.location)}` : ''}</small></span>${g.url ? `<a href="${esc(g.url)}" ${ext} aria-label="Box score on GameSheet">Box ↗</a>` : ''}</li>`; }).join('')}</ul></div>`;
+    const sk = (S.skaters || []).filter(p => p.pts || p.g || p.a).slice(0, 8);
+    if (sk.length) h += `<div class="jjs-blk"><div class="jj-k">Skater leaders</div><div class="jjs-wrap"><table class="jjs-tbl"><thead><tr><th class="l">Player</th><th>GP</th><th>G</th><th>A</th><th>PTS</th></tr></thead><tbody>
+      ${sk.map(p => `<tr><td class="l">${esc(p.display)}</td><td>${esc(p.gp)}</td><td>${esc(p.g)}</td><td>${esc(p.a)}</td><td><b>${esc(p.pts)}</b></td></tr>`).join('')}</tbody></table></div></div>`;
+    const gl = (S.goalies || []).filter(g => g.gp);
+    if (gl.length) h += `<div class="jjs-blk"><div class="jj-k">Goalies</div><div class="jjs-wrap"><table class="jjs-tbl"><thead><tr><th class="l">Goalie</th><th>GP</th><th>W-L-T</th><th>SA</th><th>GA</th><th>SV%</th><th>GAA</th></tr></thead><tbody>
+      ${gl.map(g => `<tr><td class="l">${esc(g.display)}</td><td>${esc(g.gp)}</td><td>${esc(g.record)}</td><td>${esc(g.sa)}</td><td>${esc(g.ga)}</td><td><b>${esc(f3(g.sv_pct))}</b></td><td><b>${esc(f2(g.gaa))}</b></td></tr>`).join('')}</tbody></table></div></div>`;
+    return h + `<div class="jj-foot">From <a class="jj-src" href="${esc(url)}" ${ext}>GameSheet</a> at each Hub rebuild (twice daily) · updated ${esc(rel(S.fetched))}${S.stale ? ' (cached copy)' : ''} · players shown by first name and number</div></section>`;
+  }
   // ---------- JJHC Varsity practice plans (built from /workspace/coachy/plans at build time) ----------
   const jjPlanByDate = () => {
     const m = {};
@@ -450,7 +479,7 @@
     const srcs = Object.entries(s.items.reduce((a, i) => (a[i.source] = (a[i.source] || 0) + 1, a), {})).sort((a, b) => b[1] - a[1]).slice(0, 6);
     let h = `<div class="wrap" style="${K(s)}"><header class="shead fade"><h1><span>${esc(s.icon)}</span> ${esc(s.full_name)}</h1>
       <span class="sub">${s.items.length} stories${s.videos && s.videos.length ? ` · ${s.videos.length} videos` : ''} · newest first${s.id === 'johnjay' ? ` · club info &amp; schedules from <a class="jj-src" href="https://www.jjpuck.com/" ${ext}>JJPUCK.com</a> · league games from <a class="jj-src" href="https://gamesheetstats.com/seasons/15368/games" ${ext}>GameSheet</a>` : ''}</span>
-      <div class="chips">${srcs.map(([n, c]) => `<span class="chip">${esc(n)} · ${c}</span>`).join('')}</div></header>${s.id === 'rangers' ? rangersCard() + nhlSeasonSection() : ''}${s.id === 'johnjay' ? (jjHasGS() ? jjCombined() : jjCard()) + jjPlansList() : ''}`;
+      <div class="chips">${srcs.map(([n, c]) => `<span class="chip">${esc(n)} · ${c}</span>`).join('')}</div></header>${s.id === 'rangers' ? rangersCard() + nhlSeasonSection() : ''}${s.id === 'johnjay' ? jjStatsCard() + (jjHasGS() ? jjCombined() : jjCard()) + jjPlansList() : ''}`;
     if (heroes.length) h += `<section class="hero fade">${hcard(heroes[0], s, true)}<div class="hero-side">${heroes.slice(1).map(i => hcard(i, s)).join('')}</div></section>`;
     /* (private feature removed from the public build) */
     h += `<div class="cols"><div class="main">${briefing(b, s, true)}</div><aside class="side">${s.watchlist ? P('watchlist') : ''}${latestRail(allItems().filter(x => x.s.id !== s.id), 'Elsewhere on the hub', 6)}</aside></div></div>`;
